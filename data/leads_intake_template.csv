@@ -1,0 +1,4 @@
+lead_id,date,source,service_interest,message_type,day_of_week,time_of_day,discount_offered,priority_score,priority_label,first_response_time_hours,follow_up_count_at_first_contact,outcome,notes
+1,2026-08-01,Fresha,Laser Hair Removal,Availability Question,Saturday,Morning,No,60,Medium,,,pending,
+2,2026-08-01,Meta/Instagram DM,Injectables (Botox/Filler),Direct Booking Request,Saturday,Afternoon,Yes,100,High,,,pending,
+3,2026-08-02,Website Contact Form,Skin Treatments/Facials,Price/Cost Question,Sunday,Evening,No,45,Medium,,,pending,
