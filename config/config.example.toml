@@ -1,0 +1,20 @@
+# Copy this file to config.toml and fill in real values for your machine.
+# config.toml is git-ignored — never commit it, since BUSINESS_MODE settings
+# point at real local paths.
+
+[app]
+# "DEMO_MODE" — synthetic data + synthetic-trained model only, safe for public deploy
+# "BUSINESS_MODE" — real data + real production model, local/business-network use only
+mode = "DEMO_MODE"
+
+[database]
+# Used only in BUSINESS_MODE
+path = "leads.db"
+
+[models]
+public_model_path = "models/public/synthetic_demo_model.pkl"
+private_model_path = "models/private/expense_classifier_production.pkl"
+
+[backup]
+backup_dir = "backups/"
+retention_days = 30

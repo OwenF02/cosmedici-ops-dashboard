@@ -1,0 +1,12 @@
+# Training and model-comparison dependencies — local use only, never deployed.
+# Keeps the deployed app (requirements.txt) light and avoids Streamlit Cloud
+# resource limits from bundling both deep learning frameworks into production.
+
+-r requirements.txt
+
+xgboost>=2.0
+torch>=2.3
+tensorflow>=2.16
+sentence-transformers>=3.0
+jupyter>=1.0
+pytest>=8.0

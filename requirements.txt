@@ -1,0 +1,9 @@
+# Production dependencies only — what the deployed app (public demo + local business mode) actually installs.
+# The demo model is a classical scikit-learn model, so no PyTorch/TensorFlow here.
+# See requirements-dev.txt for training/comparison dependencies.
+
+streamlit>=1.36
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.5
+plotly>=5.22
