@@ -17,3 +17,5 @@ Records the reasoning behind key project decisions as they're made — this is w
 | Week 1 | `expense_corrections` table schema defined in Sprint 2, not Sprint 4 | Needed to exist before Sprint 4 starts logging real corrections; better to design the schema without app-building time pressure |
 | Week 1 | "Lead Predictor" page renamed to "Lead Priority Scorer" | The system is rule-based at launch, not predictive — the name shouldn't overstate what it does, to staff or in the portfolio |
 | Week 1 | SQLite backup plan (WAL mode, automated daily backups, off-machine copy) built in Sprint 2, before real data accumulates | A single-file database has exactly one copy unless backups are deliberately built in from the start |
+| Week 2 | Final category list locked at 13, matching Jan–Jun 2026 actuals | Real bookkeeping data confirmed this over the earlier placeholder and June-only estimate; "Other/Non-Operating" serves as the catch-all |
+| Week 2 | Aug–Dec 2025 legacy categories mapped via crosswalk rather than discarded | Preserves 5 extra months of training data; ambiguous cases (e.g. "Machine Payment") routed to Other rather than guessed |
