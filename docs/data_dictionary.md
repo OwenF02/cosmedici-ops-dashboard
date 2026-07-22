@@ -8,12 +8,12 @@ One canonical file per month. Where a month had duplicate or conflicting candida
 
 | Month | Canonical source | Note |
 |---|---|---|
-| Aug 2025 | `Accounted Statements/August Master Sheet.xlsx` (expenses) + `Revenue 2025/Service_Revenue_08_25.xlsx` (revenue) | A second file named "August Master Sheet.xlsx" exists in the `Revenue 2025` folder but is actually a duplicate of the *expense* data, misfiled — not used. |
-| Sep 2025 | `Accounted Statements/Septemember Master Sheet.xlsx` | Filename typo ("Septemember") is consistent across copies — cosmetic only. |
-| Oct 2025 | `Accounted Statements/October Master Sheet (up to date).xlsb.xlsx` | A second copy in the month folder (`10_2025/October Master Sheet.xlsx`) is a partial mid-month snapshot (47 rows, through Oct 15 only) — not used. |
-| Nov 2025 | `Accounted Statements/November Master Sheet (up to date).xlsb - Copy.xlsx` | A second copy (`Nov_Manipluated_Sheet.xlsx`) is byte-for-byte identical (same 84 rows, same total) — no conflict, either would work. |
-| Dec 2025 | `Accounted Statements/December Master Sheet..xlsx` | |
-| Jan–Jul 2026 | `<Month>_2026/<Month> Master Sheet.xlsx` | One clean canonical file per month, no duplicates found. |
+| Aug 2025 | `Accounted Statements/August Master Sheet.xlsx` (expenses) + `Revenue 2025/Service_Revenue_08_25.xlsx` (revenue) | A second file named "August Master Sheet.xlsx" exists in the `Revenue 2025` folder but is actually a duplicate of the *expense* data, misfiled — not used. August's Accounted Statements file doesn't have a usable revenue tab, hence the separate source. |
+| Sep 2025 | `Accounted Statements/Septemember Master Sheet.xlsx` (both tabs) | Filename typo ("Septemember") is consistent across copies — cosmetic only. |
+| Oct 2025 | `Accounted Statements/October Master Sheet (up to date).xlsb.xlsx` (both tabs) | A second copy in the month folder (`10_2025/October Master Sheet.xlsx`) is a partial mid-month snapshot (47 rows, through Oct 15 only) — not used. |
+| Nov 2025 | `Accounted Statements/November Master Sheet (up to date).xlsb - Copy.xlsx` (both tabs) | A second copy (`Nov_Manipluated_Sheet.xlsx`) is byte-for-byte identical (same 84 rows, same total) — no conflict, either would work. |
+| Dec 2025 | `Accounted Statements/December Master Sheet..xlsx` (both tabs) | |
+| Jan–Jul 2026 | `<Month>_2026/<Month> Master Sheet.xlsx` (both tabs) | One clean canonical file per month, no duplicates found. |
 
 **Not used, and not opened:** anything under `Taxes 2025/Personal Owen/`, `Bank Statement Chase/`, `DIana Checks/`, W-2/1099 PDFs, `.sql`/`.mwb` files, and check images. These were present in the uploaded archive but are out of scope for this project and were left untouched.
 
@@ -21,20 +21,21 @@ One canonical file per month. Where a month had duplicate or conflicting candida
 
 | Field | Source column | Type | Notes |
 |---|---|---|---|
-| `date` | `Date` | date | Two known typo'd years in the Aug 2025 sheet (2205, 2005 instead of 2025) — flag for correction in Sprint 2 cleaning. |
-| `week_number` | `Week Number` | text | Present in most months but format is inconsistent — sometimes "Week 1", sometimes a date range like "Aug 1-2". Recommend dropping this field and deriving week-of-month from `date` instead, rather than cleaning inconsistent free text. |
+| `date` | `Date` | date | Three rows in Aug 2025 have a typo'd year (2205 instead of 2025) — correct to 2025 during cleaning, all three belong to the "Aug 17-23" week. |
+| `week_number` | `Week Number` | text | **Dropped.** Present in most months but format is inconsistent (sometimes "Week 1", sometimes a date range like "Aug 1-2"). Week-of-month is derived from `date` instead. |
 | `vendor_name` | `Vendor` | text | Sometimes blank. For payroll-related rows, this field sometimes holds a real employee's name rather than a business vendor — treat as PII, same handling as a real client name, when generating synthetic data. |
 | `category` | `Category` | text (see Category Taxonomy below) | Taxonomy changed between Dec 2025 and Jan 2026 — see crosswalk. |
 | `description` | `Description` | text | Blank on the large majority of rows (~70%+ in the months checked). The classifier's text signal will lean heavily on `vendor_name`; the embedding pipeline should handle a blank `description` gracefully rather than erroring or treating it as a distinct token. |
 | `amount` | `Amount` | number | No negative values observed in Expenses. |
 | `payment_method` | `Payment Method` | text | Observed values: Bank Transfer, Zelle, Check. Occasionally blank. |
+| `date_estimated` | *(new, derived)* | boolean | `True` for the 4 rows below where a date had to be estimated. Lets the app/analysis distinguish real dates from best-guess ones later. |
 
 ## Table: Revenue
 
 | Field | Source column | Type | Notes |
 |---|---|---|---|
 | `date` | `Date` | date | |
-| `revenue_source` | `Description` | text | Despite the source column being labeled "Description," this field is actually a payment/booking channel (Square, Fresha, Groupon, Sync Bank, Cash, Refund), not free text. Renamed here to avoid confusion with the expense table's genuinely free-text `description`. |
+| `revenue_source` | `Description` | text | Despite the source column being labeled "Description," this field is actually a payment/booking channel (Square, Fresha, Groupon, Sync Bank, Cash, CareCredit, Refund), not free text. Renamed here to avoid confusion with the expense table's genuinely free-text `description`. |
 | `amount` | `Amount` (sometimes ` Amount ` with stray whitespace in the header) | number | No negative values observed, including "Refund" rows — see Resolved Cleaning Rules below for what "Refund" actually represents. |
 | `payment_method` | `Payment Method` | text | Missing entirely from the August 2025 file (that month's revenue sheet only has Date/Description/Amount) — expect this column to be null for Aug 2025 rows specifically, not a data error. |
 
@@ -94,9 +95,18 @@ August–December 2025 used a more granular scheme (~25 distinct labels). Mapped
 
 - **`$0` expense entries:** across all 12 months, exactly one row has a `$0` amount, and it has no date, vendor, category, or payment method — a stray artifact, not a real transaction. Dropped during cleaning.
 - **"Refund" revenue entries:** these are funds returned *to* Cosmedici (a processing correction tied to a Maryland Comptroller registration gap), not refunds issued to clients. Correctly recorded as positive and stay that way — no sign flip in cleaning. Worth periodically confirming with the accountant whether the underlying registration issue driving these is resolved.
+- **Rows with a blank `date`:** almost every month's Expenses and Revenue sheets have a trailing summary/total row baked directly into the data range — no date, no vendor, no description, just a number that matches that month's total. Confirmed across 11 of 12 expense sheets and 2 of 12 revenue sheets (Sept and Oct 2025 revenue specifically had multi-row scratch/profit-loss calculations mixed into the data). **Rule:** drop any row with a blank `date` *and* no vendor *and* no description — those are artifacts. Do **not** blindly drop every blank-date row, since a handful were real transactions missing only their date (see below).
+- **Four real transactions with a missing date, given estimated dates rather than dropped:**
+
+  | Month | Vendor/Description | Amount | Estimated date | Basis |
+  |---|---|---|---|---|
+  | Aug 2025 | Splendor X | $1,900 | 2025-08-01 | No week label available; defaulted to the 1st of the month |
+  | Aug 2025 | Splendor X | $300 | 2025-08-01 | Same as above |
+  | Aug 2025 | Venus Legacy | $545 | 2025-08-01 | Same as above |
+  | Dec 2025 | Yolanda, Salaries & Wages (Zelle) | $255 | 2025-12-08 | Row was labeled "Week 2," which starts 2025-12-08 in that month's own week labeling |
+
+  All four get `date_estimated = True` so they can be excluded from any day-of-week/time-sensitive analysis later while still counting toward totals and category breakdowns.
 
 ## Open Items for Sprint 2
 
-- Correct the two typo'd years in the August 2025 expense dates.
-- Decide whether `week_number` gets dropped in favor of deriving week-of-month from `date` (recommended, given inconsistent source formatting).
-- Full quality/duplicate check on the remaining 10 months' revenue sheets (only June and August have been checked so far).
+- None remaining from the original list — category taxonomy, `$0` handling, "Refund" handling, `week_number`, the Aug 2025 date typos, and the full revenue-sheet quality check are all resolved above. Next step is building `src/data_cleaning.py` against these rules.
