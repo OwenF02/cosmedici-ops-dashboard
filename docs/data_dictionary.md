@@ -26,7 +26,7 @@ One canonical file per month. Where a month had duplicate or conflicting candida
 | `vendor_name` | `Vendor` | text | Sometimes blank. For payroll-related rows, this field sometimes holds a real employee's name rather than a business vendor — treat as PII, same handling as a real client name, when generating synthetic data. |
 | `category` | `Category` | text (see Category Taxonomy below) | Taxonomy changed between Dec 2025 and Jan 2026 — see crosswalk. |
 | `description` | `Description` | text | Blank on the large majority of rows (~70%+ in the months checked). The classifier's text signal will lean heavily on `vendor_name`; the embedding pipeline should handle a blank `description` gracefully rather than erroring or treating it as a distinct token. |
-| `amount` | `Amount` | number | No negative values observed in Expenses; a small number of `$0` entries exist and need a cleaning rule (placeholder rows vs. genuine zero-cost entries — to confirm in Sprint 2). |
+| `amount` | `Amount` | number | No negative values observed in Expenses. |
 | `payment_method` | `Payment Method` | text | Observed values: Bank Transfer, Zelle, Check. Occasionally blank. |
 
 ## Table: Revenue
@@ -35,7 +35,7 @@ One canonical file per month. Where a month had duplicate or conflicting candida
 |---|---|---|---|
 | `date` | `Date` | date | |
 | `revenue_source` | `Description` | text | Despite the source column being labeled "Description," this field is actually a payment/booking channel (Square, Fresha, Groupon, Sync Bank, Cash, Refund), not free text. Renamed here to avoid confusion with the expense table's genuinely free-text `description`. |
-| `amount` | `Amount` (sometimes ` Amount ` with stray whitespace in the header) | number | No negative values observed, even for rows where `revenue_source` is "Refund" — refunds appear to be recorded as a labeled positive entry rather than a negative adjustment. Worth confirming the intended accounting treatment before this field feeds any net-revenue reporting. |
+| `amount` | `Amount` (sometimes ` Amount ` with stray whitespace in the header) | number | No negative values observed, including "Refund" rows — see Resolved Cleaning Rules below for what "Refund" actually represents. |
 | `payment_method` | `Payment Method` | text | Missing entirely from the August 2025 file (that month's revenue sheet only has Date/Description/Amount) — expect this column to be null for Aug 2025 rows specifically, not a data error. |
 
 ## Category Taxonomy
@@ -90,9 +90,13 @@ August–December 2025 used a more granular scheme (~25 distinct labels). Mapped
 | Charitable Contributions | Other/Non-Operating |
 | Deprieciation & Amortization | Other/Non-Operating (not part of the final 13 — never appeared in actual Jan–Jul 2026 transactions) |
 
+## Resolved Cleaning Rules
+
+- **`$0` expense entries:** across all 12 months, exactly one row has a `$0` amount, and it has no date, vendor, category, or payment method — a stray artifact, not a real transaction. Dropped during cleaning.
+- **"Refund" revenue entries:** these are funds returned *to* Cosmedici (a processing correction tied to a Maryland Comptroller registration gap), not refunds issued to clients. Correctly recorded as positive and stay that way — no sign flip in cleaning. Worth periodically confirming with the accountant whether the underlying registration issue driving these is resolved.
+
 ## Open Items for Sprint 2
 
-- Confirm the `$0` expense entries: placeholder/error vs. genuine zero-cost line items.
-- Confirm intended handling of "Refund" revenue entries (currently positive-valued, not negative).
 - Correct the two typo'd years in the August 2025 expense dates.
 - Decide whether `week_number` gets dropped in favor of deriving week-of-month from `date` (recommended, given inconsistent source formatting).
+- Full quality/duplicate check on the remaining 10 months' revenue sheets (only June and August have been checked so far).
