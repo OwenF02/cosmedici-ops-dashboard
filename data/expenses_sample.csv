@@ -1,0 +1,1045 @@
+expense_id,date,vendor_name,category,description,amount,payment_method
+1,2025-08-02,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,67.75,Check
+2,2025-08-02,Disposable Clinic Supplies Co,Cost of Services (Clinical Supplies),Disposable Clinic Supplies Co,45.34,Credit Card
+3,2025-08-02,Equipment Loan Payment,Debt Services,Equipment Loan Payment,336.21,Check
+4,2025-08-03,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,2334.12,Cash
+5,2025-08-03,Scheduling App Fee,Software & Technology,Scheduling App Fee,7.39,Check
+6,2025-08-03,Suite Rent - Main Location,Occupancy Cost,Suite Rent - Main Location,322.26,Cash
+7,2025-08-03,Booking Software Subscription,Software & Technology,Booking Software Subscription,7.61,Zelle
+8,2025-08-04,Office Supply Co,Other/Non-Operating,Office Supply Co,114.53,Zelle
+9,2025-08-04,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,72.29,Credit Card
+10,2025-08-04,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,365.04,Zelle
+11,2025-08-05,Referral Program Payout,Marketing & Growth,Referral Program Payout,11.87,Bank Transfer
+12,2025-08-05,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,384.44,Bank Transfer
+13,2025-08-05,Office Supply Co,Other/Non-Operating,Office Supply Co,83.36,Check
+14,2025-08-06,Booking Software Subscription,Software & Technology,Booking Software Subscription,6.45,Business Debit
+15,2025-08-06,Medical Supply Wholesaler,Cost of Services (Clinical Supplies),Medical Supply Wholesaler,40.7,Bank Transfer
+16,2025-08-06,Water & Sewer Utility,Occupancy Cost,Water & Sewer Utility,445.74,Bank Transfer
+17,2025-08-07,Medical Supply Wholesaler,Cost of Services (Clinical Supplies),Medical Supply Wholesaler,534.45,Cash
+18,2025-08-07,Injectable Supply Distributor,Cost of Services (Clinical Supplies),Injectable Supply Distributor,95.44,Zelle
+19,2025-08-07,General Store Purchase,Other/Non-Operating,General Store Purchase,98.89,Cash
+20,2025-08-07,Social Ads Platform,Marketing & Growth,Social Ads Platform,298.3,Zelle
+21,2025-08-08,Miscellaneous Purchase,Other/Non-Operating,Miscellaneous Purchase,977.96,Cash
+22,2025-08-09,Miscellaneous Purchase,Other/Non-Operating,Miscellaneous Purchase,126.52,Cash
+23,2025-08-09,Break Room Supplies,Other/Non-Operating,Break Room Supplies,95.72,Business Debit
+24,2025-08-11,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,103.99,Zelle
+25,2025-08-11,Disposable Clinic Supplies Co,Cost of Services (Clinical Supplies),Disposable Clinic Supplies Co,113.02,Bank Transfer
+26,2025-08-11,Skincare Product Restock,Cost of Services (Clinical Supplies),Skincare Product Restock,15.07,Cash
+27,2025-08-12,Cloud Storage Plan,Software & Technology,Cloud Storage Plan,6.72,Check
+28,2025-08-12,Injectable Supply Distributor,Cost of Services (Clinical Supplies),Injectable Supply Distributor,87.58,Zelle
+29,2025-08-12,Social Ads Platform,Marketing & Growth,Social Ads Platform,277.45,Credit Card
+30,2025-08-12,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,2066.29,Check
+31,2025-08-13,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,592.18,Zelle
+32,2025-08-13,Electric Utility Co,Occupancy Cost,Electric Utility Co,274.43,Bank Transfer
+33,2025-08-13,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,364.26,Check
+34,2025-08-14,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,164.71,Check
+35,2025-08-14,Office Supply Co,Other/Non-Operating,Office Supply Co,77.05,Cash
+36,2025-08-15,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,374.2,Zelle
+37,2025-08-16,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,553.66,Bank Transfer
+38,2025-08-16,Social Ads Platform,Marketing & Growth,Social Ads Platform,13.59,Cash
+39,2025-08-16,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,241.76,Business Debit
+40,2025-08-17,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,99.8,Cash
+41,2025-08-17,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,724.39,Bank Transfer
+42,2025-08-17,Skincare Product Restock,Cost of Services (Clinical Supplies),Skincare Product Restock,109.56,Credit Card
+43,2025-08-17,Local Print Promo Co,Marketing & Growth,Local Print Promo Co,15.75,Zelle
+44,2025-08-19,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,372.35,Check
+45,2025-08-19,Search Ads Platform,Marketing & Growth,Search Ads Platform,23.28,Credit Card
+46,2025-08-20,Medical Supply Wholesaler,Cost of Services (Clinical Supplies),Medical Supply Wholesaler,105.53,Credit Card
+47,2025-08-20,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,178.62,Credit Card
+48,2025-08-20,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,322.86,Credit Card
+49,2025-08-20,Office Supply Co,Other/Non-Operating,Office Supply Co,48.3,Business Debit
+50,2025-08-20,Medical Supply Wholesaler,Cost of Services (Clinical Supplies),Medical Supply Wholesaler,56.51,Cash
+51,2025-08-23,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,838.65,Business Debit
+52,2025-08-23,Medical Supply Wholesaler,Cost of Services (Clinical Supplies),Medical Supply Wholesaler,62.9,Zelle
+53,2025-08-24,Search Ads Platform,Marketing & Growth,Search Ads Platform,12.66,Zelle
+54,2025-08-24,CAM Fee,Occupancy Cost,CAM Fee,517.42,Bank Transfer
+55,2025-08-24,Office Supply Co,Other/Non-Operating,Office Supply Co,96.05,Cash
+56,2025-08-24,Social Ads Platform,Marketing & Growth,Social Ads Platform,20.68,Business Debit
+57,2025-08-25,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,665.81,Bank Transfer
+58,2025-08-25,Wire Transfer Fee,Banking & Financial Fees,Wire Transfer Fee,26.86,Bank Transfer
+59,2025-08-25,Booking Software Subscription,Software & Technology,Booking Software Subscription,12.17,Business Debit
+60,2025-08-25,Financing Payment,Debt Services,Financing Payment,187.3,Cash
+61,2025-08-25,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,200.64,Credit Card
+62,2025-08-26,Miscellaneous Purchase,Other/Non-Operating,Miscellaneous Purchase,74.04,Credit Card
+63,2025-08-26,Skincare Product Restock,Cost of Services (Clinical Supplies),Skincare Product Restock,733.49,Check
+64,2025-08-26,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,591.06,Zelle
+65,2025-08-26,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,354.88,Bank Transfer
+66,2025-08-27,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,174.61,Check
+67,2025-08-27,Search Ads Platform,Marketing & Growth,Search Ads Platform,11.11,Credit Card
+68,2025-08-27,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,1992.92,Check
+69,2025-08-27,Miscellaneous Purchase,Other/Non-Operating,Miscellaneous Purchase,92.58,Cash
+70,2025-08-27,Miscellaneous Purchase,Other/Non-Operating,Miscellaneous Purchase,27.17,Credit Card
+71,2025-08-27,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,295.37,Bank Transfer
+72,2025-08-27,General Liability Policy,Insurance,General Liability Policy,270.08,Bank Transfer
+73,2025-08-27,Miscellaneous Purchase,Other/Non-Operating,Miscellaneous Purchase,47.94,Business Debit
+74,2025-08-28,Scheduling App Fee,Software & Technology,Scheduling App Fee,64.68,Cash
+75,2025-08-28,Suite Rent - Main Location,Occupancy Cost,Suite Rent - Main Location,213.21,Bank Transfer
+76,2025-08-28,Skincare Product Restock,Cost of Services (Clinical Supplies),Skincare Product Restock,36.17,Zelle
+77,2025-08-28,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,274.56,Zelle
+78,2025-08-28,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,379.22,Bank Transfer
+79,2025-08-30,Disposable Clinic Supplies Co,Cost of Services (Clinical Supplies),Disposable Clinic Supplies Co,433.27,Check
+80,2025-08-30,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,1332.66,Zelle
+81,2025-08-30,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,227.09,Bank Transfer
+82,2025-08-31,Break Room Supplies,Other/Non-Operating,Break Room Supplies,91.68,Cash
+83,2025-09-01,General Store Purchase,Other/Non-Operating,General Store Purchase,687.92,Cash
+84,2025-09-01,Office Supply Co,Other/Non-Operating,Office Supply Co,1097.48,Zelle
+85,2025-09-01,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,89.28,Bank Transfer
+86,2025-09-01,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,173.35,Cash
+87,2025-09-01,Medical Supply Wholesaler,Cost of Services (Clinical Supplies),Medical Supply Wholesaler,54.45,Business Debit
+88,2025-09-02,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,140.77,Business Debit
+89,2025-09-02,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,303.98,Cash
+90,2025-09-02,Electric Utility Co,Occupancy Cost,Electric Utility Co,199.49,Credit Card
+91,2025-09-03,Cloud Storage Plan,Software & Technology,Cloud Storage Plan,45.28,Check
+92,2025-09-03,Injectable Supply Distributor,Cost of Services (Clinical Supplies),Injectable Supply Distributor,81.54,Zelle
+93,2025-09-04,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,51.16,Business Debit
+94,2025-09-05,Search Ads Platform,Marketing & Growth,Search Ads Platform,5.17,Credit Card
+95,2025-09-05,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,251.11,Bank Transfer
+96,2025-09-05,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,144.55,Business Debit
+97,2025-09-05,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,308.35,Business Debit
+98,2025-09-05,Office Supply Co,Other/Non-Operating,Office Supply Co,1955.84,Check
+99,2025-09-05,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,853.86,Cash
+100,2025-09-05,Referral Program Payout,Marketing & Growth,Referral Program Payout,362.41,Check
+101,2025-09-06,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,434.81,Bank Transfer
+102,2025-09-06,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,290.85,Business Debit
+103,2025-09-07,Line of Credit Interest,Debt Services,Line of Credit Interest,590.72,Zelle
+104,2025-09-07,Break Room Supplies,Other/Non-Operating,Break Room Supplies,63.55,Cash
+105,2025-09-07,Office Supply Co,Other/Non-Operating,Office Supply Co,104.02,Credit Card
+106,2025-09-08,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,323.16,Zelle
+107,2025-09-08,Suite Rent - Main Location,Occupancy Cost,Suite Rent - Main Location,1284.18,Credit Card
+108,2025-09-08,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,969.6,Zelle
+109,2025-09-08,Referral Program Payout,Marketing & Growth,Referral Program Payout,22.6,Bank Transfer
+110,2025-09-09,Disposable Clinic Supplies Co,Cost of Services (Clinical Supplies),Disposable Clinic Supplies Co,116.19,Zelle
+111,2025-09-10,General Store Purchase,Other/Non-Operating,General Store Purchase,57.78,Cash
+112,2025-09-11,General Store Purchase,Other/Non-Operating,General Store Purchase,91.03,Cash
+113,2025-09-11,Professional Certification Fee,Licensing & Compliance,Professional Certification Fee,987.57,Bank Transfer
+114,2025-09-11,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,74.14,Zelle
+115,2025-09-11,Disposable Clinic Supplies Co,Cost of Services (Clinical Supplies),Disposable Clinic Supplies Co,26.9,Business Debit
+116,2025-09-12,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,451.77,Cash
+117,2025-09-13,Injectable Supply Distributor,Cost of Services (Clinical Supplies),Injectable Supply Distributor,98.24,Business Debit
+118,2025-09-13,Referral Program Payout,Marketing & Growth,Referral Program Payout,23.81,Zelle
+119,2025-09-14,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,1203.56,Check
+120,2025-09-14,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,184.54,Business Debit
+121,2025-09-14,Local Print Promo Co,Marketing & Growth,Local Print Promo Co,5.16,Zelle
+122,2025-09-14,Local Print Promo Co,Marketing & Growth,Local Print Promo Co,24.88,Zelle
+123,2025-09-15,Scheduling App Fee,Software & Technology,Scheduling App Fee,55.4,Bank Transfer
+124,2025-09-16,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,1113.49,Zelle
+125,2025-09-16,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,254.22,Cash
+126,2025-09-16,Booking Software Subscription,Software & Technology,Booking Software Subscription,90.5,Credit Card
+127,2025-09-16,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,396.78,Cash
+128,2025-09-16,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,55.93,Credit Card
+129,2025-09-17,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,1020.46,Credit Card
+130,2025-09-17,Bank Monthly Fee,Banking & Financial Fees,Bank Monthly Fee,28.96,Check
+131,2025-09-17,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,1103.0,Zelle
+132,2025-09-17,Office Supply Co,Other/Non-Operating,Office Supply Co,54.03,Business Debit
+133,2025-09-17,Point-of-Sale Software,Software & Technology,Point-of-Sale Software,10.54,Bank Transfer
+134,2025-09-18,Skincare Product Restock,Cost of Services (Clinical Supplies),Skincare Product Restock,97.8,Zelle
+135,2025-09-18,Booking Software Subscription,Software & Technology,Booking Software Subscription,85.54,Bank Transfer
+136,2025-09-19,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,149.32,Business Debit
+137,2025-09-19,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,365.07,Cash
+138,2025-09-20,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,481.79,Credit Card
+139,2025-09-20,General Store Purchase,Other/Non-Operating,General Store Purchase,905.09,Check
+140,2025-09-20,Water & Sewer Utility,Occupancy Cost,Water & Sewer Utility,465.32,Check
+141,2025-09-20,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,1697.15,Credit Card
+142,2025-09-20,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,934.87,Zelle
+143,2025-09-21,Social Ads Platform,Marketing & Growth,Social Ads Platform,7.46,Credit Card
+144,2025-09-21,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,635.62,Check
+145,2025-09-21,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,430.53,Check
+146,2025-09-21,Booking Software Subscription,Software & Technology,Booking Software Subscription,68.81,Business Debit
+147,2025-09-22,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,870.66,Business Debit
+148,2025-09-22,Social Ads Platform,Marketing & Growth,Social Ads Platform,12.35,Check
+149,2025-09-22,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,1093.42,Credit Card
+150,2025-09-22,Line of Credit Interest,Debt Services,Line of Credit Interest,278.32,Cash
+151,2025-09-22,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,55.3,Check
+152,2025-09-23,CAM Fee,Occupancy Cost,CAM Fee,655.65,Credit Card
+153,2025-09-23,HVAC Repair Co,"Repairs, Maintenance & Small Equipment",HVAC Repair Co,17.92,Credit Card
+154,2025-09-24,Miscellaneous Purchase,Other/Non-Operating,Miscellaneous Purchase,693.99,Zelle
+155,2025-09-24,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,152.2,Business Debit
+156,2025-09-24,Injectable Supply Distributor,Cost of Services (Clinical Supplies),Injectable Supply Distributor,25.4,Check
+157,2025-09-25,Social Ads Platform,Marketing & Growth,Social Ads Platform,281.2,Check
+158,2025-09-25,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,223.04,Bank Transfer
+159,2025-09-26,Professional Certification Fee,Licensing & Compliance,Professional Certification Fee,37.74,Check
+160,2025-09-26,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,807.86,Cash
+161,2025-09-26,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,586.04,Bank Transfer
+162,2025-09-27,Medical Supply Wholesaler,Cost of Services (Clinical Supplies),Medical Supply Wholesaler,30.26,Cash
+163,2025-09-27,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,77.73,Bank Transfer
+164,2025-09-27,Miscellaneous Purchase,Other/Non-Operating,Miscellaneous Purchase,90.83,Cash
+165,2025-09-28,Electric Utility Co,Occupancy Cost,Electric Utility Co,633.34,Bank Transfer
+166,2025-09-28,Line of Credit Interest,Debt Services,Line of Credit Interest,227.59,Check
+167,2025-09-28,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,724.0,Bank Transfer
+168,2025-09-28,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,87.91,Cash
+169,2025-09-28,Equipment Loan Payment,Debt Services,Equipment Loan Payment,192.13,Credit Card
+170,2025-09-29,Financing Payment,Debt Services,Financing Payment,737.37,Cash
+171,2025-10-01,Property Insurance Premium,Insurance,Property Insurance Premium,55.8,Bank Transfer
+172,2025-10-01,Skincare Product Restock,Cost of Services (Clinical Supplies),Skincare Product Restock,418.14,Zelle
+173,2025-10-01,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,651.95,Credit Card
+174,2025-10-02,Property Insurance Premium,Insurance,Property Insurance Premium,81.5,Zelle
+175,2025-10-02,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,47.03,Zelle
+176,2025-10-03,Financing Payment,Debt Services,Financing Payment,670.3,Credit Card
+177,2025-10-03,Social Ads Platform,Marketing & Growth,Social Ads Platform,86.55,Business Debit
+178,2025-10-04,Professional Certification Fee,Licensing & Compliance,Professional Certification Fee,768.24,Zelle
+179,2025-10-04,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,304.16,Check
+180,2025-10-05,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,365.6,Zelle
+181,2025-10-05,Water & Sewer Utility,Occupancy Cost,Water & Sewer Utility,199.89,Check
+182,2025-10-06,Point-of-Sale Software,Software & Technology,Point-of-Sale Software,14.07,Check
+183,2025-10-06,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,352.41,Bank Transfer
+184,2025-10-06,Skincare Product Restock,Cost of Services (Clinical Supplies),Skincare Product Restock,33.28,Check
+185,2025-10-06,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,820.67,Bank Transfer
+186,2025-10-07,Local Print Promo Co,Marketing & Growth,Local Print Promo Co,21.78,Business Debit
+187,2025-10-07,Equipment Tune-Up Service,"Repairs, Maintenance & Small Equipment",Equipment Tune-Up Service,18.7,Bank Transfer
+188,2025-10-07,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,129.5,Check
+189,2025-10-08,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,219.3,Credit Card
+190,2025-10-08,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,949.77,Cash
+191,2025-10-08,Water & Sewer Utility,Occupancy Cost,Water & Sewer Utility,411.49,Business Debit
+192,2025-10-08,Bank Monthly Fee,Banking & Financial Fees,Bank Monthly Fee,1407.0,Cash
+193,2025-10-08,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,344.75,Credit Card
+194,2025-10-09,Medical Supply Wholesaler,Cost of Services (Clinical Supplies),Medical Supply Wholesaler,468.43,Cash
+195,2025-10-09,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,538.74,Check
+196,2025-10-09,Referral Program Payout,Marketing & Growth,Referral Program Payout,12.68,Cash
+197,2025-10-09,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,303.31,Business Debit
+198,2025-10-10,Break Room Supplies,Other/Non-Operating,Break Room Supplies,101.32,Zelle
+199,2025-10-10,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,159.81,Zelle
+200,2025-10-11,Miscellaneous Purchase,Other/Non-Operating,Miscellaneous Purchase,126.66,Bank Transfer
+201,2025-10-11,Water & Sewer Utility,Occupancy Cost,Water & Sewer Utility,901.95,Credit Card
+202,2025-10-11,Line of Credit Interest,Debt Services,Line of Credit Interest,845.51,Business Debit
+203,2025-10-11,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,224.9,Check
+204,2025-10-12,Social Ads Platform,Marketing & Growth,Social Ads Platform,61.24,Zelle
+205,2025-10-12,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,80.56,Check
+206,2025-10-14,Line of Credit Interest,Debt Services,Line of Credit Interest,46.23,Check
+207,2025-10-14,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,170.4,Credit Card
+208,2025-10-15,General Store Purchase,Other/Non-Operating,General Store Purchase,393.18,Cash
+209,2025-10-16,Scheduling App Fee,Software & Technology,Scheduling App Fee,62.97,Cash
+210,2025-10-16,Wire Transfer Fee,Banking & Financial Fees,Wire Transfer Fee,2.35,Business Debit
+211,2025-10-16,General Store Purchase,Other/Non-Operating,General Store Purchase,72.02,Check
+212,2025-10-17,Search Ads Platform,Marketing & Growth,Search Ads Platform,13.2,Zelle
+213,2025-10-17,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,225.44,Check
+214,2025-10-17,State Business License Renewal,Licensing & Compliance,State Business License Renewal,16.51,Business Debit
+215,2025-10-18,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,323.44,Cash
+216,2025-10-19,Bank Monthly Fee,Banking & Financial Fees,Bank Monthly Fee,110.17,Bank Transfer
+217,2025-10-19,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,99.46,Bank Transfer
+218,2025-10-20,CAM Fee,Occupancy Cost,CAM Fee,124.6,Business Debit
+219,2025-10-20,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,312.14,Business Debit
+220,2025-10-21,General Liability Policy,Insurance,General Liability Policy,42.74,Cash
+221,2025-10-21,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,476.45,Bank Transfer
+222,2025-10-21,Skincare Product Restock,Cost of Services (Clinical Supplies),Skincare Product Restock,82.66,Check
+223,2025-10-21,Break Room Supplies,Other/Non-Operating,Break Room Supplies,70.33,Credit Card
+224,2025-10-21,Local Print Promo Co,Marketing & Growth,Local Print Promo Co,366.52,Bank Transfer
+225,2025-10-22,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,654.08,Bank Transfer
+226,2025-10-22,HVAC Repair Co,"Repairs, Maintenance & Small Equipment",HVAC Repair Co,25.99,Credit Card
+227,2025-10-22,Electric Utility Co,Occupancy Cost,Electric Utility Co,493.15,Check
+228,2025-10-23,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,1368.18,Bank Transfer
+229,2025-10-23,Break Room Supplies,Other/Non-Operating,Break Room Supplies,826.07,Credit Card
+230,2025-10-23,Skincare Product Restock,Cost of Services (Clinical Supplies),Skincare Product Restock,97.32,Bank Transfer
+231,2025-10-23,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,96.47,Check
+232,2025-10-23,Break Room Supplies,Other/Non-Operating,Break Room Supplies,85.15,Check
+233,2025-10-24,Scheduling App Fee,Software & Technology,Scheduling App Fee,13.82,Zelle
+234,2025-10-24,Miscellaneous Purchase,Other/Non-Operating,Miscellaneous Purchase,72.64,Bank Transfer
+235,2025-10-24,Referral Program Payout,Marketing & Growth,Referral Program Payout,20.7,Zelle
+236,2025-10-24,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,321.01,Business Debit
+237,2025-10-25,Facility Repair Co,"Repairs, Maintenance & Small Equipment",Facility Repair Co,11.18,Credit Card
+238,2025-10-25,Referral Program Payout,Marketing & Growth,Referral Program Payout,5.62,Zelle
+239,2025-10-25,Local Print Promo Co,Marketing & Growth,Local Print Promo Co,20.0,Check
+240,2025-10-25,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,221.04,Business Debit
+241,2025-10-25,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,1579.11,Business Debit
+242,2025-10-26,General Store Purchase,Other/Non-Operating,General Store Purchase,510.42,Zelle
+243,2025-10-26,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,123.58,Credit Card
+244,2025-10-27,Disposable Clinic Supplies Co,Cost of Services (Clinical Supplies),Disposable Clinic Supplies Co,225.55,Bank Transfer
+245,2025-10-27,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,242.46,Business Debit
+246,2025-10-28,Financing Payment,Debt Services,Financing Payment,477.03,Business Debit
+247,2025-10-28,Injectable Supply Distributor,Cost of Services (Clinical Supplies),Injectable Supply Distributor,100.79,Bank Transfer
+248,2025-10-28,Disposable Clinic Supplies Co,Cost of Services (Clinical Supplies),Disposable Clinic Supplies Co,76.03,Credit Card
+249,2025-10-29,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,467.02,Zelle
+250,2025-10-29,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,336.25,Zelle
+251,2025-10-29,Disposable Clinic Supplies Co,Cost of Services (Clinical Supplies),Disposable Clinic Supplies Co,493.63,Cash
+252,2025-10-29,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,214.39,Zelle
+253,2025-10-29,Disposable Clinic Supplies Co,Cost of Services (Clinical Supplies),Disposable Clinic Supplies Co,56.65,Business Debit
+254,2025-10-29,Miscellaneous Purchase,Other/Non-Operating,Miscellaneous Purchase,88.03,Business Debit
+255,2025-10-29,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,66.27,Business Debit
+256,2025-10-29,Disposable Clinic Supplies Co,Cost of Services (Clinical Supplies),Disposable Clinic Supplies Co,24.3,Zelle
+257,2025-10-30,Medical Supply Wholesaler,Cost of Services (Clinical Supplies),Medical Supply Wholesaler,1262.22,Cash
+258,2025-10-30,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,405.97,Credit Card
+259,2025-10-30,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,2027.87,Business Debit
+260,2025-10-31,Financing Payment,Debt Services,Financing Payment,285.37,Check
+261,2025-10-31,Social Ads Platform,Marketing & Growth,Social Ads Platform,15.32,Bank Transfer
+262,2025-10-31,Office Supply Co,Other/Non-Operating,Office Supply Co,470.24,Zelle
+263,2025-10-31,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,577.17,Check
+264,2025-11-01,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,298.28,Check
+265,2025-11-01,General Store Purchase,Other/Non-Operating,General Store Purchase,951.37,Credit Card
+266,2025-11-01,Disposable Clinic Supplies Co,Cost of Services (Clinical Supplies),Disposable Clinic Supplies Co,76.5,Bank Transfer
+267,2025-11-01,Scheduling App Fee,Software & Technology,Scheduling App Fee,20.14,Cash
+268,2025-11-03,Medical Supply Wholesaler,Cost of Services (Clinical Supplies),Medical Supply Wholesaler,54.29,Zelle
+269,2025-11-03,General Store Purchase,Other/Non-Operating,General Store Purchase,712.92,Credit Card
+270,2025-11-04,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,51.25,Check
+271,2025-11-04,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,201.6,Cash
+272,2025-11-05,Point-of-Sale Software,Software & Technology,Point-of-Sale Software,19.84,Bank Transfer
+273,2025-11-06,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,806.53,Cash
+274,2025-11-06,Office Supply Co,Other/Non-Operating,Office Supply Co,45.78,Zelle
+275,2025-11-07,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,363.23,Credit Card
+276,2025-11-07,Skincare Product Restock,Cost of Services (Clinical Supplies),Skincare Product Restock,58.61,Credit Card
+277,2025-11-07,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,196.73,Credit Card
+278,2025-11-07,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,183.74,Business Debit
+279,2025-11-07,Tax Prep Services,Professional Services,Tax Prep Services,183.2,Credit Card
+280,2025-11-08,Suite Rent - Main Location,Occupancy Cost,Suite Rent - Main Location,365.65,Cash
+281,2025-11-08,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,619.54,Cash
+282,2025-11-10,Malpractice Insurance Premium,Insurance,Malpractice Insurance Premium,90.11,Cash
+283,2025-11-10,Skincare Product Restock,Cost of Services (Clinical Supplies),Skincare Product Restock,366.81,Credit Card
+284,2025-11-10,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,75.8,Credit Card
+285,2025-11-10,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,2313.88,Bank Transfer
+286,2025-11-10,Miscellaneous Purchase,Other/Non-Operating,Miscellaneous Purchase,57.18,Bank Transfer
+287,2025-11-10,Wire Transfer Fee,Banking & Financial Fees,Wire Transfer Fee,25.4,Cash
+288,2025-11-11,Medical Supply Wholesaler,Cost of Services (Clinical Supplies),Medical Supply Wholesaler,36.32,Credit Card
+289,2025-11-11,Cloud Storage Plan,Software & Technology,Cloud Storage Plan,24.72,Business Debit
+290,2025-11-11,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,502.09,Check
+291,2025-11-12,Medical Supply Wholesaler,Cost of Services (Clinical Supplies),Medical Supply Wholesaler,1415.26,Cash
+292,2025-11-13,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,134.68,Check
+293,2025-11-14,Bank Monthly Fee,Banking & Financial Fees,Bank Monthly Fee,32.06,Cash
+294,2025-11-14,Search Ads Platform,Marketing & Growth,Search Ads Platform,19.08,Bank Transfer
+295,2025-11-14,Social Ads Platform,Marketing & Growth,Social Ads Platform,9.76,Business Debit
+296,2025-11-15,Property Insurance Premium,Insurance,Property Insurance Premium,84.29,Check
+297,2025-11-15,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,116.6,Bank Transfer
+298,2025-11-16,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,263.43,Check
+299,2025-11-16,HVAC Repair Co,"Repairs, Maintenance & Small Equipment",HVAC Repair Co,15.25,Bank Transfer
+300,2025-11-17,Water & Sewer Utility,Occupancy Cost,Water & Sewer Utility,515.43,Cash
+301,2025-11-17,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,114.3,Check
+302,2025-11-17,Office Supply Co,Other/Non-Operating,Office Supply Co,1160.57,Bank Transfer
+303,2025-11-18,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,1593.4,Business Debit
+304,2025-11-18,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,284.02,Cash
+305,2025-11-19,Social Ads Platform,Marketing & Growth,Social Ads Platform,152.71,Bank Transfer
+306,2025-11-20,Referral Program Payout,Marketing & Growth,Referral Program Payout,896.64,Business Debit
+307,2025-11-20,Disposable Clinic Supplies Co,Cost of Services (Clinical Supplies),Disposable Clinic Supplies Co,84.75,Cash
+308,2025-11-21,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,121.54,Bank Transfer
+309,2025-11-21,Injectable Supply Distributor,Cost of Services (Clinical Supplies),Injectable Supply Distributor,116.21,Business Debit
+310,2025-11-22,Point-of-Sale Software,Software & Technology,Point-of-Sale Software,17.04,Business Debit
+311,2025-11-22,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,355.23,Check
+312,2025-11-22,Skincare Product Restock,Cost of Services (Clinical Supplies),Skincare Product Restock,84.8,Check
+313,2025-11-22,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,628.58,Credit Card
+314,2025-11-23,Injectable Supply Distributor,Cost of Services (Clinical Supplies),Injectable Supply Distributor,97.92,Check
+315,2025-11-23,Referral Program Payout,Marketing & Growth,Referral Program Payout,13.33,Credit Card
+316,2025-11-23,Disposable Clinic Supplies Co,Cost of Services (Clinical Supplies),Disposable Clinic Supplies Co,98.89,Business Debit
+317,2025-11-23,Point-of-Sale Software,Software & Technology,Point-of-Sale Software,45.88,Check
+318,2025-11-24,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,1427.63,Check
+319,2025-11-24,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,997.69,Business Debit
+320,2025-11-24,Break Room Supplies,Other/Non-Operating,Break Room Supplies,1182.09,Check
+321,2025-11-24,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,509.66,Bank Transfer
+322,2025-11-25,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,260.91,Business Debit
+323,2025-11-25,General Store Purchase,Other/Non-Operating,General Store Purchase,127.35,Business Debit
+324,2025-11-25,Social Ads Platform,Marketing & Growth,Social Ads Platform,26.0,Bank Transfer
+325,2025-11-26,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,2291.83,Cash
+326,2025-11-26,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,175.6,Bank Transfer
+327,2025-11-26,Office Supply Co,Other/Non-Operating,Office Supply Co,117.86,Cash
+328,2025-11-26,General Store Purchase,Other/Non-Operating,General Store Purchase,50.0,Check
+329,2025-11-26,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,1814.79,Business Debit
+330,2025-11-27,General Store Purchase,Other/Non-Operating,General Store Purchase,498.07,Cash
+331,2025-11-27,Local Permit Office,Licensing & Compliance,Local Permit Office,593.49,Zelle
+332,2025-11-28,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,706.59,Business Debit
+333,2025-11-28,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,73.86,Cash
+334,2025-11-29,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,136.69,Cash
+335,2025-12-01,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,264.35,Cash
+336,2025-12-01,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,47.4,Bank Transfer
+337,2025-12-01,Social Ads Platform,Marketing & Growth,Social Ads Platform,8.66,Credit Card
+338,2025-12-01,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,309.77,Business Debit
+339,2025-12-02,Office Supply Co,Other/Non-Operating,Office Supply Co,18.12,Bank Transfer
+340,2025-12-02,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,117.63,Zelle
+341,2025-12-02,General Store Purchase,Other/Non-Operating,General Store Purchase,455.59,Credit Card
+342,2025-12-02,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,916.51,Cash
+343,2025-12-03,Search Ads Platform,Marketing & Growth,Search Ads Platform,16.04,Check
+344,2025-12-03,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,72.79,Zelle
+345,2025-12-03,General Store Purchase,Other/Non-Operating,General Store Purchase,96.49,Business Debit
+346,2025-12-03,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,1068.14,Zelle
+347,2025-12-03,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,594.81,Zelle
+348,2025-12-04,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,77.58,Cash
+349,2025-12-04,Social Ads Platform,Marketing & Growth,Social Ads Platform,13.69,Business Debit
+350,2025-12-05,Break Room Supplies,Other/Non-Operating,Break Room Supplies,222.45,Zelle
+351,2025-12-05,Local Print Promo Co,Marketing & Growth,Local Print Promo Co,288.46,Business Debit
+352,2025-12-06,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,299.02,Cash
+353,2025-12-06,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,2376.03,Check
+354,2025-12-06,Malpractice Insurance Premium,Insurance,Malpractice Insurance Premium,45.94,Cash
+355,2025-12-07,Break Room Supplies,Other/Non-Operating,Break Room Supplies,903.48,Business Debit
+356,2025-12-07,Bookkeeping Services,Professional Services,Bookkeeping Services,849.56,Business Debit
+357,2025-12-07,Local Print Promo Co,Marketing & Growth,Local Print Promo Co,18.29,Credit Card
+358,2025-12-07,Financing Payment,Debt Services,Financing Payment,350.82,Business Debit
+359,2025-12-07,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,369.07,Check
+360,2025-12-08,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,687.1,Bank Transfer
+361,2025-12-08,Search Ads Platform,Marketing & Growth,Search Ads Platform,19.3,Business Debit
+362,2025-12-08,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,256.12,Check
+363,2025-12-09,Merchant Processing Fee,Banking & Financial Fees,Merchant Processing Fee,24.68,Business Debit
+364,2025-12-09,Equipment Loan Payment,Debt Services,Equipment Loan Payment,95.33,Business Debit
+365,2025-12-09,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,179.16,Cash
+366,2025-12-10,Disposable Clinic Supplies Co,Cost of Services (Clinical Supplies),Disposable Clinic Supplies Co,599.52,Bank Transfer
+367,2025-12-10,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,74.57,Credit Card
+368,2025-12-11,Merchant Processing Fee,Banking & Financial Fees,Merchant Processing Fee,24.81,Zelle
+369,2025-12-11,Social Ads Platform,Marketing & Growth,Social Ads Platform,19.94,Cash
+370,2025-12-11,Electric Utility Co,Occupancy Cost,Electric Utility Co,366.01,Business Debit
+371,2025-12-11,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,1095.52,Check
+372,2025-12-12,Point-of-Sale Software,Software & Technology,Point-of-Sale Software,13.2,Bank Transfer
+373,2025-12-12,Booking Software Subscription,Software & Technology,Booking Software Subscription,3.27,Credit Card
+374,2025-12-12,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,1715.82,Check
+375,2025-12-13,Social Ads Platform,Marketing & Growth,Social Ads Platform,14.79,Credit Card
+376,2025-12-13,Water & Sewer Utility,Occupancy Cost,Water & Sewer Utility,457.31,Business Debit
+377,2025-12-13,Cloud Storage Plan,Software & Technology,Cloud Storage Plan,91.17,Check
+378,2025-12-13,Legal Consultation,Professional Services,Legal Consultation,216.16,Credit Card
+379,2025-12-13,Social Ads Platform,Marketing & Growth,Social Ads Platform,249.66,Bank Transfer
+380,2025-12-14,Point-of-Sale Software,Software & Technology,Point-of-Sale Software,5.2,Zelle
+381,2025-12-14,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,272.84,Credit Card
+382,2025-12-14,Financing Payment,Debt Services,Financing Payment,243.99,Check
+383,2025-12-14,Miscellaneous Purchase,Other/Non-Operating,Miscellaneous Purchase,949.27,Check
+384,2025-12-16,Merchant Processing Fee,Banking & Financial Fees,Merchant Processing Fee,24.07,Check
+385,2025-12-16,Miscellaneous Purchase,Other/Non-Operating,Miscellaneous Purchase,69.11,Bank Transfer
+386,2025-12-17,General Store Purchase,Other/Non-Operating,General Store Purchase,14.67,Check
+387,2025-12-17,Local Print Promo Co,Marketing & Growth,Local Print Promo Co,247.67,Bank Transfer
+388,2025-12-18,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,174.77,Cash
+389,2025-12-18,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,200.24,Bank Transfer
+390,2025-12-18,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,96.88,Check
+391,2025-12-19,Skincare Product Restock,Cost of Services (Clinical Supplies),Skincare Product Restock,62.81,Business Debit
+392,2025-12-19,Skincare Product Restock,Cost of Services (Clinical Supplies),Skincare Product Restock,105.99,Bank Transfer
+393,2025-12-19,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,308.89,Bank Transfer
+394,2025-12-20,Point-of-Sale Software,Software & Technology,Point-of-Sale Software,18.64,Credit Card
+395,2025-12-20,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,507.41,Zelle
+396,2025-12-20,Search Ads Platform,Marketing & Growth,Search Ads Platform,9.96,Cash
+397,2025-12-20,CAM Fee,Occupancy Cost,CAM Fee,865.6,Credit Card
+398,2025-12-21,Point-of-Sale Software,Software & Technology,Point-of-Sale Software,7.9,Credit Card
+399,2025-12-21,Search Ads Platform,Marketing & Growth,Search Ads Platform,6.58,Zelle
+400,2025-12-21,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,339.19,Bank Transfer
+401,2025-12-21,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,1202.99,Check
+402,2025-12-23,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,810.46,Business Debit
+403,2025-12-23,Booking Software Subscription,Software & Technology,Booking Software Subscription,5.34,Zelle
+404,2025-12-23,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,302.68,Credit Card
+405,2025-12-24,Merchant Processing Fee,Banking & Financial Fees,Merchant Processing Fee,26.23,Business Debit
+406,2025-12-24,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,330.82,Cash
+407,2025-12-24,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,566.54,Check
+408,2025-12-24,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,78.51,Business Debit
+409,2025-12-24,Injectable Supply Distributor,Cost of Services (Clinical Supplies),Injectable Supply Distributor,20.11,Cash
+410,2025-12-25,General Store Purchase,Other/Non-Operating,General Store Purchase,115.13,Business Debit
+411,2025-12-25,Equipment Loan Payment,Debt Services,Equipment Loan Payment,79.91,Bank Transfer
+412,2025-12-25,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,579.68,Check
+413,2025-12-25,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,306.8,Cash
+414,2025-12-26,Break Room Supplies,Other/Non-Operating,Break Room Supplies,92.96,Business Debit
+415,2025-12-26,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,274.86,Bank Transfer
+416,2025-12-26,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,979.73,Business Debit
+417,2025-12-26,Office Supply Co,Other/Non-Operating,Office Supply Co,1327.37,Business Debit
+418,2025-12-27,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,22.82,Credit Card
+419,2025-12-27,Suite Rent - Main Location,Occupancy Cost,Suite Rent - Main Location,963.35,Bank Transfer
+420,2025-12-27,Booking Software Subscription,Software & Technology,Booking Software Subscription,17.89,Business Debit
+421,2025-12-28,Search Ads Platform,Marketing & Growth,Search Ads Platform,11.3,Business Debit
+422,2025-12-28,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,119.8,Business Debit
+423,2025-12-29,Cloud Storage Plan,Software & Technology,Cloud Storage Plan,5.81,Check
+424,2025-12-29,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,272.5,Check
+425,2025-12-29,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,308.75,Bank Transfer
+426,2025-12-29,Tax Prep Services,Professional Services,Tax Prep Services,231.72,Cash
+427,2025-12-30,Financing Payment,Debt Services,Financing Payment,227.94,Check
+428,2025-12-30,General Store Purchase,Other/Non-Operating,General Store Purchase,47.88,Business Debit
+429,2025-12-30,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,171.66,Zelle
+430,2025-12-30,Scheduling App Fee,Software & Technology,Scheduling App Fee,12.21,Business Debit
+431,2025-12-30,Scheduling App Fee,Software & Technology,Scheduling App Fee,15.06,Zelle
+432,2025-12-31,Search Ads Platform,Marketing & Growth,Search Ads Platform,37.56,Check
+433,2025-12-31,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,271.34,Zelle
+434,2025-12-31,Office Supply Co,Other/Non-Operating,Office Supply Co,98.48,Business Debit
+435,2026-01-01,Skincare Product Restock,Cost of Services (Clinical Supplies),Skincare Product Restock,1230.66,Check
+436,2026-01-01,Miscellaneous Purchase,Other/Non-Operating,Miscellaneous Purchase,128.15,Zelle
+437,2026-01-02,Booking Software Subscription,Software & Technology,Booking Software Subscription,5.22,Cash
+438,2026-01-02,Miscellaneous Purchase,Other/Non-Operating,Miscellaneous Purchase,1185.75,Cash
+439,2026-01-02,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,214.96,Check
+440,2026-01-04,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,281.95,Zelle
+441,2026-01-04,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,41.98,Credit Card
+442,2026-01-04,Suite Rent - Main Location,Occupancy Cost,Suite Rent - Main Location,588.68,Credit Card
+443,2026-01-05,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,360.58,Bank Transfer
+444,2026-01-05,Referral Program Payout,Marketing & Growth,Referral Program Payout,22.05,Bank Transfer
+445,2026-01-05,Break Room Supplies,Other/Non-Operating,Break Room Supplies,71.67,Business Debit
+446,2026-01-06,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,381.03,Cash
+447,2026-01-06,Social Ads Platform,Marketing & Growth,Social Ads Platform,18.16,Zelle
+448,2026-01-06,Social Ads Platform,Marketing & Growth,Social Ads Platform,19.6,Zelle
+449,2026-01-06,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,98.18,Business Debit
+450,2026-01-06,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,254.88,Check
+451,2026-01-06,Facility Repair Co,"Repairs, Maintenance & Small Equipment",Facility Repair Co,47.62,Business Debit
+452,2026-01-07,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,265.17,Check
+453,2026-01-07,Local Print Promo Co,Marketing & Growth,Local Print Promo Co,20.69,Cash
+454,2026-01-08,Referral Program Payout,Marketing & Growth,Referral Program Payout,15.72,Zelle
+455,2026-01-08,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,655.14,Check
+456,2026-01-08,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,233.22,Cash
+457,2026-01-08,General Store Purchase,Other/Non-Operating,General Store Purchase,56.77,Check
+458,2026-01-09,Cloud Storage Plan,Software & Technology,Cloud Storage Plan,37.26,Bank Transfer
+459,2026-01-09,Wire Transfer Fee,Banking & Financial Fees,Wire Transfer Fee,218.62,Cash
+460,2026-01-09,CAM Fee,Occupancy Cost,CAM Fee,536.42,Cash
+461,2026-01-10,Local Print Promo Co,Marketing & Growth,Local Print Promo Co,9.67,Zelle
+462,2026-01-10,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,981.62,Business Debit
+463,2026-01-11,Disposable Clinic Supplies Co,Cost of Services (Clinical Supplies),Disposable Clinic Supplies Co,729.03,Bank Transfer
+464,2026-01-11,Referral Program Payout,Marketing & Growth,Referral Program Payout,5.89,Credit Card
+465,2026-01-12,Booking Software Subscription,Software & Technology,Booking Software Subscription,61.11,Bank Transfer
+466,2026-01-13,Equipment Loan Payment,Debt Services,Equipment Loan Payment,315.12,Credit Card
+467,2026-01-13,Local Print Promo Co,Marketing & Growth,Local Print Promo Co,156.59,Cash
+468,2026-01-13,Search Ads Platform,Marketing & Growth,Search Ads Platform,585.62,Cash
+469,2026-01-14,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,633.19,Check
+470,2026-01-14,Small Tools Purchase,"Repairs, Maintenance & Small Equipment",Small Tools Purchase,919.89,Cash
+471,2026-01-15,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,139.3,Business Debit
+472,2026-01-15,General Store Purchase,Other/Non-Operating,General Store Purchase,40.53,Business Debit
+473,2026-01-16,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,1112.0,Business Debit
+474,2026-01-17,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,106.87,Credit Card
+475,2026-01-17,Equipment Loan Payment,Debt Services,Equipment Loan Payment,376.56,Bank Transfer
+476,2026-01-17,Injectable Supply Distributor,Cost of Services (Clinical Supplies),Injectable Supply Distributor,112.05,Bank Transfer
+477,2026-01-17,Referral Program Payout,Marketing & Growth,Referral Program Payout,666.16,Bank Transfer
+478,2026-01-17,Scheduling App Fee,Software & Technology,Scheduling App Fee,3.28,Bank Transfer
+479,2026-01-17,Financing Payment,Debt Services,Financing Payment,135.09,Cash
+480,2026-01-18,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,262.22,Check
+481,2026-01-18,Scheduling App Fee,Software & Technology,Scheduling App Fee,6.89,Credit Card
+482,2026-01-19,Wire Transfer Fee,Banking & Financial Fees,Wire Transfer Fee,14.97,Cash
+483,2026-01-20,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,311.32,Credit Card
+484,2026-01-20,Injectable Supply Distributor,Cost of Services (Clinical Supplies),Injectable Supply Distributor,320.56,Check
+485,2026-01-20,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,330.6,Zelle
+486,2026-01-21,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,304.38,Bank Transfer
+487,2026-01-21,Injectable Supply Distributor,Cost of Services (Clinical Supplies),Injectable Supply Distributor,78.21,Business Debit
+488,2026-01-21,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,781.21,Bank Transfer
+489,2026-01-22,Bank Monthly Fee,Banking & Financial Fees,Bank Monthly Fee,521.37,Check
+490,2026-01-23,Line of Credit Interest,Debt Services,Line of Credit Interest,1407.56,Zelle
+491,2026-01-23,Cloud Storage Plan,Software & Technology,Cloud Storage Plan,143.0,Zelle
+492,2026-01-24,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,508.0,Cash
+493,2026-01-24,Disposable Clinic Supplies Co,Cost of Services (Clinical Supplies),Disposable Clinic Supplies Co,107.13,Credit Card
+494,2026-01-24,Medical Supply Wholesaler,Cost of Services (Clinical Supplies),Medical Supply Wholesaler,453.8,Business Debit
+495,2026-01-24,Bank Monthly Fee,Banking & Financial Fees,Bank Monthly Fee,6.36,Credit Card
+496,2026-01-24,Search Ads Platform,Marketing & Growth,Search Ads Platform,696.73,Check
+497,2026-01-24,Equipment Tune-Up Service,"Repairs, Maintenance & Small Equipment",Equipment Tune-Up Service,37.29,Credit Card
+498,2026-01-24,General Store Purchase,Other/Non-Operating,General Store Purchase,2487.58,Check
+499,2026-01-25,Referral Program Payout,Marketing & Growth,Referral Program Payout,20.66,Credit Card
+500,2026-01-25,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,3390.95,Cash
+501,2026-01-25,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,823.99,Check
+502,2026-01-26,Referral Program Payout,Marketing & Growth,Referral Program Payout,13.76,Credit Card
+503,2026-01-27,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,45.05,Credit Card
+504,2026-01-27,Referral Program Payout,Marketing & Growth,Referral Program Payout,598.4,Zelle
+505,2026-01-27,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,285.29,Check
+506,2026-01-28,Local Print Promo Co,Marketing & Growth,Local Print Promo Co,265.52,Credit Card
+507,2026-01-28,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,614.2,Check
+508,2026-01-30,Skincare Product Restock,Cost of Services (Clinical Supplies),Skincare Product Restock,20.04,Check
+509,2026-01-31,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,586.29,Check
+510,2026-02-01,General Store Purchase,Other/Non-Operating,General Store Purchase,243.98,Bank Transfer
+511,2026-02-01,Break Room Supplies,Other/Non-Operating,Break Room Supplies,5.68,Check
+512,2026-02-02,Facility Repair Co,"Repairs, Maintenance & Small Equipment",Facility Repair Co,1018.69,Business Debit
+513,2026-02-02,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,826.11,Credit Card
+514,2026-02-03,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,366.34,Check
+515,2026-02-03,Financing Payment,Debt Services,Financing Payment,468.41,Credit Card
+516,2026-02-03,Point-of-Sale Software,Software & Technology,Point-of-Sale Software,80.53,Business Debit
+517,2026-02-04,CAM Fee,Occupancy Cost,CAM Fee,708.94,Bank Transfer
+518,2026-02-05,Search Ads Platform,Marketing & Growth,Search Ads Platform,20.47,Cash
+519,2026-02-05,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,449.91,Bank Transfer
+520,2026-02-05,Referral Program Payout,Marketing & Growth,Referral Program Payout,14.87,Zelle
+521,2026-02-05,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,228.2,Business Debit
+522,2026-02-06,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,298.53,Cash
+523,2026-02-06,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,74.05,Zelle
+524,2026-02-06,Miscellaneous Purchase,Other/Non-Operating,Miscellaneous Purchase,10.94,Zelle
+525,2026-02-06,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,138.4,Cash
+526,2026-02-07,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,855.69,Cash
+527,2026-02-08,General Store Purchase,Other/Non-Operating,General Store Purchase,496.46,Check
+528,2026-02-08,General Store Purchase,Other/Non-Operating,General Store Purchase,1812.58,Business Debit
+529,2026-02-09,Booking Software Subscription,Software & Technology,Booking Software Subscription,42.39,Cash
+530,2026-02-09,Break Room Supplies,Other/Non-Operating,Break Room Supplies,107.16,Check
+531,2026-02-09,Water & Sewer Utility,Occupancy Cost,Water & Sewer Utility,1567.86,Business Debit
+532,2026-02-10,Medical Supply Wholesaler,Cost of Services (Clinical Supplies),Medical Supply Wholesaler,53.66,Business Debit
+533,2026-02-11,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,162.5,Business Debit
+534,2026-02-11,Tax Prep Services,Professional Services,Tax Prep Services,1175.3,Cash
+535,2026-02-12,Injectable Supply Distributor,Cost of Services (Clinical Supplies),Injectable Supply Distributor,358.03,Cash
+536,2026-02-12,Search Ads Platform,Marketing & Growth,Search Ads Platform,318.43,Zelle
+537,2026-02-12,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,229.81,Credit Card
+538,2026-02-12,Injectable Supply Distributor,Cost of Services (Clinical Supplies),Injectable Supply Distributor,32.8,Zelle
+539,2026-02-12,Professional Certification Fee,Licensing & Compliance,Professional Certification Fee,177.13,Credit Card
+540,2026-02-13,Break Room Supplies,Other/Non-Operating,Break Room Supplies,284.19,Credit Card
+541,2026-02-13,Break Room Supplies,Other/Non-Operating,Break Room Supplies,102.99,Check
+542,2026-02-13,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,412.4,Zelle
+543,2026-02-14,Referral Program Payout,Marketing & Growth,Referral Program Payout,14.99,Cash
+544,2026-02-14,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,1706.76,Bank Transfer
+545,2026-02-14,Malpractice Insurance Premium,Insurance,Malpractice Insurance Premium,440.76,Credit Card
+546,2026-02-14,Break Room Supplies,Other/Non-Operating,Break Room Supplies,58.8,Bank Transfer
+547,2026-02-15,Miscellaneous Purchase,Other/Non-Operating,Miscellaneous Purchase,31.43,Credit Card
+548,2026-02-15,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,264.73,Credit Card
+549,2026-02-15,Tax Prep Services,Professional Services,Tax Prep Services,315.15,Cash
+550,2026-02-15,Injectable Supply Distributor,Cost of Services (Clinical Supplies),Injectable Supply Distributor,71.86,Check
+551,2026-02-16,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,1191.6,Business Debit
+552,2026-02-16,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,421.83,Business Debit
+553,2026-02-17,Professional Certification Fee,Licensing & Compliance,Professional Certification Fee,29.92,Zelle
+554,2026-02-18,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,261.99,Bank Transfer
+555,2026-02-18,Bank Monthly Fee,Banking & Financial Fees,Bank Monthly Fee,505.09,Business Debit
+556,2026-02-19,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,928.85,Zelle
+557,2026-02-19,Office Supply Co,Other/Non-Operating,Office Supply Co,5.39,Zelle
+558,2026-02-20,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,2143.25,Cash
+559,2026-02-20,Bank Monthly Fee,Banking & Financial Fees,Bank Monthly Fee,22.76,Bank Transfer
+560,2026-02-20,Social Ads Platform,Marketing & Growth,Social Ads Platform,17.57,Cash
+561,2026-02-21,Scheduling App Fee,Software & Technology,Scheduling App Fee,120.73,Business Debit
+562,2026-02-21,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,259.46,Bank Transfer
+563,2026-02-21,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,54.71,Business Debit
+564,2026-02-22,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,544.96,Credit Card
+565,2026-02-22,Bank Monthly Fee,Banking & Financial Fees,Bank Monthly Fee,8.48,Zelle
+566,2026-02-22,Office Supply Co,Other/Non-Operating,Office Supply Co,78.04,Check
+567,2026-02-22,Office Supply Co,Other/Non-Operating,Office Supply Co,75.17,Bank Transfer
+568,2026-02-23,Cloud Storage Plan,Software & Technology,Cloud Storage Plan,7.94,Zelle
+569,2026-02-23,Scheduling App Fee,Software & Technology,Scheduling App Fee,30.36,Business Debit
+570,2026-02-23,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,1062.3,Bank Transfer
+571,2026-02-24,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,138.54,Cash
+572,2026-02-25,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,580.7,Cash
+573,2026-02-25,Miscellaneous Purchase,Other/Non-Operating,Miscellaneous Purchase,119.48,Business Debit
+574,2026-02-25,Skincare Product Restock,Cost of Services (Clinical Supplies),Skincare Product Restock,625.65,Check
+575,2026-02-25,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,296.73,Credit Card
+576,2026-02-26,Social Ads Platform,Marketing & Growth,Social Ads Platform,7.78,Check
+577,2026-02-26,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,197.04,Credit Card
+578,2026-02-26,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,264.6,Zelle
+579,2026-02-26,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,1205.58,Bank Transfer
+580,2026-02-26,Referral Program Payout,Marketing & Growth,Referral Program Payout,13.31,Business Debit
+581,2026-02-26,General Store Purchase,Other/Non-Operating,General Store Purchase,53.94,Cash
+582,2026-02-26,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,447.39,Check
+583,2026-02-27,Disposable Clinic Supplies Co,Cost of Services (Clinical Supplies),Disposable Clinic Supplies Co,82.44,Cash
+584,2026-02-27,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,804.89,Zelle
+585,2026-02-27,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,125.2,Business Debit
+586,2026-02-27,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,1116.0,Zelle
+587,2026-02-27,Search Ads Platform,Marketing & Growth,Search Ads Platform,13.85,Zelle
+588,2026-02-27,Search Ads Platform,Marketing & Growth,Search Ads Platform,411.67,Credit Card
+589,2026-02-28,Small Tools Purchase,"Repairs, Maintenance & Small Equipment",Small Tools Purchase,25.48,Bank Transfer
+590,2026-02-28,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,209.23,Cash
+591,2026-02-28,Miscellaneous Purchase,Other/Non-Operating,Miscellaneous Purchase,12.92,Cash
+592,2026-02-28,Professional Certification Fee,Licensing & Compliance,Professional Certification Fee,8.63,Zelle
+593,2026-02-28,Equipment Loan Payment,Debt Services,Equipment Loan Payment,357.41,Cash
+594,2026-03-01,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,94.47,Cash
+595,2026-03-01,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,2217.23,Business Debit
+596,2026-03-01,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,295.55,Bank Transfer
+597,2026-03-01,Equipment Loan Payment,Debt Services,Equipment Loan Payment,262.47,Credit Card
+598,2026-03-02,Miscellaneous Purchase,Other/Non-Operating,Miscellaneous Purchase,322.39,Bank Transfer
+599,2026-03-02,Booking Software Subscription,Software & Technology,Booking Software Subscription,57.82,Cash
+600,2026-03-02,Office Supply Co,Other/Non-Operating,Office Supply Co,108.58,Credit Card
+601,2026-03-02,Disposable Clinic Supplies Co,Cost of Services (Clinical Supplies),Disposable Clinic Supplies Co,24.2,Business Debit
+602,2026-03-03,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,226.31,Check
+603,2026-03-04,Scheduling App Fee,Software & Technology,Scheduling App Fee,20.53,Bank Transfer
+604,2026-03-04,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,49.9,Bank Transfer
+605,2026-03-04,Small Tools Purchase,"Repairs, Maintenance & Small Equipment",Small Tools Purchase,39.15,Bank Transfer
+606,2026-03-05,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,286.63,Cash
+607,2026-03-05,State Business License Renewal,Licensing & Compliance,State Business License Renewal,32.38,Cash
+608,2026-03-05,Referral Program Payout,Marketing & Growth,Referral Program Payout,17.71,Credit Card
+609,2026-03-05,Line of Credit Interest,Debt Services,Line of Credit Interest,713.64,Bank Transfer
+610,2026-03-05,Disposable Clinic Supplies Co,Cost of Services (Clinical Supplies),Disposable Clinic Supplies Co,687.2,Business Debit
+611,2026-03-05,Referral Program Payout,Marketing & Growth,Referral Program Payout,57.11,Cash
+612,2026-03-05,Wire Transfer Fee,Banking & Financial Fees,Wire Transfer Fee,21.47,Cash
+613,2026-03-06,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,313.5,Credit Card
+614,2026-03-06,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,503.28,Zelle
+615,2026-03-06,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,102.06,Zelle
+616,2026-03-07,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,198.95,Business Debit
+617,2026-03-08,Water & Sewer Utility,Occupancy Cost,Water & Sewer Utility,260.24,Zelle
+618,2026-03-08,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,148.78,Cash
+619,2026-03-08,Search Ads Platform,Marketing & Growth,Search Ads Platform,19.07,Bank Transfer
+620,2026-03-08,Social Ads Platform,Marketing & Growth,Social Ads Platform,18.77,Zelle
+621,2026-03-09,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,103.4,Check
+622,2026-03-09,Injectable Supply Distributor,Cost of Services (Clinical Supplies),Injectable Supply Distributor,228.28,Business Debit
+623,2026-03-09,Break Room Supplies,Other/Non-Operating,Break Room Supplies,1051.24,Cash
+624,2026-03-09,Miscellaneous Purchase,Other/Non-Operating,Miscellaneous Purchase,77.12,Business Debit
+625,2026-03-09,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,267.55,Cash
+626,2026-03-10,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,895.74,Bank Transfer
+627,2026-03-10,Booking Software Subscription,Software & Technology,Booking Software Subscription,8.47,Check
+628,2026-03-11,Miscellaneous Purchase,Other/Non-Operating,Miscellaneous Purchase,43.97,Bank Transfer
+629,2026-03-11,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,210.44,Credit Card
+630,2026-03-12,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,886.23,Check
+631,2026-03-12,Skincare Product Restock,Cost of Services (Clinical Supplies),Skincare Product Restock,760.11,Credit Card
+632,2026-03-12,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,1013.84,Business Debit
+633,2026-03-12,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,211.25,Business Debit
+634,2026-03-12,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,206.67,Business Debit
+635,2026-03-12,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,352.33,Business Debit
+636,2026-03-13,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,152.97,Credit Card
+637,2026-03-13,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,271.37,Credit Card
+638,2026-03-13,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,242.58,Check
+639,2026-03-13,Water & Sewer Utility,Occupancy Cost,Water & Sewer Utility,650.57,Bank Transfer
+640,2026-03-13,Medical Supply Wholesaler,Cost of Services (Clinical Supplies),Medical Supply Wholesaler,765.75,Business Debit
+641,2026-03-14,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,153.17,Zelle
+642,2026-03-14,Social Ads Platform,Marketing & Growth,Social Ads Platform,24.8,Bank Transfer
+643,2026-03-14,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,372.41,Check
+644,2026-03-14,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,352.31,Bank Transfer
+645,2026-03-14,Search Ads Platform,Marketing & Growth,Search Ads Platform,9.26,Credit Card
+646,2026-03-15,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,282.53,Cash
+647,2026-03-15,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,176.11,Bank Transfer
+648,2026-03-16,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,294.62,Business Debit
+649,2026-03-16,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,129.31,Bank Transfer
+650,2026-03-17,Search Ads Platform,Marketing & Growth,Search Ads Platform,14.26,Credit Card
+651,2026-03-17,Wire Transfer Fee,Banking & Financial Fees,Wire Transfer Fee,267.4,Check
+652,2026-03-18,Social Ads Platform,Marketing & Growth,Social Ads Platform,694.66,Business Debit
+653,2026-03-18,Line of Credit Interest,Debt Services,Line of Credit Interest,281.0,Zelle
+654,2026-03-19,Local Print Promo Co,Marketing & Growth,Local Print Promo Co,22.31,Bank Transfer
+655,2026-03-19,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,208.84,Zelle
+656,2026-03-19,Office Supply Co,Other/Non-Operating,Office Supply Co,233.57,Credit Card
+657,2026-03-19,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,191.52,Bank Transfer
+658,2026-03-19,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,868.62,Zelle
+659,2026-03-19,Search Ads Platform,Marketing & Growth,Search Ads Platform,12.78,Credit Card
+660,2026-03-20,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,365.08,Bank Transfer
+661,2026-03-21,Miscellaneous Purchase,Other/Non-Operating,Miscellaneous Purchase,780.72,Business Debit
+662,2026-03-21,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,293.39,Check
+663,2026-03-21,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,112.13,Bank Transfer
+664,2026-03-21,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,1971.59,Check
+665,2026-03-21,Office Supply Co,Other/Non-Operating,Office Supply Co,59.01,Cash
+666,2026-03-21,Break Room Supplies,Other/Non-Operating,Break Room Supplies,2069.74,Business Debit
+667,2026-03-22,Referral Program Payout,Marketing & Growth,Referral Program Payout,6.11,Cash
+668,2026-03-22,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,1120.68,Credit Card
+669,2026-03-23,Miscellaneous Purchase,Other/Non-Operating,Miscellaneous Purchase,44.61,Business Debit
+670,2026-03-23,Equipment Loan Payment,Debt Services,Equipment Loan Payment,514.35,Check
+671,2026-03-23,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,31.37,Business Debit
+672,2026-03-23,Social Ads Platform,Marketing & Growth,Social Ads Platform,18.95,Bank Transfer
+673,2026-03-24,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,1114.35,Cash
+674,2026-03-24,Wire Transfer Fee,Banking & Financial Fees,Wire Transfer Fee,556.94,Business Debit
+675,2026-03-24,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,23.43,Business Debit
+676,2026-03-25,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,932.96,Zelle
+677,2026-03-25,Social Ads Platform,Marketing & Growth,Social Ads Platform,106.68,Check
+678,2026-03-25,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,368.29,Credit Card
+679,2026-03-25,Referral Program Payout,Marketing & Growth,Referral Program Payout,13.1,Zelle
+680,2026-03-25,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,381.18,Credit Card
+681,2026-03-26,Miscellaneous Purchase,Other/Non-Operating,Miscellaneous Purchase,734.5,Business Debit
+682,2026-03-27,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,299.92,Zelle
+683,2026-03-27,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,266.6,Cash
+684,2026-03-28,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,1214.69,Cash
+685,2026-03-30,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,1735.79,Bank Transfer
+686,2026-03-30,Booking Software Subscription,Software & Technology,Booking Software Subscription,59.03,Credit Card
+687,2026-03-31,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,145.47,Credit Card
+688,2026-03-31,Injectable Supply Distributor,Cost of Services (Clinical Supplies),Injectable Supply Distributor,550.7,Cash
+689,2026-04-01,Financing Payment,Debt Services,Financing Payment,1741.32,Credit Card
+690,2026-04-01,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,300.5,Business Debit
+691,2026-04-01,Skincare Product Restock,Cost of Services (Clinical Supplies),Skincare Product Restock,55.66,Credit Card
+692,2026-04-01,Break Room Supplies,Other/Non-Operating,Break Room Supplies,527.67,Credit Card
+693,2026-04-02,Facility Repair Co,"Repairs, Maintenance & Small Equipment",Facility Repair Co,49.06,Check
+694,2026-04-02,Search Ads Platform,Marketing & Growth,Search Ads Platform,16.87,Cash
+695,2026-04-03,Water & Sewer Utility,Occupancy Cost,Water & Sewer Utility,295.15,Check
+696,2026-04-03,Miscellaneous Purchase,Other/Non-Operating,Miscellaneous Purchase,122.91,Check
+697,2026-04-03,Break Room Supplies,Other/Non-Operating,Break Room Supplies,112.63,Check
+698,2026-04-03,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,203.18,Business Debit
+699,2026-04-04,Booking Software Subscription,Software & Technology,Booking Software Subscription,24.74,Credit Card
+700,2026-04-04,Merchant Processing Fee,Banking & Financial Fees,Merchant Processing Fee,13.36,Cash
+701,2026-04-05,Electric Utility Co,Occupancy Cost,Electric Utility Co,810.65,Business Debit
+702,2026-04-05,Wire Transfer Fee,Banking & Financial Fees,Wire Transfer Fee,494.0,Business Debit
+703,2026-04-06,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,335.6,Bank Transfer
+704,2026-04-06,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,1212.37,Cash
+705,2026-04-07,CAM Fee,Occupancy Cost,CAM Fee,708.98,Zelle
+706,2026-04-07,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,179.08,Bank Transfer
+707,2026-04-07,Scheduling App Fee,Software & Technology,Scheduling App Fee,12.05,Bank Transfer
+708,2026-04-07,Referral Program Payout,Marketing & Growth,Referral Program Payout,5.05,Credit Card
+709,2026-04-08,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,362.75,Check
+710,2026-04-08,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,359.12,Check
+711,2026-04-08,Break Room Supplies,Other/Non-Operating,Break Room Supplies,2227.07,Business Debit
+712,2026-04-08,Medical Supply Wholesaler,Cost of Services (Clinical Supplies),Medical Supply Wholesaler,295.13,Credit Card
+713,2026-04-08,Cloud Storage Plan,Software & Technology,Cloud Storage Plan,78.02,Zelle
+714,2026-04-09,Bank Monthly Fee,Banking & Financial Fees,Bank Monthly Fee,29.51,Cash
+715,2026-04-10,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,222.22,Check
+716,2026-04-10,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,105.7,Cash
+717,2026-04-11,General Store Purchase,Other/Non-Operating,General Store Purchase,102.37,Check
+718,2026-04-12,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,506.08,Business Debit
+719,2026-04-13,Merchant Processing Fee,Banking & Financial Fees,Merchant Processing Fee,17.09,Check
+720,2026-04-13,Professional Certification Fee,Licensing & Compliance,Professional Certification Fee,1714.19,Bank Transfer
+721,2026-04-13,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,805.78,Bank Transfer
+722,2026-04-13,Merchant Processing Fee,Banking & Financial Fees,Merchant Processing Fee,179.39,Zelle
+723,2026-04-13,Miscellaneous Purchase,Other/Non-Operating,Miscellaneous Purchase,127.65,Check
+724,2026-04-14,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,1743.43,Zelle
+725,2026-04-14,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,814.5,Bank Transfer
+726,2026-04-14,Office Supply Co,Other/Non-Operating,Office Supply Co,503.69,Bank Transfer
+727,2026-04-15,Injectable Supply Distributor,Cost of Services (Clinical Supplies),Injectable Supply Distributor,68.23,Cash
+728,2026-04-15,Miscellaneous Purchase,Other/Non-Operating,Miscellaneous Purchase,1575.42,Credit Card
+729,2026-04-15,Water & Sewer Utility,Occupancy Cost,Water & Sewer Utility,203.22,Cash
+730,2026-04-16,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,107.87,Cash
+731,2026-04-16,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,34.29,Credit Card
+732,2026-04-16,Miscellaneous Purchase,Other/Non-Operating,Miscellaneous Purchase,30.07,Bank Transfer
+733,2026-04-16,Financing Payment,Debt Services,Financing Payment,212.06,Cash
+734,2026-04-17,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,20.94,Credit Card
+735,2026-04-17,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,188.54,Bank Transfer
+736,2026-04-17,Break Room Supplies,Other/Non-Operating,Break Room Supplies,702.47,Credit Card
+737,2026-04-17,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,1091.51,Cash
+738,2026-04-17,Point-of-Sale Software,Software & Technology,Point-of-Sale Software,6.74,Credit Card
+739,2026-04-18,Line of Credit Interest,Debt Services,Line of Credit Interest,946.11,Credit Card
+740,2026-04-18,Point-of-Sale Software,Software & Technology,Point-of-Sale Software,17.4,Business Debit
+741,2026-04-18,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,379.57,Zelle
+742,2026-04-19,Search Ads Platform,Marketing & Growth,Search Ads Platform,16.93,Cash
+743,2026-04-20,Medical Supply Wholesaler,Cost of Services (Clinical Supplies),Medical Supply Wholesaler,95.37,Credit Card
+744,2026-04-21,Referral Program Payout,Marketing & Growth,Referral Program Payout,295.66,Check
+745,2026-04-21,Water & Sewer Utility,Occupancy Cost,Water & Sewer Utility,93.6,Cash
+746,2026-04-21,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,250.94,Zelle
+747,2026-04-21,Equipment Loan Payment,Debt Services,Equipment Loan Payment,40.24,Check
+748,2026-04-21,Injectable Supply Distributor,Cost of Services (Clinical Supplies),Injectable Supply Distributor,161.86,Credit Card
+749,2026-04-21,General Store Purchase,Other/Non-Operating,General Store Purchase,57.11,Bank Transfer
+750,2026-04-21,Electric Utility Co,Occupancy Cost,Electric Utility Co,142.12,Cash
+751,2026-04-21,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,385.97,Cash
+752,2026-04-21,Local Print Promo Co,Marketing & Growth,Local Print Promo Co,811.58,Bank Transfer
+753,2026-04-22,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,110.49,Bank Transfer
+754,2026-04-22,Equipment Loan Payment,Debt Services,Equipment Loan Payment,624.97,Cash
+755,2026-04-23,Search Ads Platform,Marketing & Growth,Search Ads Platform,8.77,Business Debit
+756,2026-04-23,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,354.37,Zelle
+757,2026-04-23,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,80.1,Check
+758,2026-04-23,Electric Utility Co,Occupancy Cost,Electric Utility Co,998.4,Business Debit
+759,2026-04-24,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,671.82,Credit Card
+760,2026-04-24,Scheduling App Fee,Software & Technology,Scheduling App Fee,10.43,Credit Card
+761,2026-04-24,Equipment Loan Payment,Debt Services,Equipment Loan Payment,214.43,Business Debit
+762,2026-04-25,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,1852.37,Business Debit
+763,2026-04-25,Financing Payment,Debt Services,Financing Payment,64.87,Zelle
+764,2026-04-25,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,351.6,Check
+765,2026-04-25,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,881.08,Credit Card
+766,2026-04-26,Office Supply Co,Other/Non-Operating,Office Supply Co,115.07,Credit Card
+767,2026-04-26,Facility Repair Co,"Repairs, Maintenance & Small Equipment",Facility Repair Co,37.22,Check
+768,2026-04-27,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,307.04,Cash
+769,2026-04-27,Injectable Supply Distributor,Cost of Services (Clinical Supplies),Injectable Supply Distributor,760.04,Check
+770,2026-04-27,Office Supply Co,Other/Non-Operating,Office Supply Co,96.49,Bank Transfer
+771,2026-04-27,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,36.58,Business Debit
+772,2026-04-28,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,742.97,Zelle
+773,2026-04-28,Social Ads Platform,Marketing & Growth,Social Ads Platform,29.7,Check
+774,2026-04-28,General Store Purchase,Other/Non-Operating,General Store Purchase,132.23,Bank Transfer
+775,2026-04-28,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,221.93,Bank Transfer
+776,2026-04-29,Scheduling App Fee,Software & Technology,Scheduling App Fee,4.19,Zelle
+777,2026-04-29,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,173.24,Check
+778,2026-04-29,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,134.75,Check
+779,2026-04-29,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,350.66,Check
+780,2026-04-30,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,161.64,Business Debit
+781,2026-04-30,General Store Purchase,Other/Non-Operating,General Store Purchase,51.06,Credit Card
+782,2026-05-01,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,372.44,Business Debit
+783,2026-05-01,Miscellaneous Purchase,Other/Non-Operating,Miscellaneous Purchase,1041.46,Bank Transfer
+784,2026-05-01,State Business License Renewal,Licensing & Compliance,State Business License Renewal,56.53,Check
+785,2026-05-02,Property Insurance Premium,Insurance,Property Insurance Premium,200.38,Zelle
+786,2026-05-02,Search Ads Platform,Marketing & Growth,Search Ads Platform,16.73,Credit Card
+787,2026-05-02,Financing Payment,Debt Services,Financing Payment,156.03,Zelle
+788,2026-05-02,Social Ads Platform,Marketing & Growth,Social Ads Platform,11.52,Business Debit
+789,2026-05-02,Medical Supply Wholesaler,Cost of Services (Clinical Supplies),Medical Supply Wholesaler,111.45,Cash
+790,2026-05-02,Wire Transfer Fee,Banking & Financial Fees,Wire Transfer Fee,31.96,Zelle
+791,2026-05-03,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,141.34,Cash
+792,2026-05-03,General Store Purchase,Other/Non-Operating,General Store Purchase,1015.09,Zelle
+793,2026-05-03,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,116.8,Check
+794,2026-05-04,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,2401.57,Bank Transfer
+795,2026-05-04,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,694.52,Cash
+796,2026-05-04,Facility Repair Co,"Repairs, Maintenance & Small Equipment",Facility Repair Co,14.57,Check
+797,2026-05-06,Referral Program Payout,Marketing & Growth,Referral Program Payout,24.37,Credit Card
+798,2026-05-06,Bookkeeping Services,Professional Services,Bookkeeping Services,336.4,Check
+799,2026-05-07,Local Print Promo Co,Marketing & Growth,Local Print Promo Co,20.25,Bank Transfer
+800,2026-05-07,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,57.45,Check
+801,2026-05-08,Facility Repair Co,"Repairs, Maintenance & Small Equipment",Facility Repair Co,49.32,Cash
+802,2026-05-08,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,78.09,Business Debit
+803,2026-05-08,Small Tools Purchase,"Repairs, Maintenance & Small Equipment",Small Tools Purchase,59.45,Credit Card
+804,2026-05-08,Booking Software Subscription,Software & Technology,Booking Software Subscription,18.44,Zelle
+805,2026-05-09,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,258.03,Cash
+806,2026-05-10,Miscellaneous Purchase,Other/Non-Operating,Miscellaneous Purchase,41.8,Business Debit
+807,2026-05-10,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,168.92,Zelle
+808,2026-05-10,Suite Rent - Main Location,Occupancy Cost,Suite Rent - Main Location,705.69,Cash
+809,2026-05-10,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,249.45,Check
+810,2026-05-10,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,342.75,Bank Transfer
+811,2026-05-10,CAM Fee,Occupancy Cost,CAM Fee,515.14,Bank Transfer
+812,2026-05-11,Tax Prep Services,Professional Services,Tax Prep Services,249.45,Business Debit
+813,2026-05-11,Skincare Product Restock,Cost of Services (Clinical Supplies),Skincare Product Restock,54.87,Cash
+814,2026-05-11,Merchant Processing Fee,Banking & Financial Fees,Merchant Processing Fee,324.89,Check
+815,2026-05-12,Search Ads Platform,Marketing & Growth,Search Ads Platform,10.78,Zelle
+816,2026-05-12,Merchant Processing Fee,Banking & Financial Fees,Merchant Processing Fee,15.71,Zelle
+817,2026-05-12,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,366.04,Bank Transfer
+818,2026-05-13,Legal Consultation,Professional Services,Legal Consultation,1071.89,Business Debit
+819,2026-05-14,Office Supply Co,Other/Non-Operating,Office Supply Co,109.9,Credit Card
+820,2026-05-14,Line of Credit Interest,Debt Services,Line of Credit Interest,759.97,Credit Card
+821,2026-05-15,Professional Certification Fee,Licensing & Compliance,Professional Certification Fee,18.24,Credit Card
+822,2026-05-15,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,302.86,Credit Card
+823,2026-05-15,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,257.21,Cash
+824,2026-05-15,Point-of-Sale Software,Software & Technology,Point-of-Sale Software,16.4,Check
+825,2026-05-16,Disposable Clinic Supplies Co,Cost of Services (Clinical Supplies),Disposable Clinic Supplies Co,92.48,Credit Card
+826,2026-05-16,Office Supply Co,Other/Non-Operating,Office Supply Co,134.64,Zelle
+827,2026-05-16,Miscellaneous Purchase,Other/Non-Operating,Miscellaneous Purchase,113.5,Business Debit
+828,2026-05-16,Skincare Product Restock,Cost of Services (Clinical Supplies),Skincare Product Restock,677.25,Business Debit
+829,2026-05-16,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,335.28,Bank Transfer
+830,2026-05-16,Local Print Promo Co,Marketing & Growth,Local Print Promo Co,313.14,Zelle
+831,2026-05-17,Referral Program Payout,Marketing & Growth,Referral Program Payout,323.4,Cash
+832,2026-05-17,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,678.73,Business Debit
+833,2026-05-17,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,1043.45,Bank Transfer
+834,2026-05-17,Search Ads Platform,Marketing & Growth,Search Ads Platform,332.12,Credit Card
+835,2026-05-18,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,651.22,Credit Card
+836,2026-05-18,Medical Supply Wholesaler,Cost of Services (Clinical Supplies),Medical Supply Wholesaler,77.05,Cash
+837,2026-05-19,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,237.0,Cash
+838,2026-05-19,Social Ads Platform,Marketing & Growth,Social Ads Platform,10.62,Cash
+839,2026-05-20,Medical Supply Wholesaler,Cost of Services (Clinical Supplies),Medical Supply Wholesaler,65.57,Bank Transfer
+840,2026-05-20,Miscellaneous Purchase,Other/Non-Operating,Miscellaneous Purchase,94.09,Zelle
+841,2026-05-20,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,332.44,Business Debit
+842,2026-05-21,Merchant Processing Fee,Banking & Financial Fees,Merchant Processing Fee,36.1,Credit Card
+843,2026-05-21,Skincare Product Restock,Cost of Services (Clinical Supplies),Skincare Product Restock,89.62,Business Debit
+844,2026-05-21,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,253.65,Check
+845,2026-05-21,Social Ads Platform,Marketing & Growth,Social Ads Platform,20.5,Check
+846,2026-05-21,Booking Software Subscription,Software & Technology,Booking Software Subscription,6.28,Bank Transfer
+847,2026-05-21,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,176.63,Cash
+848,2026-05-22,Wire Transfer Fee,Banking & Financial Fees,Wire Transfer Fee,17.94,Business Debit
+849,2026-05-22,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,22.15,Check
+850,2026-05-22,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,369.73,Business Debit
+851,2026-05-23,Search Ads Platform,Marketing & Growth,Search Ads Platform,17.56,Business Debit
+852,2026-05-23,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,76.48,Business Debit
+853,2026-05-23,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,720.22,Credit Card
+854,2026-05-23,Break Room Supplies,Other/Non-Operating,Break Room Supplies,92.43,Check
+855,2026-05-25,Social Ads Platform,Marketing & Growth,Social Ads Platform,7.67,Business Debit
+856,2026-05-25,Suite Rent - Main Location,Occupancy Cost,Suite Rent - Main Location,609.98,Zelle
+857,2026-05-26,Break Room Supplies,Other/Non-Operating,Break Room Supplies,147.19,Credit Card
+858,2026-05-26,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,100.05,Zelle
+859,2026-05-26,Booking Software Subscription,Software & Technology,Booking Software Subscription,63.9,Zelle
+860,2026-05-26,Miscellaneous Purchase,Other/Non-Operating,Miscellaneous Purchase,121.86,Business Debit
+861,2026-05-26,Injectable Supply Distributor,Cost of Services (Clinical Supplies),Injectable Supply Distributor,109.5,Bank Transfer
+862,2026-05-27,Search Ads Platform,Marketing & Growth,Search Ads Platform,7.11,Business Debit
+863,2026-05-27,Scheduling App Fee,Software & Technology,Scheduling App Fee,14.25,Credit Card
+864,2026-05-28,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,515.73,Business Debit
+865,2026-05-28,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,260.88,Zelle
+866,2026-05-28,Medical Supply Wholesaler,Cost of Services (Clinical Supplies),Medical Supply Wholesaler,46.08,Zelle
+867,2026-05-28,Social Ads Platform,Marketing & Growth,Social Ads Platform,10.24,Bank Transfer
+868,2026-05-29,Search Ads Platform,Marketing & Growth,Search Ads Platform,22.22,Cash
+869,2026-05-29,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,2534.28,Credit Card
+870,2026-05-30,Disposable Clinic Supplies Co,Cost of Services (Clinical Supplies),Disposable Clinic Supplies Co,87.16,Cash
+871,2026-05-30,Equipment Tune-Up Service,"Repairs, Maintenance & Small Equipment",Equipment Tune-Up Service,42.18,Credit Card
+872,2026-05-31,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,515.45,Credit Card
+873,2026-05-31,Social Ads Platform,Marketing & Growth,Social Ads Platform,13.7,Zelle
+874,2026-06-01,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,334.56,Business Debit
+875,2026-06-01,Booking Software Subscription,Software & Technology,Booking Software Subscription,160.52,Credit Card
+876,2026-06-02,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,185.61,Cash
+877,2026-06-02,Office Supply Co,Other/Non-Operating,Office Supply Co,130.72,Cash
+878,2026-06-02,Local Print Promo Co,Marketing & Growth,Local Print Promo Co,12.85,Bank Transfer
+879,2026-06-03,General Store Purchase,Other/Non-Operating,General Store Purchase,118.39,Zelle
+880,2026-06-04,Financing Payment,Debt Services,Financing Payment,145.69,Business Debit
+881,2026-06-05,Financing Payment,Debt Services,Financing Payment,296.84,Zelle
+882,2026-06-05,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,51.14,Credit Card
+883,2026-06-06,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,75.06,Bank Transfer
+884,2026-06-07,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,502.08,Cash
+885,2026-06-07,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,4888.61,Zelle
+886,2026-06-08,Line of Credit Interest,Debt Services,Line of Credit Interest,857.42,Check
+887,2026-06-08,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,214.96,Zelle
+888,2026-06-08,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,1086.72,Check
+889,2026-06-09,Break Room Supplies,Other/Non-Operating,Break Room Supplies,129.45,Check
+890,2026-06-10,Bank Monthly Fee,Banking & Financial Fees,Bank Monthly Fee,150.67,Check
+891,2026-06-10,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,2255.21,Cash
+892,2026-06-11,Break Room Supplies,Other/Non-Operating,Break Room Supplies,129.46,Business Debit
+893,2026-06-11,Local Print Promo Co,Marketing & Growth,Local Print Promo Co,18.44,Check
+894,2026-06-11,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,84.26,Zelle
+895,2026-06-12,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,840.29,Business Debit
+896,2026-06-12,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,168.22,Bank Transfer
+897,2026-06-13,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,201.78,Credit Card
+898,2026-06-13,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,250.37,Check
+899,2026-06-14,Miscellaneous Purchase,Other/Non-Operating,Miscellaneous Purchase,110.98,Check
+900,2026-06-14,Legal Consultation,Professional Services,Legal Consultation,331.47,Credit Card
+901,2026-06-14,Break Room Supplies,Other/Non-Operating,Break Room Supplies,117.09,Business Debit
+902,2026-06-14,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,1168.2,Zelle
+903,2026-06-15,Local Permit Office,Licensing & Compliance,Local Permit Office,21.99,Zelle
+904,2026-06-15,Point-of-Sale Software,Software & Technology,Point-of-Sale Software,6.02,Bank Transfer
+905,2026-06-15,Financing Payment,Debt Services,Financing Payment,39.95,Check
+906,2026-06-16,Break Room Supplies,Other/Non-Operating,Break Room Supplies,20.45,Bank Transfer
+907,2026-06-16,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,220.15,Check
+908,2026-06-17,General Liability Policy,Insurance,General Liability Policy,63.11,Zelle
+909,2026-06-17,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,38.84,Check
+910,2026-06-17,Suite Rent - Main Location,Occupancy Cost,Suite Rent - Main Location,534.15,Zelle
+911,2026-06-17,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,180.55,Credit Card
+912,2026-06-17,Miscellaneous Purchase,Other/Non-Operating,Miscellaneous Purchase,77.26,Bank Transfer
+913,2026-06-17,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,1027.45,Cash
+914,2026-06-17,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,214.72,Cash
+915,2026-06-17,Booking Software Subscription,Software & Technology,Booking Software Subscription,40.39,Check
+916,2026-06-18,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,180.51,Business Debit
+917,2026-06-18,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,249.02,Bank Transfer
+918,2026-06-19,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,896.26,Zelle
+919,2026-06-19,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,107.34,Zelle
+920,2026-06-19,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,282.2,Business Debit
+921,2026-06-20,Bank Monthly Fee,Banking & Financial Fees,Bank Monthly Fee,1424.04,Credit Card
+922,2026-06-20,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,44.06,Bank Transfer
+923,2026-06-20,Financing Payment,Debt Services,Financing Payment,103.64,Credit Card
+924,2026-06-20,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,120.26,Bank Transfer
+925,2026-06-20,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,108.31,Zelle
+926,2026-06-21,Water & Sewer Utility,Occupancy Cost,Water & Sewer Utility,539.48,Credit Card
+927,2026-06-21,Malpractice Insurance Premium,Insurance,Malpractice Insurance Premium,40.98,Check
+928,2026-06-21,Scheduling App Fee,Software & Technology,Scheduling App Fee,12.44,Business Debit
+929,2026-06-21,Equipment Loan Payment,Debt Services,Equipment Loan Payment,788.58,Cash
+930,2026-06-22,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,1204.82,Business Debit
+931,2026-06-22,Local Print Promo Co,Marketing & Growth,Local Print Promo Co,366.76,Check
+932,2026-06-22,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,111.48,Credit Card
+933,2026-06-23,Office Supply Co,Other/Non-Operating,Office Supply Co,27.28,Business Debit
+934,2026-06-23,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,476.66,Zelle
+935,2026-06-24,Skincare Product Restock,Cost of Services (Clinical Supplies),Skincare Product Restock,111.48,Zelle
+936,2026-06-24,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,92.6,Check
+937,2026-06-24,Search Ads Platform,Marketing & Growth,Search Ads Platform,12.91,Credit Card
+938,2026-06-24,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,2107.01,Business Debit
+939,2026-06-25,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,1843.86,Credit Card
+940,2026-06-25,Suite Rent - Main Location,Occupancy Cost,Suite Rent - Main Location,824.01,Credit Card
+941,2026-06-25,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,155.49,Bank Transfer
+942,2026-06-25,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,268.02,Cash
+943,2026-06-25,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,608.9,Zelle
+944,2026-06-26,Skincare Product Restock,Cost of Services (Clinical Supplies),Skincare Product Restock,469.45,Credit Card
+945,2026-06-26,Break Room Supplies,Other/Non-Operating,Break Room Supplies,107.15,Check
+946,2026-06-27,Break Room Supplies,Other/Non-Operating,Break Room Supplies,104.93,Credit Card
+947,2026-06-27,Local Print Promo Co,Marketing & Growth,Local Print Promo Co,22.96,Zelle
+948,2026-06-27,CAM Fee,Occupancy Cost,CAM Fee,242.93,Bank Transfer
+949,2026-06-27,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,205.6,Bank Transfer
+950,2026-06-27,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,764.16,Bank Transfer
+951,2026-06-27,General Store Purchase,Other/Non-Operating,General Store Purchase,738.2,Bank Transfer
+952,2026-06-27,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,584.88,Zelle
+953,2026-06-27,Local Permit Office,Licensing & Compliance,Local Permit Office,25.05,Check
+954,2026-06-28,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,320.71,Credit Card
+955,2026-06-28,CAM Fee,Occupancy Cost,CAM Fee,829.2,Credit Card
+956,2026-06-28,Search Ads Platform,Marketing & Growth,Search Ads Platform,16.26,Credit Card
+957,2026-06-28,Skincare Product Restock,Cost of Services (Clinical Supplies),Skincare Product Restock,57.44,Cash
+958,2026-06-28,Equipment Loan Payment,Debt Services,Equipment Loan Payment,114.1,Credit Card
+959,2026-06-29,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,71.02,Bank Transfer
+960,2026-06-30,General Store Purchase,Other/Non-Operating,General Store Purchase,130.31,Check
+961,2026-07-01,Scheduling App Fee,Software & Technology,Scheduling App Fee,11.88,Bank Transfer
+962,2026-07-01,Miscellaneous Purchase,Other/Non-Operating,Miscellaneous Purchase,261.46,Cash
+963,2026-07-01,CAM Fee,Occupancy Cost,CAM Fee,1001.08,Zelle
+964,2026-07-02,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,163.06,Cash
+965,2026-07-03,Social Ads Platform,Marketing & Growth,Social Ads Platform,19.76,Check
+966,2026-07-04,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,268.28,Credit Card
+967,2026-07-04,General Store Purchase,Other/Non-Operating,General Store Purchase,5.86,Cash
+968,2026-07-05,Scheduling App Fee,Software & Technology,Scheduling App Fee,6.08,Bank Transfer
+969,2026-07-05,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,2600.86,Zelle
+970,2026-07-05,Equipment Tune-Up Service,"Repairs, Maintenance & Small Equipment",Equipment Tune-Up Service,47.94,Credit Card
+971,2026-07-05,Disposable Clinic Supplies Co,Cost of Services (Clinical Supplies),Disposable Clinic Supplies Co,39.47,Bank Transfer
+972,2026-07-05,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,299.7,Zelle
+973,2026-07-05,Financing Payment,Debt Services,Financing Payment,321.22,Cash
+974,2026-07-06,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,936.61,Zelle
+975,2026-07-06,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,993.91,Check
+976,2026-07-06,Wire Transfer Fee,Banking & Financial Fees,Wire Transfer Fee,2.24,Cash
+977,2026-07-06,Break Room Supplies,Other/Non-Operating,Break Room Supplies,53.99,Zelle
+978,2026-07-06,Cloud Storage Plan,Software & Technology,Cloud Storage Plan,10.23,Business Debit
+979,2026-07-07,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,368.06,Credit Card
+980,2026-07-08,Financing Payment,Debt Services,Financing Payment,804.55,Cash
+981,2026-07-08,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,166.88,Check
+982,2026-07-08,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,638.27,Credit Card
+983,2026-07-09,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,606.78,Cash
+984,2026-07-09,Cloud Storage Plan,Software & Technology,Cloud Storage Plan,60.3,Credit Card
+985,2026-07-10,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,1186.25,Credit Card
+986,2026-07-10,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,149.06,Credit Card
+987,2026-07-10,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,152.61,Credit Card
+988,2026-07-11,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,872.5,Zelle
+989,2026-07-12,Merchant Processing Fee,Banking & Financial Fees,Merchant Processing Fee,22.92,Check
+990,2026-07-13,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,846.38,Cash
+991,2026-07-13,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,46.96,Check
+992,2026-07-15,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,43.19,Business Debit
+993,2026-07-15,Injectable Supply Distributor,Cost of Services (Clinical Supplies),Injectable Supply Distributor,53.36,Cash
+994,2026-07-15,Miscellaneous Purchase,Other/Non-Operating,Miscellaneous Purchase,54.41,Cash
+995,2026-07-15,Office Supply Co,Other/Non-Operating,Office Supply Co,140.52,Cash
+996,2026-07-15,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,862.56,Credit Card
+997,2026-07-15,Cloud Storage Plan,Software & Technology,Cloud Storage Plan,69.5,Zelle
+998,2026-07-15,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,243.51,Cash
+999,2026-07-16,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,1020.24,Credit Card
+1000,2026-07-17,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,273.82,Credit Card
+1001,2026-07-17,Local Permit Office,Licensing & Compliance,Local Permit Office,39.37,Cash
+1002,2026-07-17,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,300.43,Bank Transfer
+1003,2026-07-17,Booking Software Subscription,Software & Technology,Booking Software Subscription,74.45,Zelle
+1004,2026-07-17,Line of Credit Interest,Debt Services,Line of Credit Interest,232.05,Bank Transfer
+1005,2026-07-18,Search Ads Platform,Marketing & Growth,Search Ads Platform,19.09,Cash
+1006,2026-07-18,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,116.56,Credit Card
+1007,2026-07-18,Wire Transfer Fee,Banking & Financial Fees,Wire Transfer Fee,5.6,Check
+1008,2026-07-18,Line of Credit Interest,Debt Services,Line of Credit Interest,277.14,Credit Card
+1009,2026-07-18,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,116.35,Business Debit
+1010,2026-07-19,Disposable Clinic Supplies Co,Cost of Services (Clinical Supplies),Disposable Clinic Supplies Co,33.3,Bank Transfer
+1011,2026-07-20,General Store Purchase,Other/Non-Operating,General Store Purchase,70.24,Cash
+1012,2026-07-20,Payroll Tax Deposit,Payroll & Labor,Payroll Tax Deposit,459.56,Bank Transfer
+1013,2026-07-20,Local Print Promo Co,Marketing & Growth,Local Print Promo Co,21.94,Check
+1014,2026-07-20,Break Room Supplies,Other/Non-Operating,Break Room Supplies,124.1,Check
+1015,2026-07-20,Miscellaneous Purchase,Other/Non-Operating,Miscellaneous Purchase,472.97,Check
+1016,2026-07-20,Property Insurance Premium,Insurance,Property Insurance Premium,78.75,Check
+1017,2026-07-20,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,181.83,Zelle
+1018,2026-07-21,Line of Credit Interest,Debt Services,Line of Credit Interest,372.43,Business Debit
+1019,2026-07-21,Break Room Supplies,Other/Non-Operating,Break Room Supplies,91.81,Business Debit
+1020,2026-07-22,Referral Program Payout,Marketing & Growth,Referral Program Payout,6.42,Business Debit
+1021,2026-07-22,Water & Sewer Utility,Occupancy Cost,Water & Sewer Utility,453.78,Check
+1022,2026-07-22,Break Room Supplies,Other/Non-Operating,Break Room Supplies,130.81,Zelle
+1023,2026-07-23,Medical Supply Wholesaler,Cost of Services (Clinical Supplies),Medical Supply Wholesaler,115.17,Zelle
+1024,2026-07-23,Medical Supply Wholesaler,Cost of Services (Clinical Supplies),Medical Supply Wholesaler,110.33,Cash
+1025,2026-07-23,Staff Payroll Run,Payroll & Labor,Staff Payroll Run,1104.35,Cash
+1026,2026-07-23,Miscellaneous Purchase,Other/Non-Operating,Miscellaneous Purchase,93.93,Bank Transfer
+1027,2026-07-23,Cloud Storage Plan,Software & Technology,Cloud Storage Plan,91.75,Zelle
+1028,2026-07-24,Merchant Processing Fee,Banking & Financial Fees,Merchant Processing Fee,13.36,Bank Transfer
+1029,2026-07-24,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,121.42,Zelle
+1030,2026-07-25,Suite Rent - Main Location,Occupancy Cost,Suite Rent - Main Location,996.33,Cash
+1031,2026-07-25,Referral Program Payout,Marketing & Growth,Referral Program Payout,203.62,Credit Card
+1032,2026-07-26,Line of Credit Interest,Debt Services,Line of Credit Interest,142.72,Credit Card
+1033,2026-07-26,Wire Transfer Fee,Banking & Financial Fees,Wire Transfer Fee,13.37,Check
+1034,2026-07-26,Search Ads Platform,Marketing & Growth,Search Ads Platform,122.27,Credit Card
+1035,2026-07-27,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,261.36,Check
+1036,2026-07-27,Owner Draw,Owner Distribution (Non-Operating),Owner Draw,135.66,Check
+1037,2026-07-28,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,244.6,Bank Transfer
+1038,2026-07-29,Office Supply Co,Other/Non-Operating,Office Supply Co,33.43,Business Debit
+1039,2026-07-29,Injectable Supply Distributor,Cost of Services (Clinical Supplies),Injectable Supply Distributor,90.12,Check
+1040,2026-07-30,Contract Esthetician Pay,Payroll & Labor,Contract Esthetician Pay,217.89,Check
+1041,2026-07-30,Small Tools Purchase,"Repairs, Maintenance & Small Equipment",Small Tools Purchase,42.88,Check
+1042,2026-07-31,General Store Purchase,Other/Non-Operating,General Store Purchase,299.46,Business Debit
+1043,2026-07-31,Miscellaneous Purchase,Other/Non-Operating,Miscellaneous Purchase,1125.18,Check
+1044,2026-07-31,Front Desk Payroll,Payroll & Labor,Front Desk Payroll,977.39,Zelle

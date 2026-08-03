@@ -1,0 +1,181 @@
+lead_id,date_received,source,service_interest,message_type,discount_requested,priority_score,priority_label,status,notes
+1,2025-08-01,Website Contact Form,Laser Hair Removal,Availability question,No,60,Medium,Booked,Asked what times are open this week for Laser Hair Removal.
+2,2025-08-02,Fresha,Laser Hair Removal,Price or cost question,No,45,Medium,Booked,Asked how much Laser Hair Removal costs.
+3,2025-08-07,Meta/Instagram/Facebook DMs,Body Contouring/Wellness,Price or cost question,Yes,75,High,No Response,Asked how much Body Contouring/Wellness costs.
+4,2025-08-08,Website Contact Form,Skin Treatments/Facials,Price or cost question,Yes,75,High,New,Asked how much Skin Treatments/Facials costs.
+5,2025-08-09,Meta/Instagram/Facebook DMs,Laser Hair Removal,Availability question,No,60,Medium,Booked,Asked what times are open this week for Laser Hair Removal.
+6,2025-08-10,Meta/Instagram/Facebook DMs,Laser Hair Removal,Price or cost question,No,45,Medium,No Response,Asked how much Laser Hair Removal costs.
+7,2025-08-12,Fresha,Injectables (Botox/Filler),General service question,No,25,Low,No Response,Asked general questions about Injectables (Botox/Filler).
+8,2025-08-15,Fresha,Injectables (Botox/Filler),Availability question,No,60,Medium,Booked,Asked what times are open this week for Injectables (Botox/Filler).
+9,2025-08-15,Fresha,Skin Treatments/Facials,Price or cost question,Yes,75,High,Contacted,Asked how much Skin Treatments/Facials costs.
+10,2025-08-17,Meta/Instagram/Facebook DMs,Laser Hair Removal,Price or cost question,No,45,Medium,New,Asked how much Laser Hair Removal costs.
+11,2025-08-18,Fresha,Skin Treatments/Facials,General service question,Yes,55,Medium,No Response,Asked general questions about Skin Treatments/Facials.
+12,2025-08-19,Website Contact Form,Laser Hair Removal,General service question,Yes,55,Medium,Contacted,Asked general questions about Laser Hair Removal.
+13,2025-08-21,Fresha,Body Contouring/Wellness,Availability question,Yes,90,High,New,Asked what times are open this week for Body Contouring/Wellness.
+14,2025-08-23,Fresha,Body Contouring/Wellness,Availability question,No,60,Medium,New,Asked what times are open this week for Body Contouring/Wellness.
+15,2025-08-25,Meta/Instagram/Facebook DMs,Skin Treatments/Facials,Availability question,No,60,Medium,Booked,Asked what times are open this week for Skin Treatments/Facials.
+16,2025-08-27,Fresha,Skin Treatments/Facials,General service question,Yes,55,Medium,No Response,Asked general questions about Skin Treatments/Facials.
+17,2025-08-28,Website Contact Form,Skin Treatments/Facials,General service question,Yes,55,Medium,Booked,Asked general questions about Skin Treatments/Facials.
+18,2025-08-30,Website Contact Form,Laser Hair Removal,Availability question,Yes,90,High,Contacted,Asked what times are open this week for Laser Hair Removal.
+19,2025-09-03,Website Contact Form,Skin Treatments/Facials,Direct booking request,No,70,High,No Response,Asked to book an appointment for Skin Treatments/Facials.
+20,2025-09-04,Fresha,Laser Hair Removal,Availability question,Yes,90,High,No Response,Asked what times are open this week for Laser Hair Removal.
+21,2025-09-05,Meta/Instagram/Facebook DMs,Body Contouring/Wellness,Other,Yes,45,Medium,Contacted,Inquiry not clearly tied to a specific service.
+22,2025-09-09,Fresha,Skin Treatments/Facials,Direct booking request,No,70,High,Contacted,Asked to book an appointment for Skin Treatments/Facials.
+23,2025-09-09,Website Contact Form,Laser Hair Removal,Direct booking request,No,70,High,No Response,Asked to book an appointment for Laser Hair Removal.
+24,2025-09-11,Meta/Instagram/Facebook DMs,Skin Treatments/Facials,Availability question,No,60,Medium,Booked,Asked what times are open this week for Skin Treatments/Facials.
+25,2025-09-14,Website Contact Form,Laser Hair Removal,Other,No,15,Low,Contacted,Inquiry not clearly tied to a specific service.
+26,2025-09-19,Website Contact Form,Laser Hair Removal,Availability question,No,60,Medium,Booked,Asked what times are open this week for Laser Hair Removal.
+27,2025-09-19,Meta/Instagram/Facebook DMs,Skin Treatments/Facials,Direct booking request,No,70,High,Contacted,Asked to book an appointment for Skin Treatments/Facials.
+28,2025-09-19,Website Contact Form,Skin Treatments/Facials,Availability question,No,60,Medium,Booked,Asked what times are open this week for Skin Treatments/Facials.
+29,2025-09-19,Fresha,Laser Hair Removal,Direct booking request,No,70,High,Contacted,Asked to book an appointment for Laser Hair Removal.
+30,2025-09-20,Fresha,Laser Hair Removal,Other,Yes,45,Medium,No Response,Inquiry not clearly tied to a specific service.
+31,2025-09-20,Website Contact Form,Laser Hair Removal,Availability question,No,60,Medium,New,Asked what times are open this week for Laser Hair Removal.
+32,2025-09-25,Fresha,Body Contouring/Wellness,Price or cost question,Yes,75,High,No Response,Asked how much Body Contouring/Wellness costs.
+33,2025-09-26,Website Contact Form,Injectables (Botox/Filler),Availability question,No,60,Medium,Contacted,Asked what times are open this week for Injectables (Botox/Filler).
+34,2025-09-28,Meta/Instagram/Facebook DMs,Laser Hair Removal,General service question,Yes,55,Medium,Contacted,Asked general questions about Laser Hair Removal.
+35,2025-10-01,Fresha,Laser Hair Removal,Availability question,No,60,Medium,No Response,Asked what times are open this week for Laser Hair Removal.
+36,2025-10-02,Website Contact Form,Body Contouring/Wellness,Availability question,No,60,Medium,Booked,Asked what times are open this week for Body Contouring/Wellness.
+37,2025-10-02,Fresha,Body Contouring/Wellness,Other,No,15,Low,No Response,Inquiry not clearly tied to a specific service.
+38,2025-10-03,Website Contact Form,Body Contouring/Wellness,Availability question,No,60,Medium,Booked,Asked what times are open this week for Body Contouring/Wellness.
+39,2025-10-03,Meta/Instagram/Facebook DMs,Skin Treatments/Facials,Availability question,No,60,Medium,New,Asked what times are open this week for Skin Treatments/Facials.
+40,2025-10-05,Meta/Instagram/Facebook DMs,Body Contouring/Wellness,Other,No,15,Low,New,Inquiry not clearly tied to a specific service.
+41,2025-10-06,Fresha,Injectables (Botox/Filler),Price or cost question,No,45,Medium,No Response,Asked how much Injectables (Botox/Filler) costs.
+42,2025-10-08,Fresha,Injectables (Botox/Filler),General service question,Yes,55,Medium,New,Asked general questions about Injectables (Botox/Filler).
+43,2025-10-09,Fresha,Skin Treatments/Facials,Direct booking request,No,70,High,No Response,Asked to book an appointment for Skin Treatments/Facials.
+44,2025-10-14,Meta/Instagram/Facebook DMs,Body Contouring/Wellness,Other,No,15,Low,Booked,Inquiry not clearly tied to a specific service.
+45,2025-10-15,Meta/Instagram/Facebook DMs,Laser Hair Removal,Price or cost question,No,45,Medium,Booked,Asked how much Laser Hair Removal costs.
+46,2025-10-17,Fresha,Body Contouring/Wellness,Availability question,No,60,Medium,New,Asked what times are open this week for Body Contouring/Wellness.
+47,2025-10-20,Fresha,Body Contouring/Wellness,Direct booking request,No,70,High,No Response,Asked to book an appointment for Body Contouring/Wellness.
+48,2025-10-22,Fresha,Injectables (Botox/Filler),Direct booking request,Yes,100,High,New,Asked to book an appointment for Injectables (Botox/Filler).
+49,2025-10-23,Website Contact Form,Skin Treatments/Facials,Price or cost question,No,45,Medium,New,Asked how much Skin Treatments/Facials costs.
+50,2025-10-26,Fresha,Laser Hair Removal,Availability question,No,60,Medium,Booked,Asked what times are open this week for Laser Hair Removal.
+51,2025-10-27,Meta/Instagram/Facebook DMs,Skin Treatments/Facials,Price or cost question,No,45,Medium,Contacted,Asked how much Skin Treatments/Facials costs.
+52,2025-10-31,Meta/Instagram/Facebook DMs,Laser Hair Removal,General service question,No,25,Low,Booked,Asked general questions about Laser Hair Removal.
+53,2025-11-05,Meta/Instagram/Facebook DMs,Laser Hair Removal,Price or cost question,No,45,Medium,New,Asked how much Laser Hair Removal costs.
+54,2025-11-05,Fresha,Skin Treatments/Facials,Availability question,No,60,Medium,New,Asked what times are open this week for Skin Treatments/Facials.
+55,2025-11-06,Fresha,Body Contouring/Wellness,Price or cost question,No,45,Medium,New,Asked how much Body Contouring/Wellness costs.
+56,2025-11-08,Meta/Instagram/Facebook DMs,Body Contouring/Wellness,Price or cost question,No,45,Medium,Booked,Asked how much Body Contouring/Wellness costs.
+57,2025-11-11,Meta/Instagram/Facebook DMs,Body Contouring/Wellness,Availability question,Yes,90,High,Contacted,Asked what times are open this week for Body Contouring/Wellness.
+58,2025-11-11,Fresha,Injectables (Botox/Filler),General service question,No,25,Low,No Response,Asked general questions about Injectables (Botox/Filler).
+59,2025-11-12,Meta/Instagram/Facebook DMs,Skin Treatments/Facials,General service question,No,25,Low,Contacted,Asked general questions about Skin Treatments/Facials.
+60,2025-11-18,Website Contact Form,Body Contouring/Wellness,General service question,No,25,Low,Contacted,Asked general questions about Body Contouring/Wellness.
+61,2025-11-19,Website Contact Form,Body Contouring/Wellness,Direct booking request,No,70,High,No Response,Asked to book an appointment for Body Contouring/Wellness.
+62,2025-11-20,Fresha,Body Contouring/Wellness,Direct booking request,No,70,High,Booked,Asked to book an appointment for Body Contouring/Wellness.
+63,2025-11-20,Fresha,Laser Hair Removal,Availability question,No,60,Medium,Contacted,Asked what times are open this week for Laser Hair Removal.
+64,2025-11-21,Meta/Instagram/Facebook DMs,Skin Treatments/Facials,Price or cost question,Yes,75,High,Contacted,Asked how much Skin Treatments/Facials costs.
+65,2025-11-22,Fresha,Laser Hair Removal,Direct booking request,No,70,High,Contacted,Asked to book an appointment for Laser Hair Removal.
+66,2025-11-24,Meta/Instagram/Facebook DMs,Injectables (Botox/Filler),Price or cost question,No,45,Medium,Booked,Asked how much Injectables (Botox/Filler) costs.
+67,2025-11-26,Fresha,Skin Treatments/Facials,Availability question,No,60,Medium,Booked,Asked what times are open this week for Skin Treatments/Facials.
+68,2025-11-29,Meta/Instagram/Facebook DMs,Laser Hair Removal,Direct booking request,Yes,100,High,No Response,Asked to book an appointment for Laser Hair Removal.
+69,2025-11-30,Website Contact Form,Body Contouring/Wellness,General service question,No,25,Low,No Response,Asked general questions about Body Contouring/Wellness.
+70,2025-12-03,Website Contact Form,Laser Hair Removal,Price or cost question,Yes,75,High,Contacted,Asked how much Laser Hair Removal costs.
+71,2025-12-05,Fresha,Body Contouring/Wellness,General service question,Yes,55,Medium,Booked,Asked general questions about Body Contouring/Wellness.
+72,2025-12-07,Meta/Instagram/Facebook DMs,Laser Hair Removal,Direct booking request,No,70,High,No Response,Asked to book an appointment for Laser Hair Removal.
+73,2025-12-10,Fresha,Skin Treatments/Facials,General service question,No,25,Low,New,Asked general questions about Skin Treatments/Facials.
+74,2025-12-11,Fresha,Body Contouring/Wellness,Availability question,No,60,Medium,New,Asked what times are open this week for Body Contouring/Wellness.
+75,2025-12-19,Fresha,Laser Hair Removal,Price or cost question,No,45,Medium,No Response,Asked how much Laser Hair Removal costs.
+76,2025-12-20,Fresha,Injectables (Botox/Filler),Price or cost question,No,45,Medium,Contacted,Asked how much Injectables (Botox/Filler) costs.
+77,2025-12-20,Fresha,Body Contouring/Wellness,General service question,No,25,Low,New,Asked general questions about Body Contouring/Wellness.
+78,2025-12-21,Meta/Instagram/Facebook DMs,Laser Hair Removal,Availability question,Yes,90,High,Contacted,Asked what times are open this week for Laser Hair Removal.
+79,2025-12-24,Fresha,Skin Treatments/Facials,Price or cost question,Yes,75,High,No Response,Asked how much Skin Treatments/Facials costs.
+80,2025-12-24,Meta/Instagram/Facebook DMs,Body Contouring/Wellness,Direct booking request,No,70,High,Booked,Asked to book an appointment for Body Contouring/Wellness.
+81,2025-12-27,Fresha,Skin Treatments/Facials,Availability question,No,60,Medium,New,Asked what times are open this week for Skin Treatments/Facials.
+82,2026-01-09,Website Contact Form,Skin Treatments/Facials,Price or cost question,Yes,75,High,Booked,Asked how much Skin Treatments/Facials costs.
+83,2026-01-12,Fresha,Injectables (Botox/Filler),Direct booking request,No,70,High,New,Asked to book an appointment for Injectables (Botox/Filler).
+84,2026-01-18,Fresha,Body Contouring/Wellness,Availability question,Yes,90,High,Booked,Asked what times are open this week for Body Contouring/Wellness.
+85,2026-01-19,Meta/Instagram/Facebook DMs,Skin Treatments/Facials,Other,No,15,Low,Booked,Inquiry not clearly tied to a specific service.
+86,2026-01-19,Fresha,Injectables (Botox/Filler),Price or cost question,No,45,Medium,New,Asked how much Injectables (Botox/Filler) costs.
+87,2026-01-27,Fresha,Body Contouring/Wellness,Direct booking request,Yes,100,High,Booked,Asked to book an appointment for Body Contouring/Wellness.
+88,2026-01-28,Fresha,Skin Treatments/Facials,General service question,No,25,Low,Contacted,Asked general questions about Skin Treatments/Facials.
+89,2026-01-30,Fresha,Injectables (Botox/Filler),Direct booking request,No,70,High,New,Asked to book an appointment for Injectables (Botox/Filler).
+90,2026-02-04,Fresha,Skin Treatments/Facials,Availability question,No,60,Medium,New,Asked what times are open this week for Skin Treatments/Facials.
+91,2026-02-07,Meta/Instagram/Facebook DMs,Skin Treatments/Facials,General service question,Yes,55,Medium,No Response,Asked general questions about Skin Treatments/Facials.
+92,2026-02-08,Fresha,Body Contouring/Wellness,Other,No,15,Low,No Response,Inquiry not clearly tied to a specific service.
+93,2026-02-11,Website Contact Form,Injectables (Botox/Filler),Availability question,No,60,Medium,No Response,Asked what times are open this week for Injectables (Botox/Filler).
+94,2026-02-12,Meta/Instagram/Facebook DMs,Body Contouring/Wellness,Price or cost question,No,45,Medium,Contacted,Asked how much Body Contouring/Wellness costs.
+95,2026-02-13,Website Contact Form,Laser Hair Removal,Price or cost question,Yes,75,High,Contacted,Asked how much Laser Hair Removal costs.
+96,2026-02-14,Meta/Instagram/Facebook DMs,Skin Treatments/Facials,Direct booking request,No,70,High,New,Asked to book an appointment for Skin Treatments/Facials.
+97,2026-02-24,Fresha,Laser Hair Removal,Direct booking request,Yes,100,High,Contacted,Asked to book an appointment for Laser Hair Removal.
+98,2026-02-27,Fresha,Body Contouring/Wellness,Direct booking request,Yes,100,High,Contacted,Asked to book an appointment for Body Contouring/Wellness.
+99,2026-02-27,Website Contact Form,Skin Treatments/Facials,General service question,Yes,55,Medium,Booked,Asked general questions about Skin Treatments/Facials.
+100,2026-03-01,Fresha,Body Contouring/Wellness,General service question,No,25,Low,New,Asked general questions about Body Contouring/Wellness.
+101,2026-03-01,Fresha,Skin Treatments/Facials,Direct booking request,No,70,High,No Response,Asked to book an appointment for Skin Treatments/Facials.
+102,2026-03-02,Meta/Instagram/Facebook DMs,Laser Hair Removal,General service question,No,25,Low,New,Asked general questions about Laser Hair Removal.
+103,2026-03-03,Fresha,Skin Treatments/Facials,Price or cost question,No,45,Medium,Contacted,Asked how much Skin Treatments/Facials costs.
+104,2026-03-11,Website Contact Form,Skin Treatments/Facials,Availability question,No,60,Medium,Booked,Asked what times are open this week for Skin Treatments/Facials.
+105,2026-03-12,Fresha,Laser Hair Removal,Direct booking request,No,70,High,Contacted,Asked to book an appointment for Laser Hair Removal.
+106,2026-03-13,Fresha,Injectables (Botox/Filler),Direct booking request,No,70,High,New,Asked to book an appointment for Injectables (Botox/Filler).
+107,2026-03-14,Meta/Instagram/Facebook DMs,Injectables (Botox/Filler),Direct booking request,No,70,High,Booked,Asked to book an appointment for Injectables (Botox/Filler).
+108,2026-03-15,Meta/Instagram/Facebook DMs,Body Contouring/Wellness,General service question,No,25,Low,Contacted,Asked general questions about Body Contouring/Wellness.
+109,2026-03-17,Fresha,Skin Treatments/Facials,Direct booking request,No,70,High,No Response,Asked to book an appointment for Skin Treatments/Facials.
+110,2026-03-17,Meta/Instagram/Facebook DMs,Injectables (Botox/Filler),Availability question,No,60,Medium,New,Asked what times are open this week for Injectables (Botox/Filler).
+111,2026-03-20,Meta/Instagram/Facebook DMs,Laser Hair Removal,Price or cost question,No,45,Medium,Contacted,Asked how much Laser Hair Removal costs.
+112,2026-03-21,Meta/Instagram/Facebook DMs,Laser Hair Removal,Direct booking request,No,70,High,Contacted,Asked to book an appointment for Laser Hair Removal.
+113,2026-03-22,Website Contact Form,Body Contouring/Wellness,Direct booking request,No,70,High,No Response,Asked to book an appointment for Body Contouring/Wellness.
+114,2026-03-25,Website Contact Form,Body Contouring/Wellness,General service question,Yes,55,Medium,Contacted,Asked general questions about Body Contouring/Wellness.
+115,2026-03-26,Meta/Instagram/Facebook DMs,Injectables (Botox/Filler),General service question,Yes,55,Medium,No Response,Asked general questions about Injectables (Botox/Filler).
+116,2026-03-27,Website Contact Form,Skin Treatments/Facials,General service question,No,25,Low,New,Asked general questions about Skin Treatments/Facials.
+117,2026-03-29,Website Contact Form,Laser Hair Removal,Availability question,No,60,Medium,Booked,Asked what times are open this week for Laser Hair Removal.
+118,2026-03-29,Fresha,Laser Hair Removal,Direct booking request,Yes,100,High,Booked,Asked to book an appointment for Laser Hair Removal.
+119,2026-03-30,Website Contact Form,Injectables (Botox/Filler),Price or cost question,No,45,Medium,New,Asked how much Injectables (Botox/Filler) costs.
+120,2026-03-31,Meta/Instagram/Facebook DMs,Injectables (Botox/Filler),Availability question,No,60,Medium,No Response,Asked what times are open this week for Injectables (Botox/Filler).
+121,2026-04-01,Website Contact Form,Laser Hair Removal,Other,No,15,Low,Booked,Inquiry not clearly tied to a specific service.
+122,2026-04-03,Meta/Instagram/Facebook DMs,Laser Hair Removal,Direct booking request,Yes,100,High,Booked,Asked to book an appointment for Laser Hair Removal.
+123,2026-04-06,Fresha,Injectables (Botox/Filler),General service question,Yes,55,Medium,New,Asked general questions about Injectables (Botox/Filler).
+124,2026-04-06,Website Contact Form,Laser Hair Removal,Other,Yes,45,Medium,New,Inquiry not clearly tied to a specific service.
+125,2026-04-06,Website Contact Form,Body Contouring/Wellness,Price or cost question,No,45,Medium,Booked,Asked how much Body Contouring/Wellness costs.
+126,2026-04-08,Meta/Instagram/Facebook DMs,Injectables (Botox/Filler),Direct booking request,No,70,High,New,Asked to book an appointment for Injectables (Botox/Filler).
+127,2026-04-09,Website Contact Form,Body Contouring/Wellness,General service question,Yes,55,Medium,Booked,Asked general questions about Body Contouring/Wellness.
+128,2026-04-12,Fresha,Body Contouring/Wellness,Direct booking request,Yes,100,High,Contacted,Asked to book an appointment for Body Contouring/Wellness.
+129,2026-04-13,Website Contact Form,Injectables (Botox/Filler),Price or cost question,Yes,75,High,New,Asked how much Injectables (Botox/Filler) costs.
+130,2026-04-16,Fresha,Body Contouring/Wellness,Other,Yes,45,Medium,No Response,Inquiry not clearly tied to a specific service.
+131,2026-04-20,Meta/Instagram/Facebook DMs,Body Contouring/Wellness,Price or cost question,Yes,75,High,Booked,Asked how much Body Contouring/Wellness costs.
+132,2026-04-24,Meta/Instagram/Facebook DMs,Injectables (Botox/Filler),General service question,No,25,Low,Contacted,Asked general questions about Injectables (Botox/Filler).
+133,2026-04-28,Fresha,Laser Hair Removal,Price or cost question,Yes,75,High,Contacted,Asked how much Laser Hair Removal costs.
+134,2026-04-29,Fresha,Skin Treatments/Facials,General service question,Yes,55,Medium,Booked,Asked general questions about Skin Treatments/Facials.
+135,2026-05-01,Meta/Instagram/Facebook DMs,Body Contouring/Wellness,General service question,No,25,Low,New,Asked general questions about Body Contouring/Wellness.
+136,2026-05-01,Meta/Instagram/Facebook DMs,Injectables (Botox/Filler),Direct booking request,No,70,High,New,Asked to book an appointment for Injectables (Botox/Filler).
+137,2026-05-04,Fresha,Laser Hair Removal,Price or cost question,No,45,Medium,New,Asked how much Laser Hair Removal costs.
+138,2026-05-10,Meta/Instagram/Facebook DMs,Body Contouring/Wellness,Price or cost question,No,45,Medium,No Response,Asked how much Body Contouring/Wellness costs.
+139,2026-05-11,Meta/Instagram/Facebook DMs,Injectables (Botox/Filler),Price or cost question,No,45,Medium,Booked,Asked how much Injectables (Botox/Filler) costs.
+140,2026-05-12,Meta/Instagram/Facebook DMs,Injectables (Botox/Filler),Price or cost question,No,45,Medium,Booked,Asked how much Injectables (Botox/Filler) costs.
+141,2026-05-15,Fresha,Body Contouring/Wellness,Availability question,No,60,Medium,Contacted,Asked what times are open this week for Body Contouring/Wellness.
+142,2026-05-16,Meta/Instagram/Facebook DMs,Skin Treatments/Facials,Price or cost question,No,45,Medium,New,Asked how much Skin Treatments/Facials costs.
+143,2026-05-17,Website Contact Form,Injectables (Botox/Filler),Price or cost question,Yes,75,High,No Response,Asked how much Injectables (Botox/Filler) costs.
+144,2026-05-21,Fresha,Injectables (Botox/Filler),Availability question,Yes,90,High,No Response,Asked what times are open this week for Injectables (Botox/Filler).
+145,2026-05-22,Fresha,Body Contouring/Wellness,Direct booking request,No,70,High,No Response,Asked to book an appointment for Body Contouring/Wellness.
+146,2026-05-23,Meta/Instagram/Facebook DMs,Laser Hair Removal,Availability question,Yes,90,High,Contacted,Asked what times are open this week for Laser Hair Removal.
+147,2026-05-23,Website Contact Form,Injectables (Botox/Filler),General service question,No,25,Low,Contacted,Asked general questions about Injectables (Botox/Filler).
+148,2026-05-25,Meta/Instagram/Facebook DMs,Skin Treatments/Facials,Price or cost question,No,45,Medium,No Response,Asked how much Skin Treatments/Facials costs.
+149,2026-05-26,Website Contact Form,Injectables (Botox/Filler),Availability question,No,60,Medium,Contacted,Asked what times are open this week for Injectables (Botox/Filler).
+150,2026-05-27,Meta/Instagram/Facebook DMs,Skin Treatments/Facials,Availability question,No,60,Medium,No Response,Asked what times are open this week for Skin Treatments/Facials.
+151,2026-05-31,Website Contact Form,Body Contouring/Wellness,Direct booking request,Yes,100,High,Booked,Asked to book an appointment for Body Contouring/Wellness.
+152,2026-05-31,Website Contact Form,Body Contouring/Wellness,Price or cost question,No,45,Medium,No Response,Asked how much Body Contouring/Wellness costs.
+153,2026-06-01,Fresha,Injectables (Botox/Filler),Availability question,Yes,90,High,No Response,Asked what times are open this week for Injectables (Botox/Filler).
+154,2026-06-02,Website Contact Form,Body Contouring/Wellness,Price or cost question,Yes,75,High,Booked,Asked how much Body Contouring/Wellness costs.
+155,2026-06-10,Fresha,Skin Treatments/Facials,Price or cost question,No,45,Medium,Booked,Asked how much Skin Treatments/Facials costs.
+156,2026-06-13,Meta/Instagram/Facebook DMs,Laser Hair Removal,Direct booking request,No,70,High,Contacted,Asked to book an appointment for Laser Hair Removal.
+157,2026-06-17,Meta/Instagram/Facebook DMs,Skin Treatments/Facials,General service question,No,25,Low,New,Asked general questions about Skin Treatments/Facials.
+158,2026-06-18,Fresha,Injectables (Botox/Filler),Price or cost question,No,45,Medium,New,Asked how much Injectables (Botox/Filler) costs.
+159,2026-06-19,Website Contact Form,Laser Hair Removal,Availability question,No,60,Medium,Booked,Asked what times are open this week for Laser Hair Removal.
+160,2026-06-20,Website Contact Form,Laser Hair Removal,Availability question,No,60,Medium,New,Asked what times are open this week for Laser Hair Removal.
+161,2026-06-24,Meta/Instagram/Facebook DMs,Laser Hair Removal,Availability question,No,60,Medium,Booked,Asked what times are open this week for Laser Hair Removal.
+162,2026-06-26,Meta/Instagram/Facebook DMs,Skin Treatments/Facials,General service question,Yes,55,Medium,Booked,Asked general questions about Skin Treatments/Facials.
+163,2026-06-28,Website Contact Form,Skin Treatments/Facials,Direct booking request,No,70,High,Booked,Asked to book an appointment for Skin Treatments/Facials.
+164,2026-07-03,Meta/Instagram/Facebook DMs,Body Contouring/Wellness,Price or cost question,Yes,75,High,Contacted,Asked how much Body Contouring/Wellness costs.
+165,2026-07-03,Meta/Instagram/Facebook DMs,Laser Hair Removal,Price or cost question,No,45,Medium,New,Asked how much Laser Hair Removal costs.
+166,2026-07-04,Meta/Instagram/Facebook DMs,Injectables (Botox/Filler),Price or cost question,No,45,Medium,Booked,Asked how much Injectables (Botox/Filler) costs.
+167,2026-07-07,Meta/Instagram/Facebook DMs,Laser Hair Removal,Direct booking request,No,70,High,Booked,Asked to book an appointment for Laser Hair Removal.
+168,2026-07-07,Meta/Instagram/Facebook DMs,Laser Hair Removal,Direct booking request,No,70,High,Booked,Asked to book an appointment for Laser Hair Removal.
+169,2026-07-08,Meta/Instagram/Facebook DMs,Laser Hair Removal,Price or cost question,No,45,Medium,No Response,Asked how much Laser Hair Removal costs.
+170,2026-07-11,Fresha,Body Contouring/Wellness,Availability question,No,60,Medium,Contacted,Asked what times are open this week for Body Contouring/Wellness.
+171,2026-07-11,Fresha,Body Contouring/Wellness,Direct booking request,No,70,High,No Response,Asked to book an appointment for Body Contouring/Wellness.
+172,2026-07-14,Website Contact Form,Body Contouring/Wellness,General service question,No,25,Low,Contacted,Asked general questions about Body Contouring/Wellness.
+173,2026-07-14,Meta/Instagram/Facebook DMs,Skin Treatments/Facials,Direct booking request,Yes,100,High,Booked,Asked to book an appointment for Skin Treatments/Facials.
+174,2026-07-17,Fresha,Injectables (Botox/Filler),Availability question,Yes,90,High,Booked,Asked what times are open this week for Injectables (Botox/Filler).
+175,2026-07-20,Fresha,Body Contouring/Wellness,General service question,Yes,55,Medium,Contacted,Asked general questions about Body Contouring/Wellness.
+176,2026-07-21,Fresha,Body Contouring/Wellness,Availability question,No,60,Medium,Contacted,Asked what times are open this week for Body Contouring/Wellness.
+177,2026-07-22,Fresha,Body Contouring/Wellness,General service question,No,25,Low,Booked,Asked general questions about Body Contouring/Wellness.
+178,2026-07-27,Meta/Instagram/Facebook DMs,Skin Treatments/Facials,Price or cost question,No,45,Medium,New,Asked how much Skin Treatments/Facials costs.
+179,2026-07-28,Website Contact Form,Laser Hair Removal,Direct booking request,Yes,100,High,Booked,Asked to book an appointment for Laser Hair Removal.
+180,2026-07-31,Website Contact Form,Injectables (Botox/Filler),Price or cost question,Yes,75,High,Booked,Asked how much Injectables (Botox/Filler) costs.

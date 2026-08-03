@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Cosmedici Ops Dashboard — Wireframe for Review</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+    background: #f4f3ef;
+    color: #2c2c2a;
+    margin: 0;
+    padding: 32px 16px 64px;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; }
+  header {
+    background: #ffffff;
+    border: 1px solid #ddd9cf;
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-bottom: 24px;
+  }
+  h1 { font-size: 20px; font-weight: 600; margin: 0 0 6px; }
+  header p { font-size: 14px; color: #6b6a63; margin: 0; line-height: 1.5; }
+  .layout { display: flex; gap: 16px; }
+  .sidebar {
+    width: 150px;
+    flex-shrink: 0;
+    background: #ffffff;
+    border: 1px solid #ddd9cf;
+    border-radius: 12px;
+    padding: 10px 0;
+    align-self: flex-start;
+  }
+  .sidebar .label { font-size: 11px; color: #9a9890; padding: 0 12px 6px; text-transform: uppercase; letter-spacing: 0.03em; }
+  .sidebar .item { padding: 9px 12px; font-size: 13px; color: #55534c; border-left: 3px solid transparent; }
+  .sidebar .item.active { border-left-color: #185fa5; background: #e6f1fb; color: #0c447c; font-weight: 600; }
+  .pages { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 20px; }
+  .page-title { font-size: 13px; font-weight: 600; color: #6b6a63; margin: 0 0 8px; }
+  .page-frame { background: #ffffff; border: 1px solid #ddd9cf; border-radius: 12px; padding: 14px; }
+  .metric-row { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 8px; margin-bottom: 10px; }
+  .metric { background: #f4f3ef; border-radius: 8px; padding: 12px 8px; text-align: center; font-size: 12px; color: #9a9890; }
+  .placeholder {
+    border: 1.5px dashed #ccc8bc;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 12px;
+    color: #9a9890;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 40px;
+  }
+  .solid-box { background: #f4f3ef; border-radius: 8px; padding: 12px; font-size: 12px; color: #9a9890; }
+  .split { display: flex; gap: 10px; }
+  .split .narrow { width: 140px; flex-shrink: 0; }
+  .split .wide { flex: 1; min-width: 0; }
+  .three-col { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 8px; }
+  footer {
+    background: #ffffff;
+    border: 1px solid #ddd9cf;
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-top: 24px;
+  }
+  footer h2 { font-size: 15px; font-weight: 600; margin: 0 0 10px; }
+  footer ul { margin: 0; padding-left: 20px; font-size: 13px; color: #55534c; line-height: 1.7; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>Cosmedici Ops Dashboard — wireframe for review</h1>
+    <p>This is an early layout sketch, not the finished app — boxes stand in for real content. Take a few minutes to look through each page below and share anything that's confusing, missing, or doesn't make sense. See the questions at the bottom for a few things to think about.</p>
+  </header>
+
+  <div class="layout">
+    <div class="sidebar">
+      <div class="label">Navigation</div>
+      <div class="item active">Overview</div>
+      <div class="item">Lead log</div>
+      <div class="item">Lead priority scorer</div>
+      <div class="item">Expense classifier</div>
+      <div class="item">Model results</div>
+      <div class="item">Documentation</div>
+    </div>
+
+    <div class="pages">
+
+      <div>
+        <p class="page-title">1. Overview</p>
+        <div class="page-frame">
+          <div class="metric-row">
+            <div class="metric">Total leads</div>
+            <div class="metric">High priority</div>
+            <div class="metric">Total expenses</div>
+            <div class="metric">Top category</div>
+          </div>
+          <div class="placeholder">Monthly expense trend chart</div>
+        </div>
+      </div>
+
+      <div>
+        <p class="page-title">2. Lead log</p>
+        <div class="page-frame split">
+          <div class="solid-box narrow">+ Add new lead form</div>
+          <div class="placeholder wide">Lead list — source, priority label, outcome (editable)</div>
+        </div>
+      </div>
+
+      <div>
+        <p class="page-title">3. Lead priority scorer</p>
+        <div class="page-frame split">
+          <div class="solid-box narrow">Enter lead details</div>
+          <div class="placeholder wide">Score · priority label · reason codes</div>
+        </div>
+      </div>
+
+      <div>
+        <p class="page-title">4. Expense classifier</p>
+        <div class="page-frame">
+          <div class="placeholder" style="margin-bottom:8px;">⬆ Upload expense CSV</div>
+          <div class="placeholder">Predicted category · confidence · correct button · spend-by-category chart</div>
+        </div>
+      </div>
+
+      <div>
+        <p class="page-title">5. Model results</p>
+        <div class="page-frame three-col">
+          <div class="solid-box">Baseline metrics</div>
+          <div class="solid-box">PyTorch vs Keras</div>
+          <div class="solid-box">Production choice</div>
+        </div>
+      </div>
+
+      <div>
+        <p class="page-title">6. Documentation</p>
+        <div class="page-frame solid-box">Demo vs business mode explainer · links to project docs</div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    <h2>A few things to think about</h2>
+    <ul>
+      <li>Does "priority label" (High / Medium / Low) make sense on its own, or would it need more explanation?</li>
+      <li>Is it clear that "Lead log" is for ongoing tracking and "Lead priority scorer" is for scoring one new inquiry — or do those two feel like the same thing?</li>
+      <li>Does correcting a wrong expense category look like it would take more than a few seconds per row?</li>
+      <li>Is there a page you expected to see here that's missing?</li>
+    </ul>
+  </footer>
+
+</div>
+</body>
+</html>

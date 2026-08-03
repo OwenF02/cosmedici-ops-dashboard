@@ -18,6 +18,18 @@ backups/*
 # Real config (contains real local paths/settings) — only config.example.toml is committed
 config/config.toml
 
+# Real vendor names, amounts, and person names used by data_cleaning.py —
+# only private_cleaning_overrides.example.py (placeholder data) is committed
+config/private_cleaning_overrides.py
+
+# Real per-category model performance numbers — never commit
+metrics/
+
+# Executed against real data, with real output baked into saved cell
+# output (e.g. real category totals, real payment-method values) — never
+# commit until explicitly sanitized (see docs/risk_log.md)
+notebooks/01_data_exploration.ipynb
+
 # Python
 __pycache__/
 *.py[cod]
