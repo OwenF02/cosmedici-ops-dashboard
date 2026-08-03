@@ -25,9 +25,10 @@ One canonical file per month. Where a month had duplicate or conflicting candida
 | `week_number` | `Week Number` | text | **Dropped.** Present in most months but format is inconsistent (sometimes "Week 1", sometimes a date range like "Aug 1-2"). Week-of-month is derived from `date` instead. |
 | `vendor_name` | `Vendor` | text | Sometimes blank. For payroll-related rows, this field sometimes holds a real employee's name rather than a business vendor — treat as PII, same handling as a real client name, when generating synthetic data. |
 | `category` | `Category` | text (see Category Taxonomy below) | Taxonomy changed between Dec 2025 and Jan 2026 — see crosswalk. |
+| `category_for_model` | *(new, derived, Sprint 3)* | text | Same as `category`, except rows in a small number of categories with too few real examples to train on reliably are folded into `Other/Non-Operating` for modeling purposes only. See "Sprint 3 Additions" below. `category` itself is left untouched for real bookkeeping/reporting. |
 | `description` | `Description` | text | Blank on the large majority of rows (~70%+ in the months checked). The classifier's text signal will lean heavily on `vendor_name`; the embedding pipeline should handle a blank `description` gracefully rather than erroring or treating it as a distinct token. |
 | `amount` | `Amount` | number | No negative values observed in Expenses. |
-| `payment_method` | `Payment Method` | text | Observed values: Bank Transfer, Zelle, Check. Occasionally blank. |
+| `payment_method` | `Payment Method` | text | Observed values: Bank Transfer, Zelle, Check. Occasionally blank. One observed value appears to include a specific person's name and partial card number — never surface `payment_method` values raw in any public-facing output. |
 | `date_estimated` | *(new, derived)* | boolean | `True` for the 4 rows below where a date had to be estimated. Lets the app/analysis distinguish real dates from best-guess ones later. |
 
 ## Table: Revenue
@@ -35,7 +36,7 @@ One canonical file per month. Where a month had duplicate or conflicting candida
 | Field | Source column | Type | Notes |
 |---|---|---|---|
 | `date` | `Date` | date | |
-| `revenue_source` | `Description` | text | Despite the source column being labeled "Description," this field is actually a payment/booking channel (Square, Fresha, Groupon, Sync Bank, Cash, CareCredit, Refund), not free text. Renamed here to avoid confusion with the expense table's genuinely free-text `description`. |
+| `revenue_source` | `Description` | text | Despite the source column being labeled "Description," this field is actually a payment/booking channel (Square, Fresha, Groupon, Sync Bank, Cash, CareCredit, Refund), not free text. Renamed here to avoid confusion with the expense table's genuinely free-text `description`. A couple of typo/whitespace variants ("Sqaure", trailing-space "Fresha ") are normalized during cleaning — see `src/data_cleaning.py`. |
 | `amount` | `Amount` (sometimes ` Amount ` with stray whitespace in the header) | number | No negative values observed, including "Refund" rows — see Resolved Cleaning Rules below for what "Refund" actually represents. |
 | `payment_method` | `Payment Method` | text | Missing entirely from the August 2025 file (that month's revenue sheet only has Date/Description/Amount) — expect this column to be null for Aug 2025 rows specifically, not a data error. |
 
@@ -96,16 +97,13 @@ August–December 2025 used a more granular scheme (~25 distinct labels). Mapped
 - **`$0` expense entries:** across all 12 months, exactly one row has a `$0` amount, and it has no date, vendor, category, or payment method — a stray artifact, not a real transaction. Dropped during cleaning.
 - **"Refund" revenue entries:** these are funds returned *to* Cosmedici (a processing correction tied to a Maryland Comptroller registration gap), not refunds issued to clients. Correctly recorded as positive and stay that way — no sign flip in cleaning. Worth periodically confirming with the accountant whether the underlying registration issue driving these is resolved.
 - **Rows with a blank `date`:** almost every month's Expenses and Revenue sheets have a trailing summary/total row baked directly into the data range — no date, no vendor, no description, just a number that matches that month's total. Confirmed across 11 of 12 expense sheets and 2 of 12 revenue sheets (Sept and Oct 2025 revenue specifically had multi-row scratch/profit-loss calculations mixed into the data). **Rule:** drop any row with a blank `date` *and* no vendor *and* no description — those are artifacts. Do **not** blindly drop every blank-date row, since a handful were real transactions missing only their date (see below).
-- **Four real transactions with a missing date, given estimated dates rather than dropped:**
+- **Four real transactions with a missing date, given estimated dates rather than dropped:** three rows in Aug 2025 (no week label available on any of them, so each defaulted to the 1st of the month) and one row in Dec 2025 (labeled "Week 2," which starts 2025-12-08 in that month's own week labeling). Together they represent roughly $3,000 in real spend that a blind "drop if no date" rule would have silently deleted. The exact vendor names, amounts, and dates are intentionally **not** reproduced in this document — they live in `config/private_cleaning_overrides.py` (git-ignored, real data only, never committed). All four rows get `date_estimated = True` so they can be excluded from any day-of-week/time-sensitive analysis later while still counting toward totals and category breakdowns.
 
-  | Month | Vendor/Description | Amount | Estimated date | Basis |
-  |---|---|---|---|---|
-  | Aug 2025 | Splendor X | $1,900 | 2025-08-01 | No week label available; defaulted to the 1st of the month |
-  | Aug 2025 | Splendor X | $300 | 2025-08-01 | Same as above |
-  | Aug 2025 | Venus Legacy | $545 | 2025-08-01 | Same as above |
-  | Dec 2025 | Yolanda, Salaries & Wages (Zelle) | $255 | 2025-12-08 | Row was labeled "Week 2," which starts 2025-12-08 in that month's own week labeling |
+## Sprint 3 Additions
 
-  All four get `date_estimated = True` so they can be excluded from any day-of-week/time-sensitive analysis later while still counting toward totals and category breakdowns.
+- **Vendor-based category consistency fix:** a small number of real vendors were found to have the same real-world transaction type logged under different categories depending on which month's file recorded it (inconsistent manual bookkeeping, not a structural data issue). Fixed by matching on vendor rather than by month, since the underlying transaction type doesn't change month to month. The real vendor names and their corrected target categories are kept in `config/private_cleaning_overrides.py` (git-ignored) rather than in this document — see `config/private_cleaning_overrides.example.py` for the format, and `docs/decision_log.md` for the reasoning.
+- **One real transaction reclassified to Owner Distribution (Non-Operating):** confirmed with the business owner to be a personal expense paid from business funds rather than a genuine business expense. Same treatment as an existing, already-correctly-categorized personal-insurance row found during the same review.
+- **Sparse-category rule:** `Professional Services` and `Licensing & Compliance` have too few real rows (~10 or fewer, even after the vendor fix above) to reliably train a per-category prediction on. A new `category_for_model` column (see Table: Expenses above) folds these two into `Other/Non-Operating` for modeling purposes only. The real `category` column is untouched, so real bookkeeping/reporting still shows all 13 categories accurately.
 
 ## Open Items for Sprint 2
 
