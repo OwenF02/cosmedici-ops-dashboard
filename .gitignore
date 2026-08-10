@@ -44,3 +44,9 @@ Thumbs.db
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Real prediction/scoring output — derived from real business data
+# (real lead names/phone/email, real expense categories), never commit
+scored_leads*.csv
+predictions_output*.csv
+data/scored_leads.csv
