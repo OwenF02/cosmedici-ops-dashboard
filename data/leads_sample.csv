@@ -1,181 +1,201 @@
-lead_id,date_received,source,service_interest,message_type,discount_requested,priority_score,priority_label,status,notes
-1,2025-08-01,Website Contact Form,Laser Hair Removal,Availability question,No,60,Medium,Booked,Asked what times are open this week for Laser Hair Removal.
-2,2025-08-02,Fresha,Laser Hair Removal,Price or cost question,No,45,Medium,Booked,Asked how much Laser Hair Removal costs.
-3,2025-08-07,Meta/Instagram/Facebook DMs,Body Contouring/Wellness,Price or cost question,Yes,75,High,No Response,Asked how much Body Contouring/Wellness costs.
-4,2025-08-08,Website Contact Form,Skin Treatments/Facials,Price or cost question,Yes,75,High,New,Asked how much Skin Treatments/Facials costs.
-5,2025-08-09,Meta/Instagram/Facebook DMs,Laser Hair Removal,Availability question,No,60,Medium,Booked,Asked what times are open this week for Laser Hair Removal.
-6,2025-08-10,Meta/Instagram/Facebook DMs,Laser Hair Removal,Price or cost question,No,45,Medium,No Response,Asked how much Laser Hair Removal costs.
-7,2025-08-12,Fresha,Injectables (Botox/Filler),General service question,No,25,Low,No Response,Asked general questions about Injectables (Botox/Filler).
-8,2025-08-15,Fresha,Injectables (Botox/Filler),Availability question,No,60,Medium,Booked,Asked what times are open this week for Injectables (Botox/Filler).
-9,2025-08-15,Fresha,Skin Treatments/Facials,Price or cost question,Yes,75,High,Contacted,Asked how much Skin Treatments/Facials costs.
-10,2025-08-17,Meta/Instagram/Facebook DMs,Laser Hair Removal,Price or cost question,No,45,Medium,New,Asked how much Laser Hair Removal costs.
-11,2025-08-18,Fresha,Skin Treatments/Facials,General service question,Yes,55,Medium,No Response,Asked general questions about Skin Treatments/Facials.
-12,2025-08-19,Website Contact Form,Laser Hair Removal,General service question,Yes,55,Medium,Contacted,Asked general questions about Laser Hair Removal.
-13,2025-08-21,Fresha,Body Contouring/Wellness,Availability question,Yes,90,High,New,Asked what times are open this week for Body Contouring/Wellness.
-14,2025-08-23,Fresha,Body Contouring/Wellness,Availability question,No,60,Medium,New,Asked what times are open this week for Body Contouring/Wellness.
-15,2025-08-25,Meta/Instagram/Facebook DMs,Skin Treatments/Facials,Availability question,No,60,Medium,Booked,Asked what times are open this week for Skin Treatments/Facials.
-16,2025-08-27,Fresha,Skin Treatments/Facials,General service question,Yes,55,Medium,No Response,Asked general questions about Skin Treatments/Facials.
-17,2025-08-28,Website Contact Form,Skin Treatments/Facials,General service question,Yes,55,Medium,Booked,Asked general questions about Skin Treatments/Facials.
-18,2025-08-30,Website Contact Form,Laser Hair Removal,Availability question,Yes,90,High,Contacted,Asked what times are open this week for Laser Hair Removal.
-19,2025-09-03,Website Contact Form,Skin Treatments/Facials,Direct booking request,No,70,High,No Response,Asked to book an appointment for Skin Treatments/Facials.
-20,2025-09-04,Fresha,Laser Hair Removal,Availability question,Yes,90,High,No Response,Asked what times are open this week for Laser Hair Removal.
-21,2025-09-05,Meta/Instagram/Facebook DMs,Body Contouring/Wellness,Other,Yes,45,Medium,Contacted,Inquiry not clearly tied to a specific service.
-22,2025-09-09,Fresha,Skin Treatments/Facials,Direct booking request,No,70,High,Contacted,Asked to book an appointment for Skin Treatments/Facials.
-23,2025-09-09,Website Contact Form,Laser Hair Removal,Direct booking request,No,70,High,No Response,Asked to book an appointment for Laser Hair Removal.
-24,2025-09-11,Meta/Instagram/Facebook DMs,Skin Treatments/Facials,Availability question,No,60,Medium,Booked,Asked what times are open this week for Skin Treatments/Facials.
-25,2025-09-14,Website Contact Form,Laser Hair Removal,Other,No,15,Low,Contacted,Inquiry not clearly tied to a specific service.
-26,2025-09-19,Website Contact Form,Laser Hair Removal,Availability question,No,60,Medium,Booked,Asked what times are open this week for Laser Hair Removal.
-27,2025-09-19,Meta/Instagram/Facebook DMs,Skin Treatments/Facials,Direct booking request,No,70,High,Contacted,Asked to book an appointment for Skin Treatments/Facials.
-28,2025-09-19,Website Contact Form,Skin Treatments/Facials,Availability question,No,60,Medium,Booked,Asked what times are open this week for Skin Treatments/Facials.
-29,2025-09-19,Fresha,Laser Hair Removal,Direct booking request,No,70,High,Contacted,Asked to book an appointment for Laser Hair Removal.
-30,2025-09-20,Fresha,Laser Hair Removal,Other,Yes,45,Medium,No Response,Inquiry not clearly tied to a specific service.
-31,2025-09-20,Website Contact Form,Laser Hair Removal,Availability question,No,60,Medium,New,Asked what times are open this week for Laser Hair Removal.
-32,2025-09-25,Fresha,Body Contouring/Wellness,Price or cost question,Yes,75,High,No Response,Asked how much Body Contouring/Wellness costs.
-33,2025-09-26,Website Contact Form,Injectables (Botox/Filler),Availability question,No,60,Medium,Contacted,Asked what times are open this week for Injectables (Botox/Filler).
-34,2025-09-28,Meta/Instagram/Facebook DMs,Laser Hair Removal,General service question,Yes,55,Medium,Contacted,Asked general questions about Laser Hair Removal.
-35,2025-10-01,Fresha,Laser Hair Removal,Availability question,No,60,Medium,No Response,Asked what times are open this week for Laser Hair Removal.
-36,2025-10-02,Website Contact Form,Body Contouring/Wellness,Availability question,No,60,Medium,Booked,Asked what times are open this week for Body Contouring/Wellness.
-37,2025-10-02,Fresha,Body Contouring/Wellness,Other,No,15,Low,No Response,Inquiry not clearly tied to a specific service.
-38,2025-10-03,Website Contact Form,Body Contouring/Wellness,Availability question,No,60,Medium,Booked,Asked what times are open this week for Body Contouring/Wellness.
-39,2025-10-03,Meta/Instagram/Facebook DMs,Skin Treatments/Facials,Availability question,No,60,Medium,New,Asked what times are open this week for Skin Treatments/Facials.
-40,2025-10-05,Meta/Instagram/Facebook DMs,Body Contouring/Wellness,Other,No,15,Low,New,Inquiry not clearly tied to a specific service.
-41,2025-10-06,Fresha,Injectables (Botox/Filler),Price or cost question,No,45,Medium,No Response,Asked how much Injectables (Botox/Filler) costs.
-42,2025-10-08,Fresha,Injectables (Botox/Filler),General service question,Yes,55,Medium,New,Asked general questions about Injectables (Botox/Filler).
-43,2025-10-09,Fresha,Skin Treatments/Facials,Direct booking request,No,70,High,No Response,Asked to book an appointment for Skin Treatments/Facials.
-44,2025-10-14,Meta/Instagram/Facebook DMs,Body Contouring/Wellness,Other,No,15,Low,Booked,Inquiry not clearly tied to a specific service.
-45,2025-10-15,Meta/Instagram/Facebook DMs,Laser Hair Removal,Price or cost question,No,45,Medium,Booked,Asked how much Laser Hair Removal costs.
-46,2025-10-17,Fresha,Body Contouring/Wellness,Availability question,No,60,Medium,New,Asked what times are open this week for Body Contouring/Wellness.
-47,2025-10-20,Fresha,Body Contouring/Wellness,Direct booking request,No,70,High,No Response,Asked to book an appointment for Body Contouring/Wellness.
-48,2025-10-22,Fresha,Injectables (Botox/Filler),Direct booking request,Yes,100,High,New,Asked to book an appointment for Injectables (Botox/Filler).
-49,2025-10-23,Website Contact Form,Skin Treatments/Facials,Price or cost question,No,45,Medium,New,Asked how much Skin Treatments/Facials costs.
-50,2025-10-26,Fresha,Laser Hair Removal,Availability question,No,60,Medium,Booked,Asked what times are open this week for Laser Hair Removal.
-51,2025-10-27,Meta/Instagram/Facebook DMs,Skin Treatments/Facials,Price or cost question,No,45,Medium,Contacted,Asked how much Skin Treatments/Facials costs.
-52,2025-10-31,Meta/Instagram/Facebook DMs,Laser Hair Removal,General service question,No,25,Low,Booked,Asked general questions about Laser Hair Removal.
-53,2025-11-05,Meta/Instagram/Facebook DMs,Laser Hair Removal,Price or cost question,No,45,Medium,New,Asked how much Laser Hair Removal costs.
-54,2025-11-05,Fresha,Skin Treatments/Facials,Availability question,No,60,Medium,New,Asked what times are open this week for Skin Treatments/Facials.
-55,2025-11-06,Fresha,Body Contouring/Wellness,Price or cost question,No,45,Medium,New,Asked how much Body Contouring/Wellness costs.
-56,2025-11-08,Meta/Instagram/Facebook DMs,Body Contouring/Wellness,Price or cost question,No,45,Medium,Booked,Asked how much Body Contouring/Wellness costs.
-57,2025-11-11,Meta/Instagram/Facebook DMs,Body Contouring/Wellness,Availability question,Yes,90,High,Contacted,Asked what times are open this week for Body Contouring/Wellness.
-58,2025-11-11,Fresha,Injectables (Botox/Filler),General service question,No,25,Low,No Response,Asked general questions about Injectables (Botox/Filler).
-59,2025-11-12,Meta/Instagram/Facebook DMs,Skin Treatments/Facials,General service question,No,25,Low,Contacted,Asked general questions about Skin Treatments/Facials.
-60,2025-11-18,Website Contact Form,Body Contouring/Wellness,General service question,No,25,Low,Contacted,Asked general questions about Body Contouring/Wellness.
-61,2025-11-19,Website Contact Form,Body Contouring/Wellness,Direct booking request,No,70,High,No Response,Asked to book an appointment for Body Contouring/Wellness.
-62,2025-11-20,Fresha,Body Contouring/Wellness,Direct booking request,No,70,High,Booked,Asked to book an appointment for Body Contouring/Wellness.
-63,2025-11-20,Fresha,Laser Hair Removal,Availability question,No,60,Medium,Contacted,Asked what times are open this week for Laser Hair Removal.
-64,2025-11-21,Meta/Instagram/Facebook DMs,Skin Treatments/Facials,Price or cost question,Yes,75,High,Contacted,Asked how much Skin Treatments/Facials costs.
-65,2025-11-22,Fresha,Laser Hair Removal,Direct booking request,No,70,High,Contacted,Asked to book an appointment for Laser Hair Removal.
-66,2025-11-24,Meta/Instagram/Facebook DMs,Injectables (Botox/Filler),Price or cost question,No,45,Medium,Booked,Asked how much Injectables (Botox/Filler) costs.
-67,2025-11-26,Fresha,Skin Treatments/Facials,Availability question,No,60,Medium,Booked,Asked what times are open this week for Skin Treatments/Facials.
-68,2025-11-29,Meta/Instagram/Facebook DMs,Laser Hair Removal,Direct booking request,Yes,100,High,No Response,Asked to book an appointment for Laser Hair Removal.
-69,2025-11-30,Website Contact Form,Body Contouring/Wellness,General service question,No,25,Low,No Response,Asked general questions about Body Contouring/Wellness.
-70,2025-12-03,Website Contact Form,Laser Hair Removal,Price or cost question,Yes,75,High,Contacted,Asked how much Laser Hair Removal costs.
-71,2025-12-05,Fresha,Body Contouring/Wellness,General service question,Yes,55,Medium,Booked,Asked general questions about Body Contouring/Wellness.
-72,2025-12-07,Meta/Instagram/Facebook DMs,Laser Hair Removal,Direct booking request,No,70,High,No Response,Asked to book an appointment for Laser Hair Removal.
-73,2025-12-10,Fresha,Skin Treatments/Facials,General service question,No,25,Low,New,Asked general questions about Skin Treatments/Facials.
-74,2025-12-11,Fresha,Body Contouring/Wellness,Availability question,No,60,Medium,New,Asked what times are open this week for Body Contouring/Wellness.
-75,2025-12-19,Fresha,Laser Hair Removal,Price or cost question,No,45,Medium,No Response,Asked how much Laser Hair Removal costs.
-76,2025-12-20,Fresha,Injectables (Botox/Filler),Price or cost question,No,45,Medium,Contacted,Asked how much Injectables (Botox/Filler) costs.
-77,2025-12-20,Fresha,Body Contouring/Wellness,General service question,No,25,Low,New,Asked general questions about Body Contouring/Wellness.
-78,2025-12-21,Meta/Instagram/Facebook DMs,Laser Hair Removal,Availability question,Yes,90,High,Contacted,Asked what times are open this week for Laser Hair Removal.
-79,2025-12-24,Fresha,Skin Treatments/Facials,Price or cost question,Yes,75,High,No Response,Asked how much Skin Treatments/Facials costs.
-80,2025-12-24,Meta/Instagram/Facebook DMs,Body Contouring/Wellness,Direct booking request,No,70,High,Booked,Asked to book an appointment for Body Contouring/Wellness.
-81,2025-12-27,Fresha,Skin Treatments/Facials,Availability question,No,60,Medium,New,Asked what times are open this week for Skin Treatments/Facials.
-82,2026-01-09,Website Contact Form,Skin Treatments/Facials,Price or cost question,Yes,75,High,Booked,Asked how much Skin Treatments/Facials costs.
-83,2026-01-12,Fresha,Injectables (Botox/Filler),Direct booking request,No,70,High,New,Asked to book an appointment for Injectables (Botox/Filler).
-84,2026-01-18,Fresha,Body Contouring/Wellness,Availability question,Yes,90,High,Booked,Asked what times are open this week for Body Contouring/Wellness.
-85,2026-01-19,Meta/Instagram/Facebook DMs,Skin Treatments/Facials,Other,No,15,Low,Booked,Inquiry not clearly tied to a specific service.
-86,2026-01-19,Fresha,Injectables (Botox/Filler),Price or cost question,No,45,Medium,New,Asked how much Injectables (Botox/Filler) costs.
-87,2026-01-27,Fresha,Body Contouring/Wellness,Direct booking request,Yes,100,High,Booked,Asked to book an appointment for Body Contouring/Wellness.
-88,2026-01-28,Fresha,Skin Treatments/Facials,General service question,No,25,Low,Contacted,Asked general questions about Skin Treatments/Facials.
-89,2026-01-30,Fresha,Injectables (Botox/Filler),Direct booking request,No,70,High,New,Asked to book an appointment for Injectables (Botox/Filler).
-90,2026-02-04,Fresha,Skin Treatments/Facials,Availability question,No,60,Medium,New,Asked what times are open this week for Skin Treatments/Facials.
-91,2026-02-07,Meta/Instagram/Facebook DMs,Skin Treatments/Facials,General service question,Yes,55,Medium,No Response,Asked general questions about Skin Treatments/Facials.
-92,2026-02-08,Fresha,Body Contouring/Wellness,Other,No,15,Low,No Response,Inquiry not clearly tied to a specific service.
-93,2026-02-11,Website Contact Form,Injectables (Botox/Filler),Availability question,No,60,Medium,No Response,Asked what times are open this week for Injectables (Botox/Filler).
-94,2026-02-12,Meta/Instagram/Facebook DMs,Body Contouring/Wellness,Price or cost question,No,45,Medium,Contacted,Asked how much Body Contouring/Wellness costs.
-95,2026-02-13,Website Contact Form,Laser Hair Removal,Price or cost question,Yes,75,High,Contacted,Asked how much Laser Hair Removal costs.
-96,2026-02-14,Meta/Instagram/Facebook DMs,Skin Treatments/Facials,Direct booking request,No,70,High,New,Asked to book an appointment for Skin Treatments/Facials.
-97,2026-02-24,Fresha,Laser Hair Removal,Direct booking request,Yes,100,High,Contacted,Asked to book an appointment for Laser Hair Removal.
-98,2026-02-27,Fresha,Body Contouring/Wellness,Direct booking request,Yes,100,High,Contacted,Asked to book an appointment for Body Contouring/Wellness.
-99,2026-02-27,Website Contact Form,Skin Treatments/Facials,General service question,Yes,55,Medium,Booked,Asked general questions about Skin Treatments/Facials.
-100,2026-03-01,Fresha,Body Contouring/Wellness,General service question,No,25,Low,New,Asked general questions about Body Contouring/Wellness.
-101,2026-03-01,Fresha,Skin Treatments/Facials,Direct booking request,No,70,High,No Response,Asked to book an appointment for Skin Treatments/Facials.
-102,2026-03-02,Meta/Instagram/Facebook DMs,Laser Hair Removal,General service question,No,25,Low,New,Asked general questions about Laser Hair Removal.
-103,2026-03-03,Fresha,Skin Treatments/Facials,Price or cost question,No,45,Medium,Contacted,Asked how much Skin Treatments/Facials costs.
-104,2026-03-11,Website Contact Form,Skin Treatments/Facials,Availability question,No,60,Medium,Booked,Asked what times are open this week for Skin Treatments/Facials.
-105,2026-03-12,Fresha,Laser Hair Removal,Direct booking request,No,70,High,Contacted,Asked to book an appointment for Laser Hair Removal.
-106,2026-03-13,Fresha,Injectables (Botox/Filler),Direct booking request,No,70,High,New,Asked to book an appointment for Injectables (Botox/Filler).
-107,2026-03-14,Meta/Instagram/Facebook DMs,Injectables (Botox/Filler),Direct booking request,No,70,High,Booked,Asked to book an appointment for Injectables (Botox/Filler).
-108,2026-03-15,Meta/Instagram/Facebook DMs,Body Contouring/Wellness,General service question,No,25,Low,Contacted,Asked general questions about Body Contouring/Wellness.
-109,2026-03-17,Fresha,Skin Treatments/Facials,Direct booking request,No,70,High,No Response,Asked to book an appointment for Skin Treatments/Facials.
-110,2026-03-17,Meta/Instagram/Facebook DMs,Injectables (Botox/Filler),Availability question,No,60,Medium,New,Asked what times are open this week for Injectables (Botox/Filler).
-111,2026-03-20,Meta/Instagram/Facebook DMs,Laser Hair Removal,Price or cost question,No,45,Medium,Contacted,Asked how much Laser Hair Removal costs.
-112,2026-03-21,Meta/Instagram/Facebook DMs,Laser Hair Removal,Direct booking request,No,70,High,Contacted,Asked to book an appointment for Laser Hair Removal.
-113,2026-03-22,Website Contact Form,Body Contouring/Wellness,Direct booking request,No,70,High,No Response,Asked to book an appointment for Body Contouring/Wellness.
-114,2026-03-25,Website Contact Form,Body Contouring/Wellness,General service question,Yes,55,Medium,Contacted,Asked general questions about Body Contouring/Wellness.
-115,2026-03-26,Meta/Instagram/Facebook DMs,Injectables (Botox/Filler),General service question,Yes,55,Medium,No Response,Asked general questions about Injectables (Botox/Filler).
-116,2026-03-27,Website Contact Form,Skin Treatments/Facials,General service question,No,25,Low,New,Asked general questions about Skin Treatments/Facials.
-117,2026-03-29,Website Contact Form,Laser Hair Removal,Availability question,No,60,Medium,Booked,Asked what times are open this week for Laser Hair Removal.
-118,2026-03-29,Fresha,Laser Hair Removal,Direct booking request,Yes,100,High,Booked,Asked to book an appointment for Laser Hair Removal.
-119,2026-03-30,Website Contact Form,Injectables (Botox/Filler),Price or cost question,No,45,Medium,New,Asked how much Injectables (Botox/Filler) costs.
-120,2026-03-31,Meta/Instagram/Facebook DMs,Injectables (Botox/Filler),Availability question,No,60,Medium,No Response,Asked what times are open this week for Injectables (Botox/Filler).
-121,2026-04-01,Website Contact Form,Laser Hair Removal,Other,No,15,Low,Booked,Inquiry not clearly tied to a specific service.
-122,2026-04-03,Meta/Instagram/Facebook DMs,Laser Hair Removal,Direct booking request,Yes,100,High,Booked,Asked to book an appointment for Laser Hair Removal.
-123,2026-04-06,Fresha,Injectables (Botox/Filler),General service question,Yes,55,Medium,New,Asked general questions about Injectables (Botox/Filler).
-124,2026-04-06,Website Contact Form,Laser Hair Removal,Other,Yes,45,Medium,New,Inquiry not clearly tied to a specific service.
-125,2026-04-06,Website Contact Form,Body Contouring/Wellness,Price or cost question,No,45,Medium,Booked,Asked how much Body Contouring/Wellness costs.
-126,2026-04-08,Meta/Instagram/Facebook DMs,Injectables (Botox/Filler),Direct booking request,No,70,High,New,Asked to book an appointment for Injectables (Botox/Filler).
-127,2026-04-09,Website Contact Form,Body Contouring/Wellness,General service question,Yes,55,Medium,Booked,Asked general questions about Body Contouring/Wellness.
-128,2026-04-12,Fresha,Body Contouring/Wellness,Direct booking request,Yes,100,High,Contacted,Asked to book an appointment for Body Contouring/Wellness.
-129,2026-04-13,Website Contact Form,Injectables (Botox/Filler),Price or cost question,Yes,75,High,New,Asked how much Injectables (Botox/Filler) costs.
-130,2026-04-16,Fresha,Body Contouring/Wellness,Other,Yes,45,Medium,No Response,Inquiry not clearly tied to a specific service.
-131,2026-04-20,Meta/Instagram/Facebook DMs,Body Contouring/Wellness,Price or cost question,Yes,75,High,Booked,Asked how much Body Contouring/Wellness costs.
-132,2026-04-24,Meta/Instagram/Facebook DMs,Injectables (Botox/Filler),General service question,No,25,Low,Contacted,Asked general questions about Injectables (Botox/Filler).
-133,2026-04-28,Fresha,Laser Hair Removal,Price or cost question,Yes,75,High,Contacted,Asked how much Laser Hair Removal costs.
-134,2026-04-29,Fresha,Skin Treatments/Facials,General service question,Yes,55,Medium,Booked,Asked general questions about Skin Treatments/Facials.
-135,2026-05-01,Meta/Instagram/Facebook DMs,Body Contouring/Wellness,General service question,No,25,Low,New,Asked general questions about Body Contouring/Wellness.
-136,2026-05-01,Meta/Instagram/Facebook DMs,Injectables (Botox/Filler),Direct booking request,No,70,High,New,Asked to book an appointment for Injectables (Botox/Filler).
-137,2026-05-04,Fresha,Laser Hair Removal,Price or cost question,No,45,Medium,New,Asked how much Laser Hair Removal costs.
-138,2026-05-10,Meta/Instagram/Facebook DMs,Body Contouring/Wellness,Price or cost question,No,45,Medium,No Response,Asked how much Body Contouring/Wellness costs.
-139,2026-05-11,Meta/Instagram/Facebook DMs,Injectables (Botox/Filler),Price or cost question,No,45,Medium,Booked,Asked how much Injectables (Botox/Filler) costs.
-140,2026-05-12,Meta/Instagram/Facebook DMs,Injectables (Botox/Filler),Price or cost question,No,45,Medium,Booked,Asked how much Injectables (Botox/Filler) costs.
-141,2026-05-15,Fresha,Body Contouring/Wellness,Availability question,No,60,Medium,Contacted,Asked what times are open this week for Body Contouring/Wellness.
-142,2026-05-16,Meta/Instagram/Facebook DMs,Skin Treatments/Facials,Price or cost question,No,45,Medium,New,Asked how much Skin Treatments/Facials costs.
-143,2026-05-17,Website Contact Form,Injectables (Botox/Filler),Price or cost question,Yes,75,High,No Response,Asked how much Injectables (Botox/Filler) costs.
-144,2026-05-21,Fresha,Injectables (Botox/Filler),Availability question,Yes,90,High,No Response,Asked what times are open this week for Injectables (Botox/Filler).
-145,2026-05-22,Fresha,Body Contouring/Wellness,Direct booking request,No,70,High,No Response,Asked to book an appointment for Body Contouring/Wellness.
-146,2026-05-23,Meta/Instagram/Facebook DMs,Laser Hair Removal,Availability question,Yes,90,High,Contacted,Asked what times are open this week for Laser Hair Removal.
-147,2026-05-23,Website Contact Form,Injectables (Botox/Filler),General service question,No,25,Low,Contacted,Asked general questions about Injectables (Botox/Filler).
-148,2026-05-25,Meta/Instagram/Facebook DMs,Skin Treatments/Facials,Price or cost question,No,45,Medium,No Response,Asked how much Skin Treatments/Facials costs.
-149,2026-05-26,Website Contact Form,Injectables (Botox/Filler),Availability question,No,60,Medium,Contacted,Asked what times are open this week for Injectables (Botox/Filler).
-150,2026-05-27,Meta/Instagram/Facebook DMs,Skin Treatments/Facials,Availability question,No,60,Medium,No Response,Asked what times are open this week for Skin Treatments/Facials.
-151,2026-05-31,Website Contact Form,Body Contouring/Wellness,Direct booking request,Yes,100,High,Booked,Asked to book an appointment for Body Contouring/Wellness.
-152,2026-05-31,Website Contact Form,Body Contouring/Wellness,Price or cost question,No,45,Medium,No Response,Asked how much Body Contouring/Wellness costs.
-153,2026-06-01,Fresha,Injectables (Botox/Filler),Availability question,Yes,90,High,No Response,Asked what times are open this week for Injectables (Botox/Filler).
-154,2026-06-02,Website Contact Form,Body Contouring/Wellness,Price or cost question,Yes,75,High,Booked,Asked how much Body Contouring/Wellness costs.
-155,2026-06-10,Fresha,Skin Treatments/Facials,Price or cost question,No,45,Medium,Booked,Asked how much Skin Treatments/Facials costs.
-156,2026-06-13,Meta/Instagram/Facebook DMs,Laser Hair Removal,Direct booking request,No,70,High,Contacted,Asked to book an appointment for Laser Hair Removal.
-157,2026-06-17,Meta/Instagram/Facebook DMs,Skin Treatments/Facials,General service question,No,25,Low,New,Asked general questions about Skin Treatments/Facials.
-158,2026-06-18,Fresha,Injectables (Botox/Filler),Price or cost question,No,45,Medium,New,Asked how much Injectables (Botox/Filler) costs.
-159,2026-06-19,Website Contact Form,Laser Hair Removal,Availability question,No,60,Medium,Booked,Asked what times are open this week for Laser Hair Removal.
-160,2026-06-20,Website Contact Form,Laser Hair Removal,Availability question,No,60,Medium,New,Asked what times are open this week for Laser Hair Removal.
-161,2026-06-24,Meta/Instagram/Facebook DMs,Laser Hair Removal,Availability question,No,60,Medium,Booked,Asked what times are open this week for Laser Hair Removal.
-162,2026-06-26,Meta/Instagram/Facebook DMs,Skin Treatments/Facials,General service question,Yes,55,Medium,Booked,Asked general questions about Skin Treatments/Facials.
-163,2026-06-28,Website Contact Form,Skin Treatments/Facials,Direct booking request,No,70,High,Booked,Asked to book an appointment for Skin Treatments/Facials.
-164,2026-07-03,Meta/Instagram/Facebook DMs,Body Contouring/Wellness,Price or cost question,Yes,75,High,Contacted,Asked how much Body Contouring/Wellness costs.
-165,2026-07-03,Meta/Instagram/Facebook DMs,Laser Hair Removal,Price or cost question,No,45,Medium,New,Asked how much Laser Hair Removal costs.
-166,2026-07-04,Meta/Instagram/Facebook DMs,Injectables (Botox/Filler),Price or cost question,No,45,Medium,Booked,Asked how much Injectables (Botox/Filler) costs.
-167,2026-07-07,Meta/Instagram/Facebook DMs,Laser Hair Removal,Direct booking request,No,70,High,Booked,Asked to book an appointment for Laser Hair Removal.
-168,2026-07-07,Meta/Instagram/Facebook DMs,Laser Hair Removal,Direct booking request,No,70,High,Booked,Asked to book an appointment for Laser Hair Removal.
-169,2026-07-08,Meta/Instagram/Facebook DMs,Laser Hair Removal,Price or cost question,No,45,Medium,No Response,Asked how much Laser Hair Removal costs.
-170,2026-07-11,Fresha,Body Contouring/Wellness,Availability question,No,60,Medium,Contacted,Asked what times are open this week for Body Contouring/Wellness.
-171,2026-07-11,Fresha,Body Contouring/Wellness,Direct booking request,No,70,High,No Response,Asked to book an appointment for Body Contouring/Wellness.
-172,2026-07-14,Website Contact Form,Body Contouring/Wellness,General service question,No,25,Low,Contacted,Asked general questions about Body Contouring/Wellness.
-173,2026-07-14,Meta/Instagram/Facebook DMs,Skin Treatments/Facials,Direct booking request,Yes,100,High,Booked,Asked to book an appointment for Skin Treatments/Facials.
-174,2026-07-17,Fresha,Injectables (Botox/Filler),Availability question,Yes,90,High,Booked,Asked what times are open this week for Injectables (Botox/Filler).
-175,2026-07-20,Fresha,Body Contouring/Wellness,General service question,Yes,55,Medium,Contacted,Asked general questions about Body Contouring/Wellness.
-176,2026-07-21,Fresha,Body Contouring/Wellness,Availability question,No,60,Medium,Contacted,Asked what times are open this week for Body Contouring/Wellness.
-177,2026-07-22,Fresha,Body Contouring/Wellness,General service question,No,25,Low,Booked,Asked general questions about Body Contouring/Wellness.
-178,2026-07-27,Meta/Instagram/Facebook DMs,Skin Treatments/Facials,Price or cost question,No,45,Medium,New,Asked how much Skin Treatments/Facials costs.
-179,2026-07-28,Website Contact Form,Laser Hair Removal,Direct booking request,Yes,100,High,Booked,Asked to book an appointment for Laser Hair Removal.
-180,2026-07-31,Website Contact Form,Injectables (Botox/Filler),Price or cost question,Yes,75,High,Booked,Asked how much Injectables (Botox/Filler) costs.
+Date,Lead Name,Phone,Email,Service Interested in,Source Ad,Contacted,Response status,Booking status,Notes
+2026-07-21,Casey Rivera,555-959-5506,casey.rivera29@example.com,Botox/Filler,Walk-in,No,,N/A,
+2026-03-20,Blake Patel,555-232-1488,blake.patel28@example.com,Botox/Filler,Referral,Yes,Not interested,N/A,
+2026-03-27,Blake Okafor,555-425-8359,blake.okafor36@sample.net,Laser Hair Removal,Meta/Facebook,Yes,Not interested,N/A,Referred by existing client
+2026-03-22,Reese Kowalski,555-359-4527,reese.kowalski14@mail.example,Laser Hair Removal,Website,No,,N/A,
+2026-03-19,Dakota Moreno,555-818-5333,dakota.moreno94@example.com,Body Contouring,Referral,Yes,,N/A,
+2026-04-13,Emerson Patel,555-843-6925,emerson.patel25@sample.net,Laser Hair Removal,Google,Yes,Not in service,N/A,Asked about pricing
+2026-06-18,Hayden Patel,555-303-7227,hayden.patel59@mail.example,Facial/Skincare,Meta/Facebook,Yes,Mailbox full,N/A,Wants weekend appointment
+2026-04-15,Dakota Okafor,555-886-5374,dakota.okafor88@sample.net,Laser Hair Removal,Referral,Yes,,N/A,
+2026-06-02,Blake Sanders,555-367-8573,blake.sanders35@mail.example,Botox/Filler,Walk-in,Yes,,Booked,Wants weekend appointment
+2026-05-14,Taylor Sanders,555-523-7572,taylor.sanders9@mail.example,Botox/Filler,Referral,Yes,Voicemail,N/A,Wants weekend appointment
+2026-06-02,Peyton Haddad,555-858-8517,peyton.haddad34@example.com,Botox/Filler,Meta/Facebook,Yes,Not interested,N/A,Left message
+2026-02-13,Elliot Novak,555-570-4593,elliot.novak66@example.com,Body Contouring,Google,Yes,Not interested,N/A,
+2026-06-08,Casey Garcia,555-896-7916,casey.garcia9@sample.net,Body Contouring,Website,Yes,Mailbox full,N/A,Follow up next week
+2026-06-27,Drew Kowalski,555-896-2876,drew.kowalski69@sample.net,Facial/Skincare,Walk-in,Yes,Voicemail,N/A,Wants weekend appointment
+2026-05-20,Casey Diaz,555-361-8433,casey.diaz93@example.com,Facial/Skincare,Referral,Yes,Not interested,N/A,
+2026-03-15,Drew Nguyen,555-840-5889,drew.nguyen65@sample.net,Botox/Filler,Meta/Facebook,Yes,,N/A,Wants weekend appointment
+2026-03-16,Avery Torres,555-813-6310,avery.torres3@mail.example,Laser Hair Removal,TikTok,Yes,Voicemail,N/A,Left message
+2026-03-18,Quinn Chen,555-446-2290,quinn.chen94@example.com,Body Contouring,Google,Yes,,N/A,
+2026-06-23,Riley Haddad,555-471-9645,riley.haddad55@sample.net,Botox/Filler,Referral,Yes,Mailbox full,N/A,Asked about pricing
+2026-07-17,Hayden Kim,555-648-9479,hayden.kim16@mail.example,Botox/Filler,Meta/Facebook,Yes,Not in service,N/A,
+2026-07-21,Reese Rivera,555-802-4608,reese.rivera10@example.com,Laser Hair Removal,Meta/Facebook,Yes,Mailbox full,N/A,
+2026-04-28,Taylor Fischer,555-726-4899,taylor.fischer86@mail.example,Body Contouring,Meta/Facebook,Yes,Voicemail,N/A,
+2026-07-31,Elliot Larsen,555-684-4981,elliot.larsen53@mail.example,Botox/Filler,Google,Yes,,Booked,
+2026-06-25,Rowan Moreno,555-620-8651,rowan.moreno7@sample.net,Laser Hair Removal,Google,Yes,Not interested,N/A,Referred by existing client
+2026-07-15,Reese Nguyen,555-396-4116,reese.nguyen58@sample.net,Botox/Filler,Website,Yes,Mailbox full,N/A,
+2026-04-28,Skyler Bianchi,555-455-2235,skyler.bianchi71@mail.example,Laser Hair Removal,Google,Yes,,N/A,
+2026-07-18,Morgan Sanders,555-370-7658,morgan.sanders62@mail.example,Botox/Filler,Website,Yes,,N/A,
+2026-07-21,Avery Kim,555-599-5345,avery.kim37@mail.example,Body Contouring,Walk-in,Yes,Voicemail,N/A,Follow up next week
+2026-05-09,Riley Okafor,555-422-1958,riley.okafor95@sample.net,Laser Hair Removal,Walk-in,Yes,Not in service,N/A,Wants weekend appointment
+2026-05-18,Taylor Chen,555-798-8811,taylor.chen68@sample.net,Botox/Filler,Google,Yes,,N/A,
+2026-06-06,Avery Patel,555-891-4853,avery.patel16@mail.example,Botox/Filler,Referral,Yes,Voicemail,N/A,
+2026-02-14,Finley Patel,555-873-9565,finley.patel34@mail.example,Botox/Filler,Walk-in,Yes,Not interested,N/A,Wants weekend appointment
+2026-03-17,Quinn Kowalski,555-334-5915,quinn.kowalski41@mail.example,Laser Hair Removal,Google,Yes,Not interested,N/A,Follow up next week
+2026-05-18,Finley Larsen,555-275-9808,finley.larsen65@example.com,Facial/Skincare,Meta/Facebook,Yes,Voicemail,N/A,Wants weekend appointment
+2026-03-14,Morgan Sanders,555-578-5669,morgan.sanders57@example.com,Facial/Skincare,Referral,No,,N/A,
+2026-04-24,Blake Diaz,555-337-5333,blake.diaz14@example.com,Botox/Filler,TikTok,Yes,Voicemail,N/A,Left message
+2026-06-12,Finley Okafor,555-934-6617,finley.okafor88@example.com,Facial/Skincare,Referral,Yes,,N/A,Follow up next week
+2026-04-16,Skyler Chen,555-849-7939,skyler.chen6@mail.example,Laser Hair Removal,TikTok,Yes,Voicemail,N/A,
+2026-07-04,Skyler Cohen,555-764-8007,skyler.cohen2@sample.net,Laser Hair Removal,Google,Yes,Not interested,N/A,
+2026-06-08,Blake Chen,555-578-3426,blake.chen17@mail.example,Laser Hair Removal,TikTok,No,,N/A,Wants weekend appointment
+2026-02-09,Taylor Moreno,555-415-5088,taylor.moreno14@sample.net,Facial/Skincare,Referral,Yes,,N/A,Referred by existing client
+2026-04-24,Finley Garcia,555-366-3900,finley.garcia4@mail.example,Botox/Filler,Walk-in,Yes,Mailbox full,N/A,Wants weekend appointment
+2026-07-26,Rowan Sanders,555-363-2771,rowan.sanders5@mail.example,Body Contouring,Meta/Facebook,Yes,Not in service,N/A,Asked about pricing
+2026-07-23,Sage Moreno,555-433-4652,sage.moreno85@example.com,Botox/Filler,Website,Yes,Not in service,N/A,Wants weekend appointment
+2026-02-16,Skyler Patel,555-991-5573,skyler.patel83@mail.example,Body Contouring,Walk-in,Yes,,N/A,Wants weekend appointment
+2026-06-08,Jordan Nguyen,555-467-3925,jordan.nguyen34@sample.net,Laser Hair Removal,Google,No,,N/A,Referred by existing client
+2026-05-01,Dakota Fischer,555-820-9379,dakota.fischer50@example.com,Botox/Filler,TikTok,Yes,Not interested,N/A,
+2026-07-12,Rowan Rivera,555-572-8066,rowan.rivera86@example.com,Facial/Skincare,Referral,Yes,Mailbox full,N/A,Wants weekend appointment
+2026-02-19,Casey Diaz,555-719-6067,casey.diaz53@sample.net,Facial/Skincare,Website,Yes,,Booked,Left message
+2026-03-21,Blake Garcia,555-396-7888,blake.garcia49@sample.net,Botox/Filler,Referral,Yes,,N/A,Left message
+2026-07-12,Emerson Torres,555-200-5978,emerson.torres27@mail.example,Body Contouring,Referral,No,,N/A,Wants weekend appointment
+2026-04-29,Sage Bianchi,555-891-4501,sage.bianchi61@sample.net,Botox/Filler,Walk-in,Yes,Not interested,N/A,
+2026-04-14,Hayden Osei,555-295-4848,hayden.osei40@sample.net,Botox/Filler,Meta/Facebook,Yes,Not in service,N/A,
+2026-06-15,Jordan Chen,555-686-2193,jordan.chen54@mail.example,Botox/Filler,Walk-in,Yes,Mailbox full,N/A,Referred by existing client
+2026-02-13,Cameron Kim,555-351-1090,cameron.kim55@example.com,Botox/Filler,Meta/Facebook,Yes,Mailbox full,N/A,Follow up next week
+2026-02-09,Taylor Torres,555-324-8478,taylor.torres60@example.com,Facial/Skincare,Website,Yes,Mailbox full,N/A,Referred by existing client
+2026-08-03,Blake Bianchi,555-362-8777,blake.bianchi34@mail.example,Botox/Filler,Walk-in,Yes,,N/A,Left message
+2026-03-21,Drew Haddad,555-481-8206,drew.haddad92@example.com,Facial/Skincare,Meta/Facebook,Yes,Mailbox full,N/A,Left message
+2026-02-17,Reese Fischer,555-753-2320,reese.fischer20@example.com,Botox/Filler,Website,No,,N/A,
+2026-06-24,Peyton Patel,555-617-6421,peyton.patel60@sample.net,Body Contouring,Google,Yes,Not interested,N/A,Asked about pricing
+2026-03-30,Rowan Kim,555-983-7232,rowan.kim1@mail.example,Facial/Skincare,TikTok,Yes,Voicemail,N/A,Referred by existing client
+2026-03-02,Rowan Torres,555-965-9947,rowan.torres29@sample.net,Body Contouring,Meta/Facebook,Yes,,N/A,Left message
+2026-02-19,Rowan Haddad,555-598-6507,rowan.haddad87@sample.net,Body Contouring,Walk-in,Yes,Voicemail,N/A,
+2026-08-04,Sage Garcia,555-603-1444,sage.garcia83@example.com,Body Contouring,Meta/Facebook,Yes,Voicemail,N/A,Follow up next week
+2026-03-22,Avery Chen,555-466-7211,avery.chen28@mail.example,Body Contouring,TikTok,No,,N/A,Wants weekend appointment
+2026-04-24,Emerson Kowalski,555-970-7906,emerson.kowalski11@mail.example,Body Contouring,Google,Yes,,N/A,
+2026-05-20,Dakota Sanders,555-999-1659,dakota.sanders32@example.com,Botox/Filler,Google,Yes,Voicemail,N/A,
+2026-07-15,Quinn Garcia,555-885-2874,quinn.garcia28@sample.net,Body Contouring,Walk-in,Yes,Not interested,N/A,Left message
+2026-05-05,Dakota Cohen,555-996-3683,dakota.cohen14@mail.example,Laser Hair Removal,TikTok,Yes,Voicemail,N/A,Referred by existing client
+2026-06-16,Emerson Okafor,555-277-4978,emerson.okafor90@example.com,Facial/Skincare,Walk-in,Yes,,N/A,
+2026-03-25,Elliot Chen,555-745-8018,elliot.chen48@sample.net,Laser Hair Removal,Referral,Yes,Not in service,N/A,Wants weekend appointment
+2026-05-23,Jordan Novak,555-308-8102,jordan.novak82@mail.example,Body Contouring,Walk-in,Yes,Not interested,N/A,
+2026-03-07,Rowan Cohen,555-951-9548,rowan.cohen35@sample.net,Body Contouring,Website,Yes,,Booked,Referred by existing client
+2026-08-03,Elliot Kowalski,555-530-5022,elliot.kowalski36@example.com,Body Contouring,Meta/Facebook,Yes,,N/A,Follow up next week
+2026-06-07,Elliot Abbas,555-884-7209,elliot.abbas4@mail.example,Body Contouring,TikTok,No,,N/A,
+2026-05-03,Cameron Okafor,555-464-6576,cameron.okafor77@mail.example,Facial/Skincare,Referral,Yes,Not in service,N/A,
+2026-02-21,Drew Okafor,555-287-4954,drew.okafor53@sample.net,Body Contouring,Referral,No,,N/A,Asked about pricing
+2026-05-22,Cameron Haddad,555-658-1282,cameron.haddad38@example.com,Botox/Filler,Website,Yes,,N/A,Asked about pricing
+2026-02-08,Hayden Larsen,555-577-8753,hayden.larsen68@sample.net,Facial/Skincare,Website,Yes,,N/A,Wants weekend appointment
+2026-03-25,Dakota Bianchi,555-513-5118,dakota.bianchi16@example.com,Botox/Filler,TikTok,Yes,Not in service,N/A,
+2026-06-10,Blake Cohen,555-396-4545,blake.cohen62@sample.net,Facial/Skincare,Walk-in,No,,N/A,Left message
+2026-06-12,Casey Okafor,555-503-4727,casey.okafor23@mail.example,Facial/Skincare,Google,Yes,,N/A,
+2026-05-16,Skyler Chen,555-255-5786,skyler.chen17@sample.net,Body Contouring,Google,Yes,,Booked,
+2026-07-17,Elliot Diaz,555-680-8843,elliot.diaz44@mail.example,Botox/Filler,Google,Yes,,Booked,Left message
+2026-07-02,Cameron Nguyen,555-266-7565,cameron.nguyen10@mail.example,Laser Hair Removal,Meta/Facebook,Yes,,Booked,
+2026-07-06,Elliot Diaz,555-454-2940,elliot.diaz98@sample.net,Body Contouring,Referral,Yes,Voicemail,N/A,Asked about pricing
+2026-03-10,Drew Kim,555-661-8253,drew.kim76@mail.example,Body Contouring,TikTok,No,,N/A,
+2026-06-10,Finley Nguyen,555-981-4404,finley.nguyen28@sample.net,Facial/Skincare,Walk-in,Yes,,N/A,
+2026-02-27,Avery Sanders,555-765-2229,avery.sanders1@example.com,Body Contouring,Website,Yes,Mailbox full,N/A,Follow up next week
+2026-06-25,Hayden Chen,555-437-5720,hayden.chen37@sample.net,Body Contouring,Google,Yes,,Booked,Asked about pricing
+2026-08-05,Skyler Larsen,555-635-2880,skyler.larsen29@sample.net,Botox/Filler,TikTok,Yes,Mailbox full,N/A,
+2026-05-31,Morgan Chen,555-369-6039,morgan.chen96@sample.net,Facial/Skincare,Website,Yes,,Booked,
+2026-05-26,Sage Diaz,555-916-7594,sage.diaz65@mail.example,Body Contouring,Website,Yes,,Booked,
+2026-02-21,Finley Chen,555-642-6280,finley.chen33@sample.net,Laser Hair Removal,Google,No,,N/A,Asked about pricing
+2026-06-24,Elliot Larsen,555-983-5415,elliot.larsen6@sample.net,Botox/Filler,Website,Yes,Voicemail,N/A,Follow up next week
+2026-02-11,Skyler Cohen,555-850-9056,skyler.cohen61@example.com,Facial/Skincare,Website,Yes,Not interested,N/A,Wants weekend appointment
+2026-06-09,Reese Nguyen,555-537-7744,reese.nguyen64@sample.net,Facial/Skincare,Walk-in,Yes,Mailbox full,N/A,Referred by existing client
+2026-05-06,Blake Chen,555-665-2442,blake.chen33@mail.example,Facial/Skincare,Google,Yes,,N/A,Referred by existing client
+2026-05-20,Drew Rivera,555-623-1888,drew.rivera67@example.com,Facial/Skincare,Referral,Yes,Not interested,N/A,Follow up next week
+2026-05-12,Sage Chen,555-473-9998,sage.chen37@example.com,Body Contouring,Walk-in,Yes,Mailbox full,N/A,Follow up next week
+2026-07-05,Casey Rivera,555-845-4920,casey.rivera21@sample.net,Facial/Skincare,Referral,No,,N/A,
+2026-04-05,Blake Novak,555-430-2858,blake.novak16@mail.example,Botox/Filler,Website,Yes,Voicemail,N/A,Left message
+2026-05-16,Drew Kowalski,555-694-8736,drew.kowalski59@example.com,Botox/Filler,Website,Yes,Not interested,N/A,Asked about pricing
+2026-05-02,Finley Osei,555-271-5526,finley.osei44@mail.example,Facial/Skincare,Google,Yes,Mailbox full,N/A,Left message
+2026-07-06,Hayden Larsen,555-352-8316,hayden.larsen62@sample.net,Facial/Skincare,TikTok,Yes,Not interested,N/A,Referred by existing client
+2026-03-27,Sage Fischer,555-393-4912,sage.fischer50@sample.net,Botox/Filler,Website,Yes,,N/A,
+2026-04-17,Reese Haddad,555-922-7246,reese.haddad85@mail.example,Botox/Filler,Website,Yes,,Booked,
+2026-03-29,Riley Osei,555-302-8213,riley.osei68@example.com,Body Contouring,Google,Yes,Not in service,N/A,
+2026-07-07,Rowan Garcia,555-680-5342,rowan.garcia80@mail.example,Body Contouring,Walk-in,Yes,Voicemail,N/A,
+2026-03-15,Reese Torres,555-524-8994,reese.torres5@sample.net,Laser Hair Removal,Meta/Facebook,Yes,Not interested,N/A,Left message
+2026-07-28,Quinn Patel,555-300-2646,quinn.patel22@mail.example,Facial/Skincare,Google,Yes,Not interested,N/A,
+2026-07-20,Reese Chen,555-567-7141,reese.chen19@mail.example,Botox/Filler,Referral,Yes,Not in service,N/A,Referred by existing client
+2026-03-29,Elliot Cohen,555-379-2293,elliot.cohen49@sample.net,Botox/Filler,Website,Yes,Mailbox full,N/A,
+2026-03-22,Quinn Bianchi,555-853-5161,quinn.bianchi33@mail.example,Laser Hair Removal,Website,Yes,,N/A,Left message
+2026-03-30,Blake Cohen,555-652-6661,blake.cohen39@sample.net,Body Contouring,Walk-in,Yes,Voicemail,N/A,Left message
+2026-07-22,Sage Diaz,555-593-8916,sage.diaz31@example.com,Body Contouring,Referral,Yes,Mailbox full,N/A,Wants weekend appointment
+2026-03-12,Elliot Diaz,555-222-7484,elliot.diaz2@mail.example,Laser Hair Removal,Referral,Yes,Not in service,N/A,Follow up next week
+2026-03-22,Hayden Sanders,555-424-4115,hayden.sanders33@sample.net,Botox/Filler,Walk-in,Yes,Not in service,N/A,
+2026-04-29,Taylor Diaz,555-234-6977,taylor.diaz17@sample.net,Laser Hair Removal,TikTok,Yes,Not interested,N/A,Wants weekend appointment
+2026-05-20,Rowan Cohen,555-335-9837,rowan.cohen68@mail.example,Facial/Skincare,Meta/Facebook,Yes,Mailbox full,N/A,Left message
+2026-07-12,Cameron Diaz,555-317-8673,cameron.diaz19@example.com,Botox/Filler,Walk-in,Yes,Not in service,N/A,Referred by existing client
+2026-05-31,Blake Moreno,555-292-7464,blake.moreno34@example.com,Laser Hair Removal,Website,Yes,,Booked,Wants weekend appointment
+2026-06-19,Skyler Larsen,555-853-7086,skyler.larsen87@example.com,Botox/Filler,Website,Yes,Not interested,N/A,
+2026-03-06,Finley Torres,555-824-4626,finley.torres9@sample.net,Body Contouring,Walk-in,Yes,Not in service,N/A,Left message
+2026-03-29,Rowan Nguyen,555-246-1609,rowan.nguyen64@mail.example,Laser Hair Removal,Google,Yes,Mailbox full,N/A,Asked about pricing
+2026-03-11,Blake Garcia,555-597-8432,blake.garcia86@mail.example,Body Contouring,Referral,No,,N/A,
+2026-03-27,Rowan Nguyen,555-701-7686,rowan.nguyen5@mail.example,Facial/Skincare,Meta/Facebook,Yes,,Booked,Follow up next week
+2026-03-19,Sage Sanders,555-571-2627,sage.sanders48@sample.net,Facial/Skincare,Google,No,,N/A,Referred by existing client
+2026-04-05,Skyler Okafor,555-665-2501,skyler.okafor28@sample.net,Laser Hair Removal,Google,Yes,Voicemail,N/A,Wants weekend appointment
+2026-06-16,Quinn Garcia,555-778-4362,quinn.garcia98@example.com,Botox/Filler,Referral,Yes,,N/A,Asked about pricing
+2026-04-06,Quinn Fischer,555-992-3417,quinn.fischer1@sample.net,Facial/Skincare,Meta/Facebook,Yes,,Booked,
+2026-02-26,Blake Kowalski,555-312-1422,blake.kowalski2@example.com,Facial/Skincare,Meta/Facebook,Yes,Mailbox full,N/A,Wants weekend appointment
+2026-03-14,Jordan Cohen,555-471-1858,jordan.cohen95@example.com,Body Contouring,Referral,Yes,,N/A,
+2026-07-02,Morgan Haddad,555-659-6931,morgan.haddad76@sample.net,Laser Hair Removal,Website,Yes,,Booked,Asked about pricing
+2026-07-09,Finley Chen,555-944-9543,finley.chen59@mail.example,Laser Hair Removal,Google,No,,N/A,Follow up next week
+2026-07-28,Emerson Novak,555-902-2768,emerson.novak92@mail.example,Body Contouring,Google,No,,N/A,
+2026-06-23,Reese Abbas,555-351-2076,reese.abbas36@example.com,Facial/Skincare,Website,No,,N/A,Left message
+2026-07-27,Sage Osei,555-301-2874,sage.osei84@sample.net,Botox/Filler,Website,Yes,Not interested,N/A,Follow up next week
+2026-05-18,Quinn Novak,555-664-7532,quinn.novak94@mail.example,Laser Hair Removal,TikTok,Yes,Not in service,N/A,Referred by existing client
+2026-07-30,Reese Kowalski,555-356-8770,reese.kowalski12@example.com,Laser Hair Removal,Google,Yes,Not in service,N/A,Referred by existing client
+2026-05-18,Casey Moreno,555-769-1982,casey.moreno72@sample.net,Facial/Skincare,Walk-in,Yes,Mailbox full,N/A,
+2026-07-10,Rowan Moreno,555-881-7929,rowan.moreno7@sample.net,Facial/Skincare,Referral,No,,N/A,Left message
+2026-03-25,Dakota Nguyen,555-791-9313,dakota.nguyen20@example.com,Body Contouring,Meta/Facebook,Yes,,Booked,
+2026-04-18,Dakota Torres,555-317-5564,dakota.torres29@sample.net,Body Contouring,Referral,Yes,Not in service,N/A,
+2026-05-16,Finley Kowalski,555-229-3955,finley.kowalski90@mail.example,Facial/Skincare,TikTok,Yes,,N/A,Wants weekend appointment
+2026-04-01,Jordan Cohen,555-779-7566,jordan.cohen19@example.com,Laser Hair Removal,Google,Yes,Mailbox full,N/A,Asked about pricing
+2026-06-22,Emerson Novak,555-549-3578,emerson.novak40@mail.example,Facial/Skincare,Referral,Yes,Not interested,N/A,
+2026-04-14,Taylor Garcia,555-972-1815,taylor.garcia11@sample.net,Facial/Skincare,Website,Yes,Mailbox full,N/A,Referred by existing client
+2026-06-21,Cameron Abbas,555-624-5475,cameron.abbas97@example.com,Laser Hair Removal,TikTok,Yes,Not interested,N/A,Referred by existing client
+2026-04-12,Casey Diaz,555-894-8972,casey.diaz86@sample.net,Facial/Skincare,Google,Yes,,N/A,Asked about pricing
+2026-02-12,Emerson Abbas,555-207-4349,emerson.abbas28@mail.example,Botox/Filler,TikTok,Yes,Voicemail,N/A,Left message
+2026-07-13,Reese Nguyen,555-709-8055,reese.nguyen17@example.com,Body Contouring,Referral,Yes,Voicemail,N/A,Asked about pricing
+2026-07-10,Drew Torres,555-273-7505,drew.torres6@sample.net,Body Contouring,Google,Yes,Not in service,N/A,Follow up next week
+2026-05-25,Morgan Fischer,555-789-8033,morgan.fischer52@sample.net,Body Contouring,TikTok,Yes,,Booked,
+2026-06-14,Emerson Rivera,555-375-8538,emerson.rivera47@sample.net,Laser Hair Removal,Website,Yes,Not in service,N/A,
+2026-05-23,Quinn Novak,555-736-2288,quinn.novak40@mail.example,Facial/Skincare,Meta/Facebook,Yes,Not interested,N/A,Wants weekend appointment
+2026-04-23,Avery Patel,555-743-9355,avery.patel45@example.com,Facial/Skincare,Walk-in,Yes,Voicemail,N/A,
+2026-04-11,Quinn Nguyen,555-462-4232,quinn.nguyen78@example.com,Botox/Filler,Walk-in,Yes,Mailbox full,N/A,
+2026-02-14,Avery Haddad,555-675-8354,avery.haddad73@sample.net,Facial/Skincare,Walk-in,No,,N/A,Wants weekend appointment
+2026-05-06,Riley Bianchi,555-680-8245,riley.bianchi39@sample.net,Facial/Skincare,Referral,Yes,Voicemail,N/A,
+2026-06-19,Dakota Osei,555-275-6085,dakota.osei58@mail.example,Laser Hair Removal,Google,No,,N/A,Wants weekend appointment
+2026-03-16,Hayden Patel,555-860-2479,hayden.patel77@sample.net,Body Contouring,Website,Yes,,N/A,
+2026-03-03,Sage Larsen,555-867-4084,sage.larsen78@mail.example,Body Contouring,Referral,Yes,,Booked,
+2026-03-08,Taylor Bianchi,555-305-6626,taylor.bianchi11@sample.net,Botox/Filler,Google,Yes,,N/A,Asked about pricing
+2026-03-28,Sage Bianchi,555-572-7108,sage.bianchi50@mail.example,Body Contouring,TikTok,Yes,Mailbox full,N/A,
+2026-06-11,Reese Patel,555-537-2548,reese.patel87@sample.net,Body Contouring,TikTok,Yes,,N/A,Left message
+2026-06-24,Finley Garcia,555-541-2335,finley.garcia85@sample.net,Botox/Filler,TikTok,Yes,,Booked,Left message
+2026-04-20,Emerson Garcia,555-809-2388,emerson.garcia72@mail.example,Body Contouring,Walk-in,No,,N/A,Wants weekend appointment
+2026-07-24,Riley Osei,555-861-7937,riley.osei47@sample.net,Laser Hair Removal,TikTok,Yes,Voicemail,N/A,Left message
+2026-02-08,Avery Okafor,555-984-8967,avery.okafor29@example.com,Botox/Filler,Meta/Facebook,Yes,Not in service,N/A,
+2026-06-07,Hayden Nguyen,555-719-9843,hayden.nguyen68@sample.net,Laser Hair Removal,Walk-in,Yes,,N/A,Wants weekend appointment
+2026-08-05,Finley Garcia,555-811-7172,finley.garcia21@example.com,Botox/Filler,Walk-in,No,,N/A,
+2026-02-22,Sage Chen,555-620-6968,sage.chen93@sample.net,Botox/Filler,Website,No,,N/A,Left message
+2026-02-09,Sage Sanders,555-516-8684,sage.sanders48@example.com,Body Contouring,Website,Yes,Mailbox full,N/A,Left message
+2026-03-08,Emerson Osei,555-740-7859,emerson.osei26@example.com,Botox/Filler,TikTok,Yes,,Booked,
+2026-05-28,Cameron Moreno,555-928-9452,cameron.moreno37@example.com,Laser Hair Removal,Meta/Facebook,Yes,Voicemail,N/A,Left message
+2026-02-22,Sage Osei,555-350-8167,sage.osei29@example.com,Body Contouring,TikTok,No,,N/A,
+2026-07-10,Rowan Chen,555-605-9224,rowan.chen31@mail.example,Body Contouring,Google,Yes,,Booked,Wants weekend appointment
+2026-04-15,Quinn Rivera,555-301-6493,quinn.rivera18@example.com,Laser Hair Removal,TikTok,Yes,Not in service,N/A,Follow up next week
+2026-06-26,Riley Haddad,555-659-1086,riley.haddad3@example.com,Facial/Skincare,Meta/Facebook,Yes,,N/A,
+2026-03-08,Blake Abbas,555-313-5720,blake.abbas39@example.com,Laser Hair Removal,Google,Yes,Not interested,N/A,Asked about pricing
+2026-03-08,Rowan Abbas,555-264-2816,rowan.abbas77@mail.example,Laser Hair Removal,Walk-in,Yes,Not interested,N/A,Asked about pricing
+2026-03-26,Riley Diaz,555-639-1025,riley.diaz46@sample.net,Botox/Filler,Referral,No,,N/A,Referred by existing client
+2026-05-01,Avery Patel,555-269-9618,avery.patel65@sample.net,Laser Hair Removal,Website,Yes,Not in service,N/A,Follow up next week
+2026-06-01,Taylor Kim,555-459-1266,taylor.kim9@mail.example,Facial/Skincare,Meta/Facebook,Yes,Not in service,N/A,
+2026-05-08,Elliot Fischer,555-245-6772,elliot.fischer44@sample.net,Botox/Filler,Walk-in,Yes,Mailbox full,N/A,Follow up next week
+2026-05-05,Cameron Cohen,555-338-2033,cameron.cohen59@sample.net,Laser Hair Removal,TikTok,No,,N/A,Asked about pricing
+2026-07-19,Taylor Okafor,555-523-6080,taylor.okafor51@sample.net,Body Contouring,TikTok,Yes,Voicemail,N/A,
+2026-06-11,Peyton Diaz,555-565-1783,peyton.diaz43@sample.net,Facial/Skincare,Google,Yes,,Booked,Wants weekend appointment
+2026-07-03,Rowan Kim,555-595-6554,rowan.kim64@example.com,Body Contouring,TikTok,Yes,Not interested,N/A,Left message
+2026-07-12,Morgan Novak,555-280-8055,morgan.novak24@sample.net,Facial/Skincare,TikTok,Yes,,Booked,
+2026-04-21,Morgan Fischer,555-513-8305,morgan.fischer92@sample.net,Body Contouring,Meta/Facebook,Yes,Not in service,N/A,Follow up next week
+2026-03-31,Dakota Bianchi,555-944-6776,dakota.bianchi56@sample.net,Facial/Skincare,Walk-in,Yes,Voicemail,N/A,
+2026-02-11,Morgan Kim,555-725-3621,morgan.kim19@example.com,Body Contouring,Google,Yes,Not in service,N/A,
+2026-04-16,Morgan Sanders,555-570-7272,morgan.sanders5@sample.net,Botox/Filler,Walk-in,Yes,Not in service,N/A,Follow up next week
+2026-03-19,Dakota Moreno,555-981-2259,dakota.moreno18@sample.net,Facial/Skincare,Website,Yes,Not interested,N/A,Wants weekend appointment
+2026-05-23,Skyler Sanders,555-226-4048,skyler.sanders67@mail.example,Body Contouring,Referral,Yes,Voicemail,N/A,
+2026-02-13,Skyler Kowalski,555-920-8311,skyler.kowalski79@example.com,Facial/Skincare,Walk-in,Yes,,N/A,Follow up next week
+2026-06-14,Peyton Nguyen,555-275-8406,peyton.nguyen92@example.com,Body Contouring,Google,Yes,Mailbox full,N/A,Wants weekend appointment
+2026-07-30,Dakota Patel,555-763-9882,dakota.patel39@mail.example,Botox/Filler,Walk-in,No,,N/A,
